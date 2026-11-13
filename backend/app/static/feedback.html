@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><!-- site-cache --><meta name="site-cache" content="no-store"><meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>意见与反馈 · 寻迹三秦</title>
+<style>
+:root{--ink:#1d2320;--muted:#6c746f;--line:#303532;--paper:#fff;--beige:#f8f5ee;--soft:#f5f6f4;--accent:#a56243}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"SimSun","Songti SC","STSong",serif;line-height:1.75}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}
+.site-header{position:sticky;top:0;z-index:30;height:78px;background:#fffffff2}.header-inner{width:min(1240px,calc(100% - 64px));height:100%;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px}.brand{display:flex;flex-direction:column;line-height:1.1;letter-spacing:.12em}.brand strong{font-size:18px;font-weight:500}.brand small{margin-top:5px;color:var(--muted);font-size:9px;letter-spacing:.22em}.nav{display:flex;gap:34px;align-items:center;height:100%}.nav a{color:#59625d;font-size:15px}.nav a:hover{color:var(--ink)}.header-link{justify-self:end;color:var(--muted);font-size:12px}.header-link:hover{color:var(--ink)}
+.feedback-page{width:min(900px,88vw);margin:0 auto;padding:82px 0 110px}.eyebrow{margin-bottom:16px;color:var(--accent);font-size:11px;letter-spacing:.2em}.feedback-page h1{margin:0;font-family:"STKaiti","KaiTi","STSong",serif;font-size:clamp(42px,6vw,72px);font-weight:400;line-height:1.2}.feedback-page .intro{max-width:600px;margin:18px 0 46px;color:var(--muted);font-size:15px;line-height:1.9}.form-card{padding:32px;background:var(--beige)}.field{margin-bottom:20px}.field label{display:block;margin-bottom:8px;font-size:13px}.field input,.field select,.field textarea{width:100%;padding:12px 14px;background:#fff;border:0;outline:0;color:var(--ink);font-size:15px}.field textarea{min-height:150px;resize:vertical}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.submit{display:inline-flex;align-items:center;gap:10px;padding:12px 22px;margin-top:4px;background:var(--accent);color:#fff;font-size:14px}.submit:after{content:"→"}.status{margin:16px 0 0;color:var(--muted);font-size:13px}.footer{width:min(1240px,calc(100% - 64px));margin:0 auto;padding:34px 0;color:var(--muted);font-size:12px}
+@media(max-width:900px){.header-inner{width:calc(100% - 32px);grid-template-columns:1fr auto}.nav{display:none}.feedback-page{width:88vw;padding:58px 0 80px}.form-card{padding:22px}.form-row{grid-template-columns:1fr;gap:0}.footer{width:88vw;padding:26px 0}.footer div+div{margin-top:12px}}
+/* Unified global navigation */
+.site-header{position:sticky;top:0;z-index:30;height:78px;background:#fffffff2;backdrop-filter:blur(16px);border-bottom:0}
+.nav-shell{width:min(1360px,calc(100% - 80px));height:100%;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px}
+.brand{justify-self:start;display:flex;flex-direction:column;line-height:1.15;letter-spacing:.12em}
+.brand strong{font-size:18px;font-weight:500;letter-spacing:.12em}
+.brand small{display:block;margin-top:5px;color:var(--muted);font-size:8px;letter-spacing:.28em}
+.main-nav{display:flex;align-items:center;gap:4px;width:max-content;padding:5px;border-radius:999px;background:#fff;box-shadow:0 5px 18px #20252208}
+.main-nav a{position:relative;display:flex;align-items:center;gap:8px;height:42px;padding:0 18px;border-radius:999px;color:#5c6660;font-size:16px;font-weight:500;line-height:1;white-space:nowrap;transition:.2s}
+.main-nav a:hover{background:var(--soft,#f4f4f1);color:var(--ink)}
+.main-nav a.active{background:var(--soft,#f4f4f1);color:var(--ink);font-weight:600;box-shadow:0 3px 12px #20252210}
+.main-nav a.active:after{content:none}
+.main-nav svg{width:17px;height:17px;opacity:.72}
+.main-nav a.active svg{opacity:1;color:var(--accent)}
+.header-action{justify-self:end;border-radius:999px;padding:9px 17px;background:#fff;color:var(--muted);font-size:12px}
+@media(max-width:1120px){.nav-shell{width:calc(100% - 32px)}.main-nav{gap:2px}.main-nav a{padding:0 13px;font-size:15px;gap:6px}.main-nav svg{width:15px;height:15px}.header-action{padding:8px 13px}}
+@media(max-width:900px){.nav-shell{width:calc(100% - 32px);grid-template-columns:1fr auto}.main-nav{display:none}}
+/* Unified navigation recolor */
+.main-nav{background:#22362e;box-shadow:0 8px 24px #1b2e261c}
+.main-nav a{color:#e7ece8}
+.main-nav a:hover{background:#34493f;color:#fff}
+.main-nav a.active{background:#f3e8d7;color:#1f2823;box-shadow:0 4px 14px #0f1d1724}
+.main-nav a.active svg{color:#a56243}
+.header-action{background:#f7f4ee;color:#5f6964}
+.village-nav-wrap{background:#fff;box-shadow:0 8px 24px #1f242208}
+.village-nav{gap:4px;padding:7px 0}
+.village-nav button{padding:10px 16px;border-radius:999px}
+.village-nav button.active{background:#22362e;color:#fff;font-weight:500}
+.village-nav button.active:after{content:none;display:none}
+/* Navigation recolor: charcoal and copper, no green */
+.main-nav{background:#252b31;box-shadow:0 8px 24px #161b1f24}
+.main-nav a{color:#f1eee8}
+.main-nav a:hover{background:#373e45;color:#fff}
+.main-nav a.active{background:#a56243;color:#fff;box-shadow:0 4px 14px #4d2b1b38}
+.main-nav a.active svg{color:#f4dcc4}
+.village-nav button.active{background:#a56243;color:#fff}
+/* Keep navigation tab dimensions stable between states */
+.main-nav a,.main-nav a.active{font-weight:500;font-synthesis:none}
+.village-nav button,.village-nav button.active{font-weight:500;font-synthesis:none}
+/* Light navigation tabs */
+.main-nav{background:#f2eee7;box-shadow:0 8px 22px #2025220d}
+.main-nav a{background:#f7f4ee;color:#68726c}
+.main-nav a:hover{background:#fff;color:var(--ink)}
+.main-nav a.active{background:#fff;color:var(--ink);box-shadow:inset 0 -2px 0 #a56243,0 4px 12px #2025220a}
+.main-nav a.active svg{color:#a56243}
+.header-action{background:#f7f4ee;color:#68726c}
+.village-nav button{color:#707773}
+.village-nav button.active{background:#f2eee7;color:var(--ink);box-shadow:inset 0 -2px 0 #a56243}
+/* Compact global navigation height */
+.site-header{height:68px}
+.main-nav{height:42px;padding:4px}
+.main-nav a{height:34px;padding:0 16px}
+.header-action{padding:7px 15px}
+.village-nav-wrap{top:68px}
+.village-nav{gap:4px;padding:5px 0}
+.village-nav button{padding:8px 14px 7px;border-radius:999px}
+@media(max-width:1120px){.main-nav a{padding:0 12px}.header-action{padding:7px 12px}}
+@media(max-width:900px){.nav-shell{width:calc(100% - 32px)}}
+.hp-field{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+</style>
+<link rel="stylesheet" href="/static/marble-nav.css?v=7">
+</head>
+<body>
+<header class="site-header"><div class="nav-shell"><a class="brand" href="/"><strong>寻迹三秦</strong><small>TRADITIONAL VILLAGES OF SHAANXI</small></a><nav class="main-nav" aria-label="主导航"><a href="/"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 10.5 12 4.2l7.5 6.3v9.1h-5v-5.8h-5v5.8h-5v-9.1Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>首页</span></a><a href="/villages"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s6.3-5.2 6.3-11.4a6.3 6.3 0 1 0-12.6 0C5.7 15.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.2" stroke="currentColor" stroke-width="1.6"/></svg><span>村落分布</span></a><a href="/ai"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 3 1.6 5.4L19 10l-5.4 1.6L12 17l-1.6-5.4L5 10l5.4-1.6L12 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m18.5 16 .8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z" fill="currentColor"/></svg><span>AI问答</span></a></nav><a class="header-action" href="/feedback">意见反馈</a></div></header>
+<main class="feedback-page"><div class="eyebrow">CONTACT · 联系我们</div><h1>意见与反馈</h1><p class="intro">如果你发现村落资料有误，或者希望补充家乡的传统村落，请告诉我们。我们会整理核实后更新到村落档案中。</p><form class="form-card" id="feedbackForm"><div class="hp-field" aria-hidden="true"><label for="website">网站</label><input id="website" tabindex="-1" autocomplete="off"></div><div class="form-row"><div class="field"><label for="name">你的称呼</label><input id="name" autocomplete="name" placeholder="如何称呼你"></div><div class="field"><label for="email">联系邮箱</label><input id="email" type="email" autocomplete="email" placeholder="name@example.com"></div></div><div class="form-row"><div class="field"><label for="city">村落所属城市</label><input id="city" placeholder="例如：渭南市"></div><div class="field"><label for="village">村落名称</label><input id="village" placeholder="例如：党家村"></div></div><div class="field"><label for="category">反馈类型</label><select id="category"><option value="village_supplement">补充家乡村落</option><option value="correction">资料纠错</option><option value="suggestion">合作与建议</option></select></div><div class="field"><label for="message">想告诉我们什么</label><textarea id="message" required placeholder="可以写下村落名称、历史、文化特色或资料来源。"></textarea></div><button class="submit" type="submit">提交反馈</button><p class="status" id="status" role="status"></p></form></main><footer class="footer"><div><strong>寻迹三秦 · 陕西传统村落数字档案</strong><br>感谢你帮助我们补全村落记忆。</div></footer>
+<script>
+const form=document.getElementById('feedbackForm'),status=document.getElementById('status'),get=id=>document.getElementById(id);
+form.onsubmit=async e=>{e.preventDefault();status.textContent='正在提交…';const payload={name:get('name').value,email:get('email').value,category:get('category').value,village_name:get('village').value,city:get('city').value,message:get('message').value,website:get('website').value};try{const r=await fetch('/api/feedback',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});const data=await r.json();if(!r.ok)throw new Error(data.detail||'提交失败');form.reset();status.textContent='反馈已提交，感谢你的补充。'}catch(err){status.textContent=err.message}};
+</script>
+<script>window.addEventListener("pageshow",event=>{if(event.persisted)window.location.reload()});</script>
+</body></html>

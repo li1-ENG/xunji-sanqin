@@ -1,0 +1,1 @@
+﻿"""Traditional village admin backend."""

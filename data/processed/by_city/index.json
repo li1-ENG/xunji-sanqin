@@ -1,0 +1,256 @@
+[
+  {
+    "name": "西安市",
+    "slug": "xian",
+    "code": "6101",
+    "village_count": 1,
+    "has_data": true,
+    "json_file": "西安市.json",
+    "csv_file": "西安市.csv",
+    "villages": [
+      {
+        "id": "61012410801",
+        "name": "老县城村"
+      }
+    ]
+  },
+  {
+    "name": "铜川市",
+    "slug": "tongchuan",
+    "code": "6102",
+    "village_count": 0,
+    "has_data": false,
+    "json_file": null,
+    "csv_file": null,
+    "villages": []
+  },
+  {
+    "name": "宝鸡市",
+    "slug": "baoji",
+    "code": "6103",
+    "village_count": 0,
+    "has_data": false,
+    "json_file": null,
+    "csv_file": null,
+    "villages": []
+  },
+  {
+    "name": "咸阳市",
+    "slug": "xianyang",
+    "code": "6104",
+    "village_count": 2,
+    "has_data": true,
+    "json_file": "咸阳市.json",
+    "csv_file": "咸阳市.csv",
+    "villages": [
+      {
+        "id": "61042210901",
+        "name": "柏社村"
+      },
+      {
+        "id": "61042510501",
+        "name": "袁家村"
+      }
+    ]
+  },
+  {
+    "name": "渭南市",
+    "slug": "weinan",
+    "code": "6105",
+    "village_count": 1,
+    "has_data": true,
+    "json_file": "渭南市.json",
+    "csv_file": "渭南市.csv",
+    "villages": [
+      {
+        "id": "61058110401",
+        "name": "党家村"
+      }
+    ]
+  },
+  {
+    "name": "延安市",
+    "slug": "yanan",
+    "code": "6106",
+    "village_count": 7,
+    "has_data": true,
+    "json_file": "延安市.json",
+    "csv_file": "延安市.csv",
+    "villages": [
+      {
+        "id": "561062210802",
+        "name": "刘家山村"
+      },
+      {
+        "id": "561062210702",
+        "name": "太相寺村"
+      },
+      {
+        "id": "561062210701",
+        "name": "甄家湾村"
+      },
+      {
+        "id": "561062210502",
+        "name": "田家川村上田家川村"
+      },
+      {
+        "id": "561062210801",
+        "name": "碾畔村"
+      },
+      {
+        "id": "561062210501",
+        "name": "磨义沟村马家湾村"
+      },
+      {
+        "id": "561062210101",
+        "name": "赵家河村"
+      }
+    ]
+  },
+  {
+    "name": "汉中市",
+    "slug": "hanzhong",
+    "code": "6107",
+    "village_count": 0,
+    "has_data": false,
+    "json_file": null,
+    "csv_file": null,
+    "villages": []
+  },
+  {
+    "name": "榆林市",
+    "slug": "yulin",
+    "code": "6108",
+    "village_count": 13,
+    "has_data": true,
+    "json_file": "榆林市.json",
+    "csv_file": "榆林市.csv",
+    "villages": [
+      {
+        "id": "6610000000044",
+        "name": "任家畔村"
+      },
+      {
+        "id": "561082810902",
+        "name": "刘家坪村"
+      },
+      {
+        "id": "6610000000040",
+        "name": "吕家坪村"
+      },
+      {
+        "id": "61082800103",
+        "name": "峪口村"
+      },
+      {
+        "id": "61082800102",
+        "name": "张庄村"
+      },
+      {
+        "id": "61082811201",
+        "name": "木头峪村"
+      },
+      {
+        "id": "6610000000046",
+        "name": "朱官寨村"
+      },
+      {
+        "id": "61082810101",
+        "name": "沙坪村"
+      },
+      {
+        "id": "61082810801",
+        "name": "泥河沟村"
+      },
+      {
+        "id": "61082800101",
+        "name": "神泉村"
+      },
+      {
+        "id": "561082810901",
+        "name": "荷叶坪村"
+      },
+      {
+        "id": "6610000000045",
+        "name": "谭家坪村"
+      },
+      {
+        "id": "6610000000042",
+        "name": "赤牛坬村"
+      }
+    ]
+  },
+  {
+    "name": "安康市",
+    "slug": "ankang",
+    "code": "6109",
+    "village_count": 13,
+    "has_data": true,
+    "json_file": "安康市.json",
+    "csv_file": "安康市.csv",
+    "villages": [
+      {
+        "id": "561090213223",
+        "name": "前河村"
+      },
+      {
+        "id": "61090211201",
+        "name": "双柏村"
+      },
+      {
+        "id": "61090211801",
+        "name": "双桥村"
+      },
+      {
+        "id": "6610000000077",
+        "name": "大垛村"
+      },
+      {
+        "id": "61090211701",
+        "name": "天宝村"
+      },
+      {
+        "id": "6610000000082",
+        "name": "惠坪村"
+      },
+      {
+        "id": "61090212201",
+        "name": "王庄村"
+      },
+      {
+        "id": "6610000000074",
+        "name": "瓦铺村"
+      },
+      {
+        "id": "6610000000080",
+        "name": "紫荆村"
+      },
+      {
+        "id": "6610000000075",
+        "name": "迎春村"
+      },
+      {
+        "id": "61090213201",
+        "name": "马河村"
+      },
+      {
+        "id": "61090213301",
+        "name": "高山村"
+      },
+      {
+        "id": "6610000000081",
+        "name": "鸭蛋河村"
+      }
+    ]
+  },
+  {
+    "name": "商洛市",
+    "slug": "shangluo",
+    "code": "6110",
+    "village_count": 0,
+    "has_data": false,
+    "json_file": null,
+    "csv_file": null,
+    "villages": []
+  }
+]

@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<!-- site-cache --><meta name="site-cache" content="no-store"><meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>村落详情 · 陕西传统村落</title>
+<style>
+:root{--ink:#1f2422;--muted:#707773;--paper:#ffffff;--surface:#ffffff;--line:#303532;--soft:#f4f4f1;--beige:#f8f5ee;--accent:#526a62;--accent-soft:#e6ece8;--shadow:0 18px 60px #1f24220f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{position:relative;margin:0;background:radial-gradient(circle at 20% 5%,#ffffffb8,transparent 34%),var(--paper);color:var(--ink);font-family:"SimSun","Songti SC","STSong","Noto Serif SC",serif;line-height:1.8}body:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:url("/static/village-demo/chinese-cloud.svg") repeat;background-size:360px 240px;opacity:.035}a{color:inherit;text-decoration:none}.content,.footer{position:relative;z-index:1}button{font:inherit;cursor:pointer;border:0;appearance:none}.serif{font-family:STSong,"Songti SC","Noto Serif SC",serif}
+.site-header{position:sticky;top:0;z-index:30;height:78px;background:#ffffffed;backdrop-filter:blur(18px);border-bottom:1px solid #2025220d}.nav-shell{width:min(1360px,calc(100% - 80px));height:100%;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px}.brand{justify-self:start;display:flex;flex-direction:column;line-height:1.15;letter-spacing:.12em}.brand strong{font-size:18px;font-weight:500}.brand small{display:block;margin-top:5px;color:var(--muted);font-size:8px;letter-spacing:.28em}.main-nav{display:flex;align-items:center;gap:4px;width:max-content;padding:5px;border-radius:999px;background:#fff;box-shadow:0 5px 18px #20252208}.main-nav a{display:flex;align-items:center;gap:8px;height:42px;padding:0 18px;border-radius:999px;color:#5c6660;font-size:16px;font-weight:500;line-height:1;white-space:nowrap;transition:.2s}.main-nav a:hover{background:var(--soft);color:var(--ink)}.main-nav a.active{background:var(--soft);color:var(--ink);font-weight:600;box-shadow:0 3px 12px #20252210}.main-nav svg{width:17px;height:17px;opacity:.72}.main-nav a.active svg{opacity:1;color:var(--accent)}.header-action{justify-self:end;border-radius:999px;padding:9px 17px;background:#fff;color:var(--muted);font-size:12px}
+.hero{position:relative;z-index:1;min-height:calc(100svh - 68px);display:flex;align-items:flex-end;overflow:hidden;background:#151a18;color:#fff;transition:min-height .45s ease}.hero-slide{position:absolute;inset:0;background-position:center;background-size:cover;opacity:0;transform:scale(1.025);transition:opacity 1.2s ease,transform 7s ease}.hero-slide.active{opacity:1;transform:scale(1)}.hero:after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,#101513c9 0%,#10151360 43%,#10151312 72%,#10151338 100%),linear-gradient(0deg,#101513c4 0%,transparent 50%)}.hero-content{position:relative;z-index:3;padding:0 7vw 8vh;width:100%;max-width:1600px;margin:0 auto}.eyebrow{font-size:10px;letter-spacing:.25em;color:#eef2efb8;display:flex;align-items:center;gap:12px}.eyebrow:before{content:"";width:34px;height:1px;background:#fff9}.hero h1{font:400 clamp(60px,9vw,130px)/1 STSong,"Songti SC",serif;letter-spacing:.08em;margin:24px 0 16px;text-shadow:0 6px 30px #0003}.hero-meta{display:flex;align-items:center;gap:13px;color:#ffffffc4;font-size:13px;letter-spacing:.08em}.dot{width:4px;height:4px;border-radius:50%;background:#ffffff88}.hero-note{margin-top:48px;max-width:390px;padding:17px 21px;background:#1015134d;backdrop-filter:blur(8px);font:16px/1.8 STSong,"Songti SC",serif;color:#fff}.hero-note small{display:block;font:9px "SimSun","Songti SC",serif;letter-spacing:.24em;margin-bottom:7px;color:#ffffff9c}.hero-dots{position:absolute;right:6vw;bottom:12vh;z-index:3;display:flex;gap:8px}.hero-dots button{width:24px;height:2px;padding:0;background:#ffffff4d;transition:.25s}.hero-dots button.active{background:#fff}.scroll{position:absolute;z-index:3;right:6vw;bottom:6vh;writing-mode:vertical-rl;font-size:9px;letter-spacing:.24em;color:#ffffff9c}
+.hero-ornament{position:absolute;right:5vw;top:13vh;width:min(300px,24vw);height:200px;z-index:2;background:url("/static/village-demo/chinese-ornament.svg") center/contain no-repeat;filter:invert(1);opacity:.11;pointer-events:none}.village-nav-wrap{position:sticky;top:78px;z-index:20;background:#fffffff2;backdrop-filter:blur(16px)}.village-nav{width:min(1320px,90vw);margin:0 auto;display:flex;align-items:center;justify-content:center;gap:8px;overflow:auto;scrollbar-width:none}.village-nav::-webkit-scrollbar{display:none}.village-nav button{position:relative;background:transparent;border:0;box-shadow:none;appearance:none;color:var(--muted);padding:18px 17px 16px;white-space:nowrap;font-size:13px;transition:.2s}.village-nav button:hover{color:var(--ink)}.village-nav button.active{color:var(--ink);font-weight:500}.village-nav button.active:after{content:none}
+.content{width:min(1240px,88vw);margin:0 auto;padding:88px 0 110px;min-height:52vh}.page-head{padding-bottom:34px;margin-bottom:52px;display:grid;grid-template-columns:1.2fr .8fr;gap:8vw;align-items:end}.page-kicker{font-size:10px;letter-spacing:.24em;color:var(--accent);margin-bottom:12px}.page-head h2{font:400 clamp(38px,5vw,68px)/1.15 STSong,"Songti SC",serif;margin:0;letter-spacing:.02em}.page-head p{color:var(--muted);margin:0;max-width:430px;font-size:14px}.overview{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);gap:8vw;align-items:start}.prose{font-size:15px;color:#4d5651}.prose p{margin:0 0 17px;text-align:justify}.lead{font:20px/2 STSong,"Songti SC",serif;color:#303a35;margin-bottom:24px}.facts{}.fact{display:flex;justify-content:space-between;gap:20px;padding:15px 0;font-size:13px}.fact span{color:var(--muted)}.fact b{font-weight:500;text-align:right;font-family:STSong,"Songti SC",serif;font-size:15px}.gallery{display:grid;grid-template-columns:1.4fr .8fr .8fr;grid-template-rows:250px 220px;gap:12px;margin-top:64px}.gallery figure{position:relative;margin:0;overflow:hidden;background:var(--soft)}.gallery figure:first-child{grid-row:span 2}.gallery img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .7s ease}.gallery figure:hover img{transform:scale(1.035)}.gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:30px 15px 12px;background:linear-gradient(transparent,#101513b8);color:#fff;font:13px STSong,"Songti SC",serif}
+.feature-links{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:52px}.feature{background:var(--surface);padding:22px;text-align:left;transition:.2s}.feature:hover{transform:translateY(-2px)}.feature small{display:block;color:var(--muted);font-size:10px;letter-spacing:.18em;margin-bottom:12px}.feature strong{display:block;font:22px STSong,"Songti SC",serif;margin-bottom:6px}.feature span{font-size:12px;color:var(--muted)}
+.section-list{display:flex;flex-direction:column;gap:0}.content-section{padding:0 0 70px;margin-bottom:70px;}.content-section:last-child{margin-bottom:0}.content-section h3{font:400 32px/1.4 "SimSun","Songti SC",serif;margin:0 0 28px;letter-spacing:.03em}.section-pair{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(340px,.85fr);gap:0;align-items:stretch;margin:0 0 48px;background:var(--surface);min-height:0}.section-pair.reverse .pair-copy{order:2}.section-pair.reverse .pair-media{order:1}.section-pair:last-of-type{margin-bottom:0}.pair-copy{display:flex;min-width:0}.text-card{position:relative;width:100%;height:420px;padding:32px 36px;display:flex;flex-direction:column;background:var(--beige);overflow:hidden}.text-card:after{content:"";position:absolute;right:16px;bottom:14px;width:54px;height:54px;background:url("/static/village-demo/chinese-lattice.svg") center/contain no-repeat;opacity:.055;pointer-events:none}.text-card>*{position:relative;z-index:1}.card-kicker{font-size:10px;letter-spacing:.22em;color:var(--accent);margin-bottom:13px;flex:none}.text-card h3{font:400 30px/1.5 "SimSun","Songti SC",serif;margin:0 0 16px;letter-spacing:.04em;flex:none}.scroll-tip{font-size:11px;color:var(--muted);margin:-4px 0 10px;flex:none}.text-scroll{flex:1;min-height:0;overflow-y:auto;scrollbar-width:thin;scrollbar-color:#aeb8b1 transparent;padding-right:12px}.text-scroll::-webkit-scrollbar{width:5px}.text-scroll::-webkit-scrollbar-thumb{background:#aeb8b1;border-radius:99px}.text-scroll::-webkit-scrollbar-track{background:transparent}.text-card .body{font-size:16px;line-height:2.05;color:#4b544f}.text-card .body p{margin:0 0 14px;text-align:justify}.image-collage{display:grid;width:100%;height:420px;gap:8px;background:var(--surface)}.image-collage.count-1{grid-template-columns:1fr}.image-collage.count-2{grid-template-columns:repeat(2,1fr)}.image-collage.count-4{grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(2,1fr)}.image-tile{position:relative;margin:0;overflow:hidden;background:var(--soft);min-height:0}.image-tile img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}.image-tile figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 12px 10px;background:linear-gradient(transparent,#111614bd);color:#fff;font-size:12px;text-align:left}.image-carousel{position:relative;width:100%;height:420px;background:var(--soft);overflow:hidden}.carousel-slide{position:absolute;inset:0;margin:0;opacity:0;transition:opacity .8s ease}.carousel-slide.active{opacity:1}.carousel-slide img{width:100%;height:100%;object-fit:cover;display:block}.carousel-slide figcaption{position:absolute;left:0;right:0;bottom:0;padding:30px 14px 12px;background:linear-gradient(transparent,#111614bd);color:#fff;font-size:12px}.carousel-dots{position:absolute;z-index:3;left:50%;bottom:14px;transform:translateX(-50%);display:flex;gap:6px}.carousel-dots button{width:18px;height:2px;padding:0;background:#ffffff70}.carousel-dots button.active{background:#fff}.section-text-only{max-width:880px;font-size:16px;line-height:2.05;color:#4b544f}.section-text-only p{margin:0 0 17px;text-align:justify}.section-more-images{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:28px}.section-more-images img{width:100%;aspect-ratio:4/3;height:auto;max-height:240px;object-fit:cover;display:block;background:var(--soft)}.home-facts{margin:26px 0 52px;overflow-x:auto;background:var(--surface)}.village-info-table{width:100%;min-width:720px;border-collapse:collapse;font-size:13px}.village-info-table th,.village-info-table td{padding:13px 16px;text-align:left;vertical-align:top}.village-info-table th{width:12%;background:#f4f4f0;color:var(--muted);font-weight:400;white-space:nowrap}.village-info-table td{width:38%;color:#39433e}.village-info-table tr:last-child th,.village-info-table tr:last-child td{}.village-info-table th:last-child,.village-info-table td:last-child{}.home-lead{font:23px/1.95 "SimSun","Songti SC",serif;color:#303a35;margin:0}.home-note{font-size:15px;color:#56605a;margin-top:16px}.home-editorial{display:flex;flex-direction:column;gap:34px}.home-editorial .section-pair{margin:0}.people-grid,.element-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:34px}.person,.element{background:var(--surface);padding:24px}.person{border:1px solid #8b928e}.person h4,.element h4{font:22px "SimSun","Songti SC",serif;margin:0 0 12px}.element-images{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:12px}.element-images img{width:100%;aspect-ratio:4/3;height:auto;object-fit:cover}.empty-note{color:var(--muted);font-size:14px}.footer{padding:34px 6vw;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:12px;background:var(--surface)}.footer b{color:var(--ink);font-weight:500}.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
+body.subpage .hero{min-height:54svh}body.subpage .hero h1{font-size:clamp(46px,6vw,84px)}body.subpage .hero-note{display:none}body.subpage .scroll{display:none}body.subpage .hero-dots{bottom:7vh}
+@media(max-width:900px){.main-nav{display:none}.nav-shell{width:calc(100% - 32px);grid-template-columns:1fr auto}.hero{min-height:calc(100svh - 68px)}.hero-content{padding:0 6vw 9vh}.hero-note{max-width:320px;margin-top:32px;font-size:14px}.hero-dots{right:6vw;bottom:8vh}.village-nav{width:100%;padding:0 4vw;justify-content:flex-start}.village-nav button{padding:15px 13px 13px}.content{width:88vw;padding:64px 0 80px}.page-head{grid-template-columns:1fr;gap:16px;margin-bottom:38px}.overview{grid-template-columns:1fr;gap:38px}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:200px 170px 170px;gap:8px}.gallery figure:first-child{grid-column:span 2;grid-row:span 1}.feature-links{grid-template-columns:1fr}.section-images{grid-template-columns:1fr 1fr}.section-images img{height:160px}.people-grid,.element-grid{grid-template-columns:1fr}.footer{display:block}.footer div+div{margin-top:14px}}
+@media(max-width:900px){.section-pair{grid-template-columns:1fr;gap:0;margin-bottom:34px}.section-pair.reverse .pair-copy,.section-pair.reverse .pair-media{order:0}.pair-media{aspect-ratio:4/3;max-height:none}.text-card{max-height:none}.section-more-images{grid-template-columns:1fr 1fr}.home-facts{overflow-x:auto}.content-section h3{font-size:27px}}
+/* Unified global navigation */
+.site-header{position:sticky;top:0;z-index:30;height:78px;background:#fffffff2;backdrop-filter:blur(16px);border-bottom:0}
+.nav-shell{width:min(1360px,calc(100% - 80px));height:100%;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px}
+.brand{justify-self:start;display:flex;flex-direction:column;line-height:1.15;letter-spacing:.12em}
+.brand strong{font-size:18px;font-weight:500;letter-spacing:.12em}
+.brand small{display:block;margin-top:5px;color:var(--muted);font-size:8px;letter-spacing:.28em}
+.main-nav{display:flex;align-items:center;gap:4px;width:max-content;padding:5px;border-radius:999px;background:#fff;box-shadow:0 5px 18px #20252208}
+.main-nav a{position:relative;display:flex;align-items:center;gap:8px;height:42px;padding:0 18px;border-radius:999px;color:#5c6660;font-size:16px;font-weight:500;line-height:1;white-space:nowrap;transition:.2s}
+.main-nav a:hover{background:var(--soft,#f4f4f1);color:var(--ink)}
+.main-nav a.active{background:var(--soft,#f4f4f1);color:var(--ink);font-weight:600;box-shadow:0 3px 12px #20252210}
+.main-nav a.active:after{content:none}
+.main-nav svg{width:17px;height:17px;opacity:.72}
+.main-nav a.active svg{opacity:1;color:var(--accent)}
+.header-action{justify-self:end;border-radius:999px;padding:9px 17px;background:#fff;color:var(--muted);font-size:12px}
+@media(max-width:1120px){.nav-shell{width:calc(100% - 32px)}.main-nav{gap:2px}.main-nav a{padding:0 13px;font-size:15px;gap:6px}.main-nav svg{width:15px;height:15px}.header-action{padding:8px 13px}}
+@media(max-width:900px){.nav-shell{width:calc(100% - 32px);grid-template-columns:1fr auto}.main-nav{display:none}}
+/* Village-specific typographic art and line drawings */
+body{--tab-color:#a56243}
+body[data-tab="home"]{--tab-color:#a56243}
+body[data-tab="history"]{--tab-color:#9a6548}
+body[data-tab="environment"]{--tab-color:#4f6b61}
+body[data-tab="architecture"]{--tab-color:#687b90}
+body[data-tab="customs"]{--tab-color:#a56243}
+body[data-tab="food"]{--tab-color:#4f6b61}
+body[data-tab="chronicle"]{--tab-color:#80604f}
+body[data-tab="travel"]{--tab-color:#687b90}
+.hero h1 span{color:#e8c9a6}
+.village-hero-type{position:absolute;z-index:5;right:6vw;top:20%;display:flex;align-items:flex-start;gap:16px;color:#fff;text-shadow:0 2px 14px #0008;pointer-events:none}
+.village-hero-type>span{font-family:"STKaiti","KaiTi",serif;font-size:13px;letter-spacing:.38em;writing-mode:vertical-rl}
+.village-hero-type i{display:grid;place-items:center;width:34px;height:50px;background:#a56243;color:#fff;font-family:"STKaiti","KaiTi",serif;font-size:18px;font-style:normal;line-height:1;writing-mode:horizontal-tb;text-shadow:none;box-shadow:0 7px 22px #0002}
+.village-hero-watermark{position:absolute;z-index:2;right:1vw;bottom:-100px;font-family:"STKaiti","KaiTi",serif;font-size:clamp(230px,26vw,400px);line-height:1;color:transparent;-webkit-text-stroke:1px #ffffff30;letter-spacing:-.08em;pointer-events:none;user-select:none}
+.art-page{position:relative;isolation:isolate}
+.village-line-art{position:absolute;z-index:0;height:auto;opacity:.14;pointer-events:none;user-select:none;mix-blend-mode:multiply}
+.village-line-art.art-1{left:-42px;top:-12px;width:clamp(240px,27vw,370px);transform:rotate(-3deg)}
+.village-line-art.art-2{right:-38px;top:-24px;width:clamp(180px,20vw,285px);transform:rotate(3deg)}
+.village-line-art.art-3{left:43%;top:62px;width:clamp(110px,12vw,175px);opacity:.09;transform:rotate(-1deg)}
+.art-page{overflow:hidden}.art-page .page-head,.art-page .home-editorial,.art-page .home-facts,.art-page .feature-links,.art-page .section-list{position:relative;z-index:1}
+.page-head{position:relative;isolation:isolate}
+
+.page-kicker{color:var(--tab-color)}
+.page-head h2 span{color:var(--tab-color)}
+.page-head>div:first-child,.page-head-side{position:relative;z-index:1}.page-head-side{max-width:430px}
+.page-head-side p{max-width:none}
+
+
+
+.content-section h3:first-letter{color:var(--tab-color)}
+.content-section h3:after{content:"";display:block;width:44px;height:2px;margin-top:11px;background:var(--tab-color);opacity:.7}
+.feature:hover strong{color:var(--tab-color)}
+@media(max-width:900px){.village-hero-type{right:5vw;top:15%;gap:10px}.village-hero-type>span{font-size:11px}.village-hero-type i{width:30px;height:44px;font-size:16px}.village-hero-watermark{right:-20px;bottom:-40px;font-size:220px;opacity:.75}.village-line-art.art-1{left:-62px;top:-5px;width:215px;opacity:.1}.village-line-art.art-2{right:-58px;top:-8px;width:165px;opacity:.1}.village-line-art.art-3{display:none}.page-head:after{top:-35px;font-size:105px}.art-caption{margin-top:16px}}
+@media(max-width:520px){.village-hero-type{display:none}.village-hero-watermark{font-size:170px;right:-32px;bottom:-20px;opacity:.55}.village-line-art.art-1{width:165px;left:-65px;opacity:.09}.village-line-art.art-2{width:125px;right:-52px;opacity:.09}.page-head:after{font-size:88px;top:-24px}.art-caption em{font-size:12px}.content-section h3:after{width:32px}}
+/* Final line-art display: always on a clear white ground */
+.line-art-finale{position:relative;z-index:2;width:min(1360px,calc(100% - 80px));margin:0 auto;padding:54px 0 58px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,5vw,80px);align-items:end;background:#fff}
+.line-art-finale figure{height:170px;margin:0;display:flex;align-items:flex-end;justify-content:center}
+.line-art-finale img{display:block;width:auto;max-width:100%;max-height:100%;opacity:.74;filter:contrast(1.08)}
+.line-art-finale figure:nth-child(1) img{max-height:145px}
+.line-art-finale figure:nth-child(2) img{width:min(290px,100%)}
+.line-art-finale figure:nth-child(3) img{max-height:165px}
+@media(max-width:900px){.line-art-finale{width:calc(100% - 40px);padding:40px 0 44px;gap:20px}.line-art-finale figure{height:130px}.line-art-finale figure:nth-child(1) img{max-height:112px}.line-art-finale figure:nth-child(2) img{width:100%}.line-art-finale figure:nth-child(3) img{max-height:126px}}
+@media(max-width:520px){.line-art-finale{padding:32px 0 38px;gap:12px}.line-art-finale figure{height:100px}.line-art-finale figure:nth-child(1) img{max-height:86px}.line-art-finale figure:nth-child(3) img{max-height:96px}}
+.village-hero-lineart{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+.village-hero-lineart img{position:absolute;display:block;width:auto;filter:invert(1) brightness(2);opacity:.2;mix-blend-mode:screen}
+.village-hero-lineart .hero-line-a{left:1.5vw;top:12%;width:clamp(170px,20vw,285px);transform:rotate(-4deg)}
+.village-hero-lineart .hero-line-b{right:1vw;bottom:2%;width:clamp(220px,25vw,360px);opacity:.15;transform:rotate(2deg)}
+@media(max-width:900px){.village-hero-lineart .hero-line-a{left:-25px;top:13%;width:180px;opacity:.15}.village-hero-lineart .hero-line-b{right:-40px;bottom:1%;width:210px;opacity:.12}}
+/* Unified navigation recolor */
+.main-nav{background:#22362e;box-shadow:0 8px 24px #1b2e261c}
+.main-nav a{color:#e7ece8}
+.main-nav a:hover{background:#34493f;color:#fff}
+.main-nav a.active{background:#f3e8d7;color:#1f2823;box-shadow:0 4px 14px #0f1d1724}
+.main-nav a.active svg{color:#a56243}
+.header-action{background:#f7f4ee;color:#5f6964}
+.village-nav-wrap{background:#fff;box-shadow:0 8px 24px #1f242208}
+.village-nav{gap:4px;padding:7px 0}
+.village-nav button{padding:10px 16px;border-radius:999px}
+.village-nav button.active{background:#22362e;color:#fff;font-weight:500}
+.village-nav button.active:after{content:none;display:none}
+/* Navigation recolor: charcoal and copper, no green */
+.main-nav{background:#252b31;box-shadow:0 8px 24px #161b1f24}
+.main-nav a{color:#f1eee8}
+.main-nav a:hover{background:#373e45;color:#fff}
+.main-nav a.active{background:#a56243;color:#fff;box-shadow:0 4px 14px #4d2b1b38}
+.main-nav a.active svg{color:#f4dcc4}
+.village-nav button.active{background:#a56243;color:#fff}
+/* Keep navigation tab dimensions stable between states */
+.main-nav a,.main-nav a.active{font-weight:500;font-synthesis:none}
+.village-nav button,.village-nav button.active{font-weight:500;font-synthesis:none}
+/* Light navigation tabs */
+.main-nav{background:#f2eee7;box-shadow:0 8px 22px #2025220d}
+.main-nav a{background:#f7f4ee;color:#68726c}
+.main-nav a:hover{background:#fff;color:var(--ink)}
+.main-nav a.active{background:#fff;color:var(--ink);box-shadow:inset 0 -2px 0 #a56243,0 4px 12px #2025220a}
+.main-nav a.active svg{color:#a56243}
+.header-action{background:#f7f4ee;color:#68726c}
+.village-nav button{color:#707773}
+.village-nav button.active{background:#f2eee7;color:var(--ink);box-shadow:inset 0 -2px 0 #a56243}
+/* Artistic styling for existing village headings only */
+.page-head h2{font-family:"STKaiti","KaiTi","Kaiti SC",serif;font-weight:400;letter-spacing:.08em;color:var(--ink);text-shadow:0 5px 18px #1f24220b;text-wrap:balance}
+.page-head h2 span{background:linear-gradient(135deg,#a56243 0%,#8a6a55 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.content-section h3{font-family:"STKaiti","KaiTi","Kaiti SC",serif;font-weight:400;letter-spacing:.08em;color:var(--tab-color);text-shadow:0 5px 16px #1f24220a}
+.content-section:nth-of-type(even) h3{color:#4f6b61}
+.content-section:nth-of-type(3n) h3{color:#687b90}
+.person h4,.element h4{font-family:"STKaiti","KaiTi","Kaiti SC",serif;font-weight:400;letter-spacing:.07em;color:#9a6548}
+.person:nth-child(even) h4{color:#4f6b61}
+.element:nth-child(3n) h4{color:#687b90}
+.page-kicker{font-family:"Times New Roman",Times,serif;font-style:italic;letter-spacing:.16em}
+@media(max-width:900px){.page-head h2{letter-spacing:.06em}.content-section h3{letter-spacing:.06em}}
+/* Decorative layers for existing village content */
+.content-section{position:relative;isolation:isolate;counter-increment:archive-section}
+.section-list{counter-reset:archive-section}
+.content-section:before{content:counter(archive-section,decimal-leading-zero);position:absolute;z-index:2;right:0;top:-34px;color:var(--tab-color);font-family:"Times New Roman",Times,serif;font-size:15px;letter-spacing:.1em;pointer-events:none}
+.content-section:after{content:"档";position:absolute;z-index:2;right:45px;top:-39px;display:grid;place-items:center;width:26px;height:26px;background:var(--tab-color);color:#fff;font-family:"STKaiti","KaiTi",serif;font-size:13px;line-height:1;box-shadow:0 4px 12px #1f242210;pointer-events:none}
+
+.content-section h3{position:relative;isolation:isolate}
+.content-section h3:before{content:"";position:absolute;z-index:-1;right:-18px;top:-36px;width:170px;height:115px;background-position:right top;background-repeat:no-repeat;background-size:contain;opacity:.08;pointer-events:none}
+.content-section:nth-of-type(4n+1) h3:before{background-image:url('/static/home-demo/line-bamboo.svg')}
+.content-section:nth-of-type(4n+2) h3:before{background-image:url('/static/home-demo/line-plum.svg')}
+.content-section:nth-of-type(4n+3) h3:before{background-image:url('/static/home-demo/line-mountains.svg')}
+.content-section:nth-of-type(4n+4) h3:before{background-image:url('/static/home-demo/line-cloud.svg')}
+.text-card:before{content:"村";position:absolute;z-index:0;right:10px;bottom:-28px;color:transparent;font-family:"STKaiti","KaiTi",serif;font-size:170px;line-height:1;letter-spacing:.02em;-webkit-text-stroke:1px var(--tab-color);opacity:.08;pointer-events:none;user-select:none}
+body[data-tab="history"] .text-card:before{content:"史"}
+body[data-tab="environment"] .text-card:before{content:"境"}
+body[data-tab="architecture"] .text-card:before{content:"筑"}
+body[data-tab="customs"] .text-card:before{content:"俗"}
+body[data-tab="food"] .text-card:before{content:"味"}
+body[data-tab="chronicle"] .text-card:before{content:"志"}
+body[data-tab="travel"] .text-card:before{content:"游"}
+.text-card:after{content:"";position:absolute;z-index:0;left:18px;bottom:-18px;width:135px;height:135px;background-position:left bottom;background-repeat:no-repeat;background-size:contain;opacity:.055;pointer-events:none}
+body[data-tab="history"] .text-card:after{background-image:url('/static/home-demo/line-plum.svg')}
+body[data-tab="environment"] .text-card:after{background-image:url('/static/home-demo/line-mountains.svg')}
+body[data-tab="architecture"] .text-card:after{background-image:url('/static/home-demo/line-eaves.svg')}
+body[data-tab="customs"] .text-card:after{background-image:url('/static/home-demo/line-lantern.svg')}
+body[data-tab="food"] .text-card:after{background-image:url('/static/home-demo/line-tea.svg')}
+body[data-tab="chronicle"] .text-card:after{background-image:url('/static/home-demo/line-fan.svg')}
+body[data-tab="travel"] .text-card:after{background-image:url('/static/home-demo/line-bridge.svg')}
+.text-card>*{position:relative;z-index:1}
+.text-card .body p{position:relative}
+.text-card .body p+p::before{content:"";position:absolute;left:0;top:-8px;width:32px;height:1px;background:var(--tab-color);opacity:.32;pointer-events:none}
+.image-collage{counter-reset:archive-plate}
+.image-tile{position:relative;counter-increment:archive-plate}
+.image-tile:after{content:"图版 " counter(archive-plate,decimal-leading-zero);position:absolute;z-index:4;top:10px;left:10px;padding:4px 7px;background:#fffdf8d9;color:#7c4e38;font-family:"Times New Roman",Times,serif;font-size:9px;letter-spacing:.08em;line-height:1.2;pointer-events:none}
+.image-carousel:after{content:"村落影像 · 轮换图版";position:absolute;z-index:4;top:10px;left:10px;padding:4px 7px;background:#fffdf8d9;color:#7c4e38;font-size:9px;letter-spacing:.08em;line-height:1.2;pointer-events:none}
+@media(max-width:900px){.content-section:before{top:-26px}.content-section:after{top:-31px;right:37px;width:23px;height:23px;font-size:12px}.text-card:before{font-size:130px}.text-card:after{width:105px;height:105px}.content-section h3:before{width:130px;height:90px;right:-10px}}
+html{scroll-behavior:auto}
+/* Reading progress and cultural glossary */
+html{scroll-behavior:auto}
+.reading-progress{position:fixed;top:0;left:0;right:0;height:2px;z-index:70;pointer-events:none;background:transparent}
+#readingProgressBar{display:block;width:100%;height:100%;transform:scaleX(0);transform-origin:left center;background:linear-gradient(90deg,#a56243,#4f6b61,#687b90);transition:transform .08s linear}
+.back-to-top{position:fixed;right:20px;bottom:22px;z-index:55;width:44px;height:44px;display:grid;place-items:center;background:#fffdf8ee;color:#39433e;font-size:20px;box-shadow:0 8px 26px #1f24221c;opacity:0;visibility:hidden;transform:translateY(10px);transition:.2s}
+.back-to-top.visible{opacity:1;visibility:visible;transform:none}
+.back-to-top:hover{color:#a56243}
+.culture-term{position:relative;color:inherit;border-bottom:1px dotted var(--tab-color);cursor:help}
+.culture-term:focus{outline:1px dotted var(--tab-color);outline-offset:3px}
+.culture-tooltip{position:fixed;z-index:110;max-width:280px;padding:12px 14px;background:#fffdf8;color:#39433e;font-size:12px;line-height:1.8;box-shadow:0 12px 38px #111a1626;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .16s ease}
+.culture-tooltip.visible{opacity:1;visibility:visible}
+.food-atlas{position:relative;margin:0 0 44px;padding:26px 28px;background:#faf8f3;overflow:hidden}
+.food-atlas-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:18px}
+.food-atlas-head span{color:var(--tab-color);font-family:"Times New Roman",Times,serif;font-size:10px;letter-spacing:.18em}
+.food-atlas-head h3{margin:5px 0 0;font-family:"STKaiti","KaiTi",serif;font-size:31px;font-weight:400;letter-spacing:.05em}
+.food-atlas-head p{max-width:360px;margin:0;color:var(--muted);font-size:12px;line-height:1.8}
+.food-atlas-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.food-card{display:grid;grid-template-columns:68px minmax(0,1fr);gap:12px;align-items:center;padding:12px;background:#fff}
+.food-card img{width:68px;height:68px;object-fit:contain;opacity:.5}
+.food-card small{display:block;color:var(--tab-color);font-size:9px;letter-spacing:.12em}
+.food-card h4{margin:3px 0 4px;font-family:"STKaiti","KaiTi",serif;font-size:19px;font-weight:400}
+.food-card p{margin:0;color:var(--muted);font-size:11px;line-height:1.7}
+@media(max-width:900px){.back-to-top{right:14px;bottom:16px}.food-atlas{padding:20px}.food-atlas-head{display:block}.food-atlas-head p{margin-top:10px}.food-atlas-grid{grid-template-columns:1fr}}
+@media(max-width:520px){.food-atlas{margin-bottom:34px}.food-card{grid-template-columns:58px minmax(0,1fr)}.food-card img{width:58px;height:58px}}
+/* Compact global navigation height */
+.site-header{height:68px}
+.main-nav{height:42px;padding:4px}
+.main-nav a{height:34px;padding:0 16px}
+.header-action{padding:7px 15px}
+.village-nav-wrap{top:68px}
+.village-nav{gap:4px;padding:5px 0}
+.village-nav button{padding:8px 14px 7px;border-radius:999px}
+@media(max-width:1120px){.main-nav a{padding:0 12px}.header-action{padding:7px 12px}}
+@media(max-width:900px){.nav-shell{width:calc(100% - 32px)}}
+</style>
+<link rel="stylesheet" href="/static/marble-nav.css?v=7">
+</head>
+<body>
+<header class="site-header"><div class="nav-shell"><a class="brand" href="/"><strong>寻迹三秦</strong><small>TRADITIONAL VILLAGES OF SHAANXI</small></a><nav class="main-nav" aria-label="主导航"><a href="/"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 10.5 12 4.2l7.5 6.3v9.1h-5v-5.8h-5v5.8h-5v-9.1Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>首页</span></a><a class="active" href="/villages"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s6.3-5.2 6.3-11.4a6.3 6.3 0 1 0-12.6 0C5.7 15.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.2" stroke="currentColor" stroke-width="1.6"/></svg><span>村落分布</span></a><a href="/ai"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 3 1.6 5.4L19 10l-5.4 1.6L12 17l-1.6-5.4L5 10l5.4-1.6L12 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m18.5 16 .8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z" fill="currentColor"/></svg><span>AI问答</span></a></nav><a class="header-action" href="/feedback">意见反馈</a></div></header>
+
+<section class="hero" id="hero">
+  <div id="heroSlides"></div>
+  <div class="hero-ornament"></div>
+  <div class="hero-content">
+    <div class="eyebrow">陕西 · 中国传统村落</div>
+    <h1 class="serif" id="villageName">传统村落</h1>
+    <div class="hero-meta"><span id="villageCity">正在加载</span><i class="dot"></i><span id="villageLocation">村落资料</span></div>
+    
+  </div>
+  <div class="village-hero-lineart" aria-hidden="true"><img class="hero-line-a" src="/static/home-demo/line-eaves.svg" alt=""><img class="hero-line-b" src="/static/home-demo/line-mountains.svg" alt=""></div><div class="hero-dots" id="heroDots"></div>
+  <div class="scroll">向下阅读</div>
+</section>
+
+<div class="village-nav-wrap" id="villageNavWrap"><nav class="village-nav" id="villageNav"></nav></div>
+<main class="content" id="content"></main>
+<footer class="footer"><div><b>寻迹三秦 · 陕西传统村落数字档案</b><p>村落详情页模板 Demo</p></div><div><p id="source"></p><p>资料来源：中国传统村落数字博物馆</p></div></footer>
+<div class="reading-progress" aria-hidden="true"><span id="readingProgressBar"></span></div>
+<button class="back-to-top" id="backToTop" type="button" aria-label="回到顶部">↑</button>
+<div class="culture-tooltip" id="cultureTooltip" role="tooltip" aria-hidden="true"></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const pathParts=location.pathname.split('/').filter(Boolean);const VILLAGE_ID=new URLSearchParams(location.search).get('id')||(pathParts[0]==='villages'&&pathParts.length>=3?decodeURIComponent(pathParts[2]||''):pathParts[0]==='village'?decodeURIComponent(pathParts[1]||''):'')||'61058110401';
+const PARTY_IMAGES=[{url:'/static/village-demo/hero-architecture-original.jpg',title:'村落建筑风貌'},{url:'/static/village-demo/detail-courtyard-original.jpg',title:'传统院落'},{url:'/static/village-demo/detail-tower-original.jpg',title:'文星阁'},{url:'/static/village-demo/hero-bird-original.jpg',title:'村落整体鸟瞰'}];
+const TAB_LABEL={home:'村落首页',history:'历史文化',environment:'环境格局',architecture:'传统建筑',customs:'民俗文化',food:'美食物产',chronicle:'村志族谱',travel:'旅游导览'};
+const TAB_DESC={home:'村落概况、基本信息与整体风貌',history:'从建村、迁徙到村落记忆',environment:'山水格局与村落选址',architecture:'传统建筑、文物古迹与营造智慧',customs:'民俗、节庆与非物质文化遗产',food:'地方饮食、物产与生产方式',chronicle:'村志、族谱与家训',travel:'入村路线与村内导览'};
+const TAB_ART={
+  home:{files:['line-eaves.svg','line-bamboo.svg','line-cloud.svg']},
+  history:{files:['line-plum.svg','line-fan.svg','line-bamboo.svg']},
+  environment:{files:['line-mountains.svg','line-crane.svg','line-cloud.svg']},
+  architecture:{files:['line-eaves.svg','line-cloud.svg','line-bamboo.svg']},
+  customs:{files:['line-lantern.svg','line-fan.svg','line-chrysanthemum.svg']},
+  food:{files:['line-tea.svg','line-pine.svg','line-bamboo.svg']},
+  chronicle:{files:['line-fan.svg','line-plum.svg','line-bamboo.svg']},
+  travel:{files:['line-bridge.svg','line-mountains.svg','line-crane.svg']}
+};
+
+const FACT_LABEL={formation_era:'形成年代',village_area_sqkm:'村域面积',registered_population:'户籍人口',main_ethnicity:'主要民族',terrain:'地形地貌',main_industry:'主要产业',elevation_m:'海拔',coordinates_raw:'地理坐标'};
+let village=null,heroSlides=[],heroDots=[],heroIndex=0,timer=null,heroImages=[],homeGalleryImages=[],sectionImageMap=new Map(),historicImageMap=new Map();
+
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function short(v,n){v=(v||'').replace(/\s+/g,' ');return v.length>n?v.slice(0,n)+'…':v}
+function shuffle(list){const a=[...list];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+function factValue(k,v){if(k==='village_area_sqkm')return v+' 平方公里';if(k==='registered_population')return v+' 人';if(k==='elevation_m')return v+' 米';return v}
+function paragraphGroups(text,maxGroups=0){const s=(text||'').trim();if(!s)return [];const parts=s.match(/[^\u3002\uff01\uff1f]+[\u3002\uff01\uff1f]?/g)||[s];const natural=Math.ceil(parts.length/2);const count=maxGroups?Math.min(maxGroups,natural):natural;const size=Math.max(1,Math.ceil(parts.length/count));const groups=[];for(let i=0;i<parts.length;i+=size)groups.push(parts.slice(i,i+size).join('').trim());return groups.filter(Boolean)}
+function paragraphs(text){return paragraphGroups(text).map(x=>`<p>${esc(x)}</p>`).join('')}
+function mediaUrl(url){return village?.id==='61058110401'?String(url).replace('/x_','/'):url}
+function imageFigure(img,alt,cls='pair-media'){if(!img?.url)return '';return `<figure class="${cls}"><img src="${esc(mediaUrl(img.url))}" alt="${esc(img.title||alt)}" loading="lazy"><figcaption>${esc(img.title||alt)}</figcaption></figure>`}
+function renderEditorialRows(text,images,alt,title='',kicker=''){const body=(text||'').trim();const imgs=(images||[]).filter(x=>x&&x.url);if(!body&&!imgs.length)return `<p class="empty-note">暂无详细资料。</p>`;const card=`<div class="text-card">${kicker?`<div class="card-kicker">${esc(kicker)}</div>`:''}${title?`<h3>${esc(title)}</h3>`:''}${body.length>220?`<div class="scroll-tip">框内向下滞动查看全文</div>`:''}<div class="body text-scroll">${paragraphs(body)||`<p class="empty-note">暂无详细文字。</p>`}</div></div>`;if(!imgs.length)return card;const chosen=imgs.length>=4?imgs.slice(0,4):imgs.length>=2?imgs.slice(0,2):imgs.slice(0,1);const count=chosen.length;const tiles=chosen.map(x=>`<figure class="image-tile"><img src="${esc(mediaUrl(x.url))}" alt="${esc(x.title||alt)}" loading="lazy"><figcaption>${esc(x.title||alt)}</figcaption></figure>`).join('');if(count===2){const slides=chosen.map((x,i)=>`<figure class="carousel-slide ${i===0?'active':''}"><img src="${esc(mediaUrl(x.url))}" alt="${esc(x.title||alt)}" loading="lazy"><figcaption>${esc(x.title||alt)}</figcaption></figure>`).join('');const dots=chosen.map((x,i)=>`<button class="${i===0?'active':''}" aria-label="切换图片 ${i+1}"></button>`).join('');return `<div class="section-pair"><div class="image-carousel" data-carousel>${slides}<div class="carousel-dots">${dots}</div></div><div class="pair-copy">${card}</div></div>`}return `<div class="section-pair"><div class="image-collage count-${count}">${tiles}</div><div class="pair-copy">${card}</div></div>`}
+
+function historySections(){return (village.sections||[]).filter(s=>s.type==='history')}
+function chronicleSections(){return historySections().filter(s=>/村志|族谱|家训/.test(s.title||''))}
+function historyMainSections(){const c=chronicleSections();return historySections().filter(s=>!c.includes(s))}
+function sectionsFor(tab){
+  const all=village.sections||[];
+  if(tab==='home')return [];
+  if(tab==='history')return historyMainSections();
+  if(tab==='chronicle')return chronicleSections();
+  if(tab==='environment')return all.filter(s=>['environment','scenic'].includes(s.type));
+  if(tab==='architecture')return all.filter(s=>['architecture','cultural_relic'].includes(s.type));
+  if(tab==='customs')return all.filter(s=>['customs','intangible_heritage'].includes(s.type));
+  if(tab==='food')return all.filter(s=>['food','production'].includes(s.type));
+  if(tab==='travel')return all.filter(s=>s.type==='travel');
+  return [];
+}
+function availableTabs(){return ['home','history','environment','architecture','customs','food','chronicle','travel'].filter(t=>t==='home'||sectionsFor(t).length||(t==='history'&&(village.figures||[]).length)||(t==='architecture'&&(village.historic_elements||[]).length)||(t==='customs'&&(village.sections||[]).some(s=>s.type==='intangible_heritage')))}
+function renderNav(){const active=(location.hash||'#home').slice(1);$('villageNav').innerHTML=availableTabs().map(t=>`<button data-tab="${t}" class="${t===active?'active':''}">${TAB_LABEL[t]}</button>`).join('');$('villageNav').querySelectorAll('button').forEach(b=>b.onclick=()=>location.hash=b.dataset.tab)}
+function artTitle(text){const chars=Array.from(String(text||''));const first=chars.shift()||'';return `<h2><span>${esc(first)}</span>${esc(chars.join(''))}</h2>`}
+function artPageHead(tab,title,desc,kicker){
+  const art=TAB_ART[tab]||TAB_ART.home;
+  const lines=art.files.map((file,index)=>`<img class="village-line-art art-${index+1}" src="/static/home-demo/${file}" alt="" aria-hidden="true">`).join('');
+  return `<div class="art-page" data-art="${esc(tab)}">${lines}<div class="page-head reveal"><div><div class="page-kicker">${esc(kicker||tab.toUpperCase())}</div>${artTitle(title)}</div><div class="page-head-side"><p>${esc(desc||'')}</p></div></div>`;
+}
+function renderFoodAtlas(sections){
+  const items=(sections||[]).filter(s=>s.type==='food'||s.type==='production').slice(0,6);
+  if(!items.length)return '';
+  const icons=TAB_ART.food.files;
+  return `<section class="food-atlas reveal"><div class="food-atlas-head"><div><span>LOCAL CATALOG \u00b7 \u7269\u4ea7\u56fe\u9274</span><h3>\u5c71\u7530\u6240\u51fa\uff0c\u56db\u65f6\u6709\u5473</h3></div><p>\u4ece\u5730\u65b9\u996e\u98df\u3001\u519c\u4e8b\u751f\u4ea7\u548c\u7279\u8272\u7269\u4ea7\u4e2d\uff0c\u6574\u7406\u8fd9\u5ea7\u6751\u843d\u7684\u65e5\u5e38\u6ecb\u5473\u3002</p></div><div class="food-atlas-grid">${items.map((s,index)=>{const text=(s.content_text||'').replace(/\s+/g,' ').trim();const snippet=text.length>78?text.slice(0,78)+'\u2026':text;return `<article class="food-card"><img src="/static/home-demo/${icons[index%icons.length]}" alt="" aria-hidden="true"><div><small>${s.type==='food'?'\u98ce\u5473':'\u7269\u4ea7'}</small><h4>${esc(s.title||'\u5730\u65b9\u7269\u4ea7')}</h4><p>${esc(snippet||'\u6682\u65e0\u8be6\u7ec6\u8bf4\u660e')}</p></div></article>`}).join('')}</div></section>`;
+}
+
+function renderFactsTable(items){const rows=[];for(let i=0;i<items.length;i+=2){const a=items[i],b=items[i+1];rows.push(`<tr><th>${esc(a.label)}</th><td>${esc(a.value)}</td>${b?`<th>${esc(b.label)}</th><td>${esc(b.value)}</td>`:'<th></th><td></td>'}</tr>`)}return `<table class="village-info-table"><tbody>${rows.join('')}</tbody></table>`}
+function renderHome(){
+  const attrs=village.attributes||{};const factItems=Object.entries(FACT_LABEL).filter(([k])=>attrs[k]).map(([k,label])=>({label,value:factValue(k,attrs[k])}));const facts=renderFactsTable(factItems);
+  const imgs=homeGalleryImages;
+  const featureDefs=[['history','历史文化','从村落迁徙与建村故事开始'],['architecture','传统建筑','看院落、街巷与营造智慧'],['customs','民俗文化','节庆、礼俗与非遗项目']].filter(([t])=>availableTabs().includes(t));
+  return `${artPageHead('home','村落首页',TAB_DESC.home,'VILLAGE HOME')}
+  <div class="home-editorial reveal">${renderEditorialRows([village.summary,village.description_text].filter(Boolean).join('\n\n'),imgs,village.name,'村落概况','VILLAGE PROFILE')}</div>
+  <div class="home-facts reveal">${facts}</div>
+  <div class="feature-links reveal">${featureDefs.map(([t,title,desc])=>`<button class="feature" data-jump="${t}"><small>EXPLORE</small><strong>${title}</strong><span>${desc}</span></button>`).join('')}</div></div>`;
+}function renderContentSection(s){return `<section class="content-section reveal">${renderEditorialRows(s.content_text,s.images||[],s.title||village.name,s.title||TAB_LABEL[s.type]||'\u6751\u843d\u6863\u6848','\u6751\u843d\u6863\u6848')}</section>`}
+function renderPeople(){if(!village.figures?.length)return '';return `<section class="content-section reveal"><h3>\u5386\u53f2\u4eba\u7269</h3><div class="people-grid">${village.figures.map(p=>`<article class="person"><h4>${esc(p.name)}</h4><div class="body">${paragraphs(p.content_text)}</div></article>`).join('')}</div></section>`}
+function renderElements(){if(!village.historic_elements?.length)return '';return `<section class="content-section reveal"><h3>\u5386\u53f2\u73af\u5883\u8981\u7d20</h3><div class="element-grid">${village.historic_elements.map(x=>`<article class="element"><h4>${esc(x.name||'\u5386\u53f2\u73af\u5883\u8981\u7d20')}</h4>${x.images?.length?`<div class="element-images">${x.images.slice(0,4).map(im=>`<img src="${esc(im.url)}" alt="${esc(im.title||x.name)}" loading="lazy">`).join('')}</div>`:''}</article>`).join('')}</div></section>`}
+function renderPage(tab){
+  if(!village)return;
+  document.body.dataset.tab=tab;
+  document.body.classList.toggle('subpage',tab!=='home');
+  if(tab==='home'){$('content').innerHTML=renderHome()}
+  else{
+    const sections=sectionsFor(tab);const atlas=tab==='food'?renderFoodAtlas(sections):'';let html=`${artPageHead(tab,TAB_LABEL[tab]||'\u6751\u843d\u6863\u6848',TAB_DESC[tab]||'',tab.toUpperCase())}${atlas}<div class="section-list">${sections.map(renderContentSection).join('')}`;
+    if(tab==='history')html+=renderPeople();
+    if(tab==='architecture')html+=renderElements();
+    html+=`</div></div>`;$('content').innerHTML=html;
+  }
+  $('content').querySelectorAll('[data-jump]').forEach(b=>b.onclick=()=>{location.hash=b.dataset.jump;window.scrollTo({top:$('villageNavWrap').offsetTop,behavior:'smooth'})});
+  annotateCultureTerms($('content'));hideCultureTooltip();observeReveal();initCarousels();updateReadingProgress();
+}
+let carouselTimers=[];
+function initCarousels(){carouselTimers.forEach(clearInterval);carouselTimers=[];document.querySelectorAll('[data-carousel]').forEach(el=>{const slides=[...el.querySelectorAll('.carousel-slide')];const dots=[...el.querySelectorAll('.carousel-dots button')];if(slides.length<2)return;let index=0;const go=n=>{index=n;slides.forEach((x,i)=>x.classList.toggle('active',i===n));dots.forEach((x,i)=>x.classList.toggle('active',i===n))};dots.forEach((b,i)=>b.onclick=()=>go(i));carouselTimers.push(setInterval(()=>go((index+1)%slides.length),4500))})}
+function observeReveal(){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(x=>io.observe(x))}
+function showSlide(i){if(!heroSlides.length)return;heroIndex=i;heroSlides.forEach((x,n)=>x.classList.toggle('active',n===i));heroDots.forEach((x,n)=>x.classList.toggle('active',n===i))}
+function startHero(images){heroSlides=images.map((u,i)=>{const d=document.createElement('div');d.className='hero-slide'+(i===0?' active':'');d.style.backgroundImage=`url("${u}")`;return d});$('heroSlides').replaceChildren(...heroSlides);$('heroDots').innerHTML=images.map((_,i)=>`<button class="${i===0?'active':''}" aria-label="村落图片 ${i+1}"></button>`).join('');heroDots=[...$('heroDots').children];heroDots.forEach((b,i)=>b.onclick=()=>showSlide(i));if(timer)clearInterval(timer);if(images.length>1)timer=setInterval(()=>showSlide((heroIndex+1)%images.length),6500)}
+const CULTURE_GLOSSARY=Object.freeze({
+  '\u5889\u5934':'\u5c71\u5899\u6a90\u67f1\u4e0a\u65b9\u4f38\u51fa\u7684\u88c5\u9970\u6784\u4ef6\uff0c\u5e38\u89c1\u7816\u96d5\u6216\u6728\u96d5\u3002',
+  '\u5f71\u58c1':'\u4f4d\u4e8e\u9662\u95e8\u5185\u5916\u3001\u7528\u4e8e\u906e\u6321\u89c6\u7ebf\u548c\u88c5\u9970\u7684\u5899\u4f53\u3002',
+  '\u7167\u58c1':'\u4f20\u7edf\u5efa\u7b51\u4e2d\u6b63\u5bf9\u5927\u95e8\u6216\u9053\u8def\u7684\u5c4f\u5899\uff0c\u517c\u5177\u906e\u6321\u4e0e\u88c5\u9970\u4f5c\u7528\u3002',
+  '\u95e8\u697c':'\u5b85\u9662\u5165\u53e3\u5904\u5e26\u6709\u5c4b\u9876\u548c\u88c5\u9970\u7684\u95e8\u5934\u5efa\u7b51\u3002',
+  '\u56db\u5408\u9662':'\u7531\u56db\u9762\u623f\u5c4b\u56f4\u5408\u51fa\u5ead\u9662\u7684\u4f20\u7edf\u9662\u843d\u5f62\u5f0f\u3002',
+  '\u7960\u5802':'\u5b97\u65cf\u796d\u7940\u7956\u5148\u3001\u8bae\u4e8b\u548c\u4e3e\u884c\u793c\u4eea\u7684\u573a\u6240\u3002',
+  '\u65cf\u8c31':'\u8bb0\u5f55\u5b97\u65cf\u4e16\u7cfb\u3001\u4eba\u7269\u548c\u5bb6\u8bad\u7684\u8c31\u724d\u6587\u732e\u3002',
+  '\u7a91\u6d1e':'\u9ec4\u571f\u9ad8\u539f\u5730\u533a\u4f9d\u571f\u5d16\u5f00\u51ff\u6216\u780c\u7b51\u7684\u62f1\u5f62\u5c45\u6240\u3002',
+  '\u7a7f\u6597':'\u4ee5\u67f1\u548c\u7a7f\u67a1\u6784\u6210\u5c4b\u67b6\u7684\u5357\u65b9\u6728\u6784\u5f62\u5f0f\u3002',
+  '\u7816\u96d5':'\u5728\u7816\u6784\u4ef6\u4e0a\u96d5\u523b\u56fe\u6848\u7684\u4f20\u7edf\u88c5\u9970\u5de5\u827a\u3002',
+  '\u77f3\u96d5':'\u5728\u77f3\u6750\u4e0a\u96d5\u523b\u7eb9\u6837\u3001\u6587\u5b57\u6216\u6784\u4ef6\u7684\u5de5\u827a\u3002',
+  '\u6728\u96d5':'\u5728\u6728\u6750\u4e0a\u96d5\u523b\u88c5\u9970\u7eb9\u6837\u7684\u4f20\u7edf\u5de5\u827a\u3002'
+});
+function showCultureTooltip(el){
+  const tip=$('cultureTooltip'),rect=el.getBoundingClientRect();
+  tip.textContent=el.dataset.definition||'';tip.classList.add('visible');tip.setAttribute('aria-hidden','false');
+  const box=tip.getBoundingClientRect();let left=Math.max(12,Math.min(innerWidth-box.width-12,rect.left+rect.width/2-box.width/2));let top=rect.bottom+9;
+  if(top+box.height>innerHeight-12)top=Math.max(12,rect.top-box.height-9);
+  tip.style.left=left+'px';tip.style.top=top+'px';
+}
+function hideCultureTooltip(){const tip=$('cultureTooltip');if(tip){tip.classList.remove('visible');tip.setAttribute('aria-hidden','true')}}
+function annotateCultureTerms(root){
+  if(!root)return;
+  const used=new Set(),terms=Object.keys(CULTURE_GLOSSARY).sort((a,b)=>b.length-a.length);
+  for(const p of root.querySelectorAll('.text-card .body p')){
+    const walker=document.createTreeWalker(p,NodeFilter.SHOW_TEXT),nodes=[];let node;
+    while(node=walker.nextNode())nodes.push(node);
+    outer:for(const textNode of nodes){
+      for(const term of terms){
+        if(used.has(term))continue;
+        const index=textNode.nodeValue.indexOf(term);if(index<0)continue;
+        const span=document.createElement('span');span.className='culture-term';span.tabIndex=0;span.setAttribute('role','button');span.dataset.definition=CULTURE_GLOSSARY[term];span.setAttribute('aria-label',term+'\uff1a'+CULTURE_GLOSSARY[term]);span.textContent=term;
+        const before=document.createTextNode(textNode.nodeValue.slice(0,index)),after=document.createTextNode(textNode.nodeValue.slice(index+term.length));
+        textNode.replaceWith(before,span,after);used.add(term);
+        span.addEventListener('mouseenter',()=>showCultureTooltip(span));span.addEventListener('mouseleave',hideCultureTooltip);span.addEventListener('focus',()=>showCultureTooltip(span));span.addEventListener('blur',hideCultureTooltip);span.addEventListener('click',e=>{e.stopPropagation();showCultureTooltip(span)});span.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();showCultureTooltip(span)}});
+        break outer;
+      }
+    }
+  }
+}
+function updateReadingProgress(){const max=document.documentElement.scrollHeight-innerHeight;const ratio=max>0?Math.min(1,Math.max(0,scrollY/max)):0;$('readingProgressBar').style.transform='scaleX('+ratio+')';$('backToTop').classList.toggle('visible',scrollY>520)}
+function initOverlayFeatures(){
+  $('backToTop').addEventListener('click',()=>{window.scrollTo({top:0,behavior:'auto'});updateReadingProgress()});addEventListener('scroll',updateReadingProgress,{passive:true});addEventListener('resize',updateReadingProgress);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')hideCultureTooltip()});
+  document.addEventListener('click',e=>{if(!e.target.closest('.culture-term'))hideCultureTooltip()});updateReadingProgress();
+}
+
+async function load(){
+  const r=await fetch('/api/villages/'+VILLAGE_ID);if(!r.ok)throw new Error('村落数据加载失败');village=await r.json();
+  const nameChars=Array.from(village.name||'村'),heroGlyph=nameChars[0]||'村';document.title=village.name+' · 陕西传统村落';$('villageName').innerHTML=`<span>${esc(heroGlyph)}</span>${esc(nameChars.slice(1).join(''))}`;$('villageCity').textContent=village.city.name;$('villageLocation').textContent=village.location.replace(village.city.name,'').replace(/^[·\s]+/,'');$('source').innerHTML=`<a href="${esc(village.source_url)}" target="_blank" rel="noreferrer">查看原始资料 ↗</a>`;
+  const sourceImages=village.id==='61058110401'?PARTY_IMAGES:(village.images||[]).filter(x=>x&&x.url);const unique=[];const seen=new Set();for(const im of sourceImages){const u=typeof im==='string'?im:im.url;if(u&&!seen.has(u)){seen.add(u);unique.push(typeof im==='string'?{url:u,title:village.name}:im)}}const pool=shuffle(unique);heroImages=pool.slice(0,2);homeGalleryImages=pool.slice(2,6);const used=new Set([...heroImages,...homeGalleryImages].map(x=>x.url));sectionImageMap.clear();for(const sec of village.sections||[]){const available=(sec.images||[]).filter(im=>im&&im.url&&!used.has(im.url));const count=available.length>=4?4:available.length>=2?2:available.length?1:0;const assigned=available.slice(0,count);sectionImageMap.set(String(sec.id),assigned);assigned.forEach(im=>used.add(im.url))}historicImageMap.clear();for(const item of village.historic_elements||[]){const available=(item.images||[]).filter(im=>im&&im.url&&!used.has(im.url));const assigned=available.slice(0,4);historicImageMap.set(String(item.id),assigned);assigned.forEach(im=>used.add(im.url))}startHero(heroImages.length?heroImages.map(x=>x.url):PARTY_IMAGES.map(x=>x.url));renderNav();renderPage((location.hash||'#home').slice(1)||'home');
+}
+window.addEventListener('hashchange',()=>{const t=(location.hash||'#home').slice(1);renderNav();renderPage(t);window.scrollTo({top:0,behavior:'auto'})});
+initOverlayFeatures();
+load().catch(e=>{$('content').innerHTML=`<div class="page-head"><div><div class="page-kicker">ERROR</div><h2>页面加载失败</h2></div><p>${esc(e.message)}，请确认后端服务正在运行。</p></div>`});
+</script>
+<script>window.addEventListener("pageshow",event=>{if(event.persisted)window.location.reload()});</script>
+</body>
+</html>
+
+
+

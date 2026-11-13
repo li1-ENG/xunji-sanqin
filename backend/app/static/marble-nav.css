@@ -1,0 +1,22 @@
+html,body{overflow-x:clip}
+/* Shared rice-paper and ink-landscape surface for the global tab strip. */
+.site-header{
+  background-color:#faf9f5!important;
+  background-image:url("/static/home-demo/ink-landscape-nav.jpg")!important;
+  background-position:center bottom!important;
+  background-size:cover!important;
+  background-repeat:no-repeat!important;
+}
+.main-nav{
+  background:rgba(250,248,244,.30)!important;
+  box-shadow:0 8px 22px rgba(32,37,34,.06),inset 0 0 0 1px rgba(255,255,255,.44)!important;
+}
+.main-nav a{background:transparent!important}
+.main-nav a:hover{background:rgba(255,255,255,.46)!important}
+.main-nav a.active{background:rgba(255,255,255,.84)!important}
+.header-action{
+  background:rgba(255,255,255,.38)!important;
+}
+@media(max-width:900px){
+  .site-header{background-position:center bottom!important}
+}

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<!-- site-cache --><meta name="site-cache" content="no-store"><meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>村落分布 · 寻迹三秦</title>
+<style>
+:root{--ink:#202522;--muted:#737a76;--line:#303532;--paper:#fff;--beige:#f8f5ee;--soft:#f5f6f4;--accent:#a56243;--deep:#7c4e38}
+*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font-family:"SimSun","Songti SC","STSong",serif;line-height:1.75}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}
+.site-header{position:sticky;top:0;z-index:30;height:78px;background:#fffffff2;backdrop-filter:blur(16px)}.nav-shell{width:min(1360px,calc(100% - 80px));height:100%;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px}.brand{justify-self:start;display:flex;flex-direction:column;line-height:1.15;letter-spacing:.12em}.brand strong{font-size:18px;font-weight:500}.brand small{margin-top:5px;color:var(--muted);font-size:8px;letter-spacing:.28em}.main-nav{display:flex;align-items:center;gap:4px;width:max-content;padding:5px;border-radius:999px;background:#fff;box-shadow:0 5px 18px #20252208}.main-nav a{display:flex;align-items:center;gap:8px;height:42px;padding:0 18px;border-radius:999px;color:#5c6660;font-size:16px;font-weight:500;line-height:1;white-space:nowrap;transition:.2s}.main-nav a:hover{background:var(--soft);color:var(--ink)}.main-nav a.active{background:var(--soft);color:var(--ink);font-weight:600;box-shadow:0 3px 12px #20252210}.main-nav svg{width:17px;height:17px;opacity:.72}.main-nav a.active svg{opacity:1;color:var(--accent)}.header-action{justify-self:end;border-radius:999px;padding:9px 17px;background:#fff;color:var(--muted);font-size:12px}
+.page-head:after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#0b1711b8 0%,#0b17113b 52%,transparent 78%),linear-gradient(0deg,#0b171152 0%,transparent 42%)}.page-head{position:relative;height:clamp(560px,78svh,760px);min-height:560px;display:flex;align-items:flex-end;padding:0 0 7vh;background:#727a75;color:#fff;overflow:hidden}.page-head-media{position:absolute;inset:0}.page-head-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .9s ease}.page-head-media img.active{opacity:1}.page-head-inner{position:relative;z-index:2;padding-bottom:8px}.page-head .eyebrow{color:#fffaf0;text-shadow:0 2px 6px #000c,0 0 16px #0008}.page-head h1{color:#fffaf0;text-shadow:0 3px 12px #000d,0 0 28px #0008}.page-head p{color:#f1e3c8;text-shadow:0 2px 7px #000d,0 0 20px #0009;font-size:16px}.page-head-dots{position:absolute;z-index:2;right:5vw;bottom:32px;display:flex;gap:7px}.page-head-dots button{width:22px;height:2px;padding:0;background:#ffffff70}.page-head-dots button.active{background:#fff}.page-head-inner{position:relative;z-index:2;width:min(1240px,calc(100% - 12vw));margin:0 auto;padding-left:clamp(20px,4.5vw,68px)}.page-head .eyebrow{display:flex;align-items:center;gap:12px;margin-bottom:18px;color:#f4dfc9;font-size:11px;letter-spacing:.2em;text-shadow:0 2px 10px #0008}.page-head .eyebrow:before{content:"";width:34px;height:1px;background:var(--accent)}.page-head h1{max-width:900px;margin:0;color:#fff;font-size:clamp(44px,5.5vw,78px);font-weight:400;line-height:1.12;letter-spacing:.02em;text-shadow:0 5px 26px #0009}.page-head p{max-width:560px;margin:18px 0 0;color:#f1e3c8;font-size:15px;line-height:1.9;text-shadow:0 2px 12px #0009}.page-head-fact{margin-top:14px!important;color:#f4dfc9!important;font-size:12px!important;letter-spacing:.08em}.page-head-action{display:inline-flex;margin-top:24px;padding:11px 18px;background:var(--accent);color:#fff;font-size:14px}.page-head-action:hover{background:#8d4f36}
+.content{width:min(1240px,88vw);margin:0 auto;padding:58px 0 100px}.distribution{display:grid;grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr);gap:7vw;align-items:start}.distribution-copy{position:sticky;top:112px;height:470px;padding:28px 26px 24px;background:#fff;border:1px solid rgba(165,98,67,.62);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#7f8983 transparent}.distribution-copy::-webkit-scrollbar{width:5px}.distribution-copy::-webkit-scrollbar-thumb{background:#7f8983;border-radius:99px}.distribution-copy::-webkit-scrollbar-track{background:transparent}.scroll-hint{font-size:11px;letter-spacing:.12em;color:var(--muted);margin:-4px 0 14px}.distribution-copy h2{margin:0 0 18px;font-family:"STKaiti","KaiTi","Kaiti SC",serif;font-size:30px;font-weight:400;line-height:1.4;letter-spacing:.04em}.distribution-copy p{margin:0 0 16px;color:#505a54;font-size:14px;line-height:2}.region{margin-top:24px;padding-top:18px}.region strong{display:block;margin-bottom:6px;color:var(--deep);font-size:15px;font-weight:500}.region span{display:block;color:var(--muted);font-size:13px;line-height:1.9}.city-list-head{display:flex;justify-content:space-between;align-items:end;padding-bottom:14px;color:var(--muted);font-size:12px}.city-list-head strong{font-family:"STKaiti","KaiTi","Kaiti SC",serif;color:var(--ink);font-size:20px;font-weight:400;letter-spacing:.04em}.city-list{display:flex;flex-direction:column;gap:10px}.city-row{width:100%;display:grid;grid-template-columns:minmax(0,1fr) auto 28px;gap:20px;align-items:center;padding:18px 18px;background:var(--beige);text-align:left;transition:.2s}.city-row:hover{padding-left:24px;background:#f3efe6}.city-name{display:block;font-size:25px;font-weight:400;line-height:1.4}.city-meta{display:block;margin-top:3px;color:var(--muted);font-size:11px}.city-count{font-family:"Times New Roman",Times,serif;font-size:27px;font-weight:400;line-height:1;color:var(--deep)}.city-arrow{text-align:right;color:var(--accent);font-size:18px}.city-row.empty{opacity:.42;cursor:default}.city-row.empty:hover{padding-left:18px;background:var(--beige)}.footer{padding:34px 6vw;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:12px}.footer strong{color:var(--ink);font-weight:400}
+@media(max-width:1120px){.nav-shell{width:calc(100% - 32px)}.main-nav{gap:2px}.main-nav a{padding:0 13px;font-size:15px;gap:6px}.main-nav svg{width:15px;height:15px}.header-action{padding:8px 13px}}
+@media(max-width:900px){.page-head{height:76svh;min-height:540px;padding:0 0 48px}.page-head-inner{width:calc(100% - 48px);padding-left:0}.page-head-dots{right:6vw;bottom:24px}.nav-shell{grid-template-columns:1fr auto}.main-nav{display:none}.page-head{padding:56px 6vw 38px}.content{padding:36px 0 70px}.distribution{grid-template-columns:1fr;gap:34px}.distribution-copy{position:static;height:390px}.city-row{gap:12px;padding:17px 4px}.city-name{font-size:21px}.city-count{font-size:24px}.footer{display:block}.footer div+div{margin-top:12px}}
+
+.page-head h1{display:flex;align-items:center;gap:18px;font-family:"STKaiti","KaiTi","Kaiti SC",serif;letter-spacing:.06em}.hero-seal{display:inline-grid;place-items:center;width:38px;height:38px;background:var(--accent);color:#fff;font-family:"STKaiti","KaiTi",serif;font-size:20px;line-height:1;letter-spacing:0;box-shadow:0 6px 18px #11181533}.page-head-rail{position:absolute;z-index:2;right:5vw;top:25%;writing-mode:vertical-rl;color:#ffffffe0;font-family:"STKaiti","KaiTi",serif;font-size:12px;letter-spacing:.24em;text-shadow:0 2px 10px #0009}.distribution-copy{counter-reset:region}.distribution-copy:after{content:"秦";position:absolute;right:22px;bottom:8px;color:var(--accent);font-family:"STKaiti","KaiTi",serif;font-size:150px;line-height:1;opacity:.055;pointer-events:none}.distribution-copy>*{position:relative;z-index:1}.region{position:relative;padding-left:42px;counter-increment:region}.region:before{content:counter(region,decimal-leading-zero);position:absolute;left:0;top:18px;color:var(--accent);font-family:"Times New Roman",Times,serif;font-size:14px;letter-spacing:.08em}.city-name:before{content:"";display:inline-block;width:6px;height:6px;margin-right:10px;border-radius:50%;background:var(--accent);vertical-align:middle}.city-list-head strong:before{content:"";display:inline-block;width:24px;height:1px;margin-right:10px;background:var(--accent);vertical-align:middle}
+/* Chinese line-art and seal motifs */
+.page-decor{position:absolute;z-index:1;display:block;height:auto;pointer-events:none;user-select:none}
+.page-cloud{top:12%;right:2.5%;width:clamp(190px,22vw,300px);opacity:.15;filter:invert(1) brightness(2);transform:rotate(-2deg)}
+.page-pine{right:1.5%;bottom:1%;width:clamp(150px,16vw,220px);opacity:.12;filter:invert(1) brightness(2);transform:rotate(-2deg)}
+.distribution{position:relative;isolation:isolate}
+.distribution-mountains{left:31%;bottom:-135px;width:clamp(330px,36vw,470px);opacity:.085;transform:rotate(-1deg)}
+.distribution-copy,.city-list-wrap{position:relative;z-index:1}
+.city-list-wrap{position:relative;isolation:isolate}
+.city-cloud{right:-42px;bottom:-40px;width:clamp(180px,20vw,280px);opacity:.09;transform:rotate(2deg)}
+.city-list-head,.city-list{position:relative;z-index:1}
+.region-seals{display:flex;gap:9px;margin-top:22px;position:relative;z-index:1}
+.region-seals span{display:grid;place-items:center;width:34px;height:34px;color:#fff;font-family:"STKaiti","KaiTi",serif;font-size:16px;line-height:1;box-shadow:0 5px 14px #12181512}
+.region-seals span:nth-child(1){background:#a56243}.region-seals span:nth-child(2){background:#4f655c}.region-seals span:nth-child(3){background:#687b90}
+@media(max-width:900px){.page-cloud{right:-42px;width:180px;opacity:.1}.page-pine{right:-24px;width:140px;opacity:.09}.distribution-mountains{left:8%;bottom:-65px;width:300px;opacity:.06}.city-cloud{right:-30px;width:170px;opacity:.07}}
+@media(max-width:520px){.page-cloud{width:135px;right:-45px;opacity:.08}.page-pine{width:105px;right:-22px;opacity:.07}.distribution-mountains{display:none}.city-cloud{width:135px;right:-35px;opacity:.06}}
+/* Introduction caption above the bordered reading column */
+.intro-column{position:sticky;top:112px;min-width:0}
+.distribution-copy{position:relative;top:auto}
+.intro-tab{display:flex;align-items:center;gap:10px;width:max-content;margin:0 0 10px 18px;color:var(--muted)}
+.intro-tab .tab-seal{display:grid;place-items:center;width:30px;height:30px;background:#a56243;color:#fff;font-family:"STKaiti","KaiTi",serif;font-size:15px;line-height:1;box-shadow:0 5px 14px #12181512}
+.intro-tab b{font-family:"STKaiti","KaiTi",serif;font-size:17px;font-weight:400;letter-spacing:.14em;color:var(--ink)}
+.intro-tab small{font-family:"Times New Roman",Times,serif;font-size:9px;letter-spacing:.15em;color:var(--muted)}
+.intro-tab i{width:48px;height:1px;background:#a5624355}
+@media(max-width:900px){.intro-column{position:static}.intro-tab{margin-left:0;margin-bottom:8px}}
+@media(max-width:520px){.intro-tab small{display:none}.intro-tab i{width:32px}}
+/* Unified global navigation */
+.site-header{position:sticky;top:0;z-index:30;height:78px;background:#fffffff2;backdrop-filter:blur(16px);border-bottom:0}
+.nav-shell{width:min(1360px,calc(100% - 80px));height:100%;margin:0 auto;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:24px}
+.brand{justify-self:start;display:flex;flex-direction:column;line-height:1.15;letter-spacing:.12em}
+.brand strong{font-size:18px;font-weight:500;letter-spacing:.12em}
+.brand small{display:block;margin-top:5px;color:var(--muted);font-size:8px;letter-spacing:.28em}
+.main-nav{display:flex;align-items:center;gap:4px;width:max-content;padding:5px;border-radius:999px;background:#fff;box-shadow:0 5px 18px #20252208}
+.main-nav a{position:relative;display:flex;align-items:center;gap:8px;height:42px;padding:0 18px;border-radius:999px;color:#5c6660;font-size:16px;font-weight:500;line-height:1;white-space:nowrap;transition:.2s}
+.main-nav a:hover{background:var(--soft,#f4f4f1);color:var(--ink)}
+.main-nav a.active{background:var(--soft,#f4f4f1);color:var(--ink);font-weight:600;box-shadow:0 3px 12px #20252210}
+.main-nav a.active:after{content:none}
+.main-nav svg{width:17px;height:17px;opacity:.72}
+.main-nav a.active svg{opacity:1;color:var(--accent)}
+.header-action{justify-self:end;border-radius:999px;padding:9px 17px;background:#fff;color:var(--muted);font-size:12px}
+@media(max-width:1120px){.nav-shell{width:calc(100% - 32px)}.main-nav{gap:2px}.main-nav a{padding:0 13px;font-size:15px;gap:6px}.main-nav svg{width:15px;height:15px}.header-action{padding:8px 13px}}
+@media(max-width:900px){.nav-shell{width:calc(100% - 32px);grid-template-columns:1fr auto}.main-nav{display:none}}
+/* Final line-art display: always on a clear white ground */
+.line-art-finale{position:relative;z-index:2;width:min(1360px,calc(100% - 80px));margin:0 auto;padding:54px 0 58px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,5vw,80px);align-items:end;background:#fff}
+.line-art-finale figure{height:170px;margin:0;display:flex;align-items:flex-end;justify-content:center}
+.line-art-finale img{display:block;width:auto;max-width:100%;max-height:100%;opacity:.74;filter:contrast(1.08)}
+.line-art-finale figure:nth-child(1) img{max-height:145px}
+.line-art-finale figure:nth-child(2) img{width:min(290px,100%)}
+.line-art-finale figure:nth-child(3) img{max-height:165px}
+@media(max-width:900px){.line-art-finale{width:calc(100% - 40px);padding:40px 0 44px;gap:20px}.line-art-finale figure{height:130px}.line-art-finale figure:nth-child(1) img{max-height:112px}.line-art-finale figure:nth-child(2) img{width:100%}.line-art-finale figure:nth-child(3) img{max-height:126px}}
+@media(max-width:520px){.line-art-finale{padding:32px 0 38px;gap:12px}.line-art-finale figure{height:100px}.line-art-finale figure:nth-child(1) img{max-height:86px}.line-art-finale figure:nth-child(3) img{max-height:96px}}
+/* Unified navigation recolor */
+.main-nav{background:#22362e;box-shadow:0 8px 24px #1b2e261c}
+.main-nav a{color:#e7ece8}
+.main-nav a:hover{background:#34493f;color:#fff}
+.main-nav a.active{background:#f3e8d7;color:#1f2823;box-shadow:0 4px 14px #0f1d1724}
+.main-nav a.active svg{color:#a56243}
+.header-action{background:#f7f4ee;color:#5f6964}
+.village-nav-wrap{background:#fff;box-shadow:0 8px 24px #1f242208}
+.village-nav{gap:4px;padding:7px 0}
+.village-nav button{padding:10px 16px;border-radius:999px}
+.village-nav button.active{background:#22362e;color:#fff;font-weight:500}
+.village-nav button.active:after{content:none;display:none}
+/* Navigation recolor: charcoal and copper, no green */
+.main-nav{background:#252b31;box-shadow:0 8px 24px #161b1f24}
+.main-nav a{color:#f1eee8}
+.main-nav a:hover{background:#373e45;color:#fff}
+.main-nav a.active{background:#a56243;color:#fff;box-shadow:0 4px 14px #4d2b1b38}
+.main-nav a.active svg{color:#f4dcc4}
+.village-nav button.active{background:#a56243;color:#fff}
+/* Keep navigation tab dimensions stable between states */
+.main-nav a,.main-nav a.active{font-weight:500;font-synthesis:none}
+.village-nav button,.village-nav button.active{font-weight:500;font-synthesis:none}
+/* Light navigation tabs */
+.main-nav{background:#f2eee7;box-shadow:0 8px 22px #2025220d}
+.main-nav a{background:#f7f4ee;color:#68726c}
+.main-nav a:hover{background:#fff;color:var(--ink)}
+.main-nav a.active{background:#fff;color:var(--ink);box-shadow:inset 0 -2px 0 #a56243,0 4px 12px #2025220a}
+.main-nav a.active svg{color:#a56243}
+.header-action{background:#f7f4ee;color:#68726c}
+.village-nav button{color:#707773}
+.village-nav button.active{background:#f2eee7;color:var(--ink);box-shadow:inset 0 -2px 0 #a56243}
+/* Province map and city hover preview */
+.province-atlas{display:grid;grid-template-columns:minmax(280px,.72fr) minmax(0,1.28fr);gap:clamp(38px,6vw,88px);align-items:center;padding:8px 0 62px}
+.atlas-copy .section-label{margin-bottom:16px}
+.atlas-copy h2{margin:0;font-family:"STKaiti","KaiTi",serif;font-size:clamp(38px,4.5vw,58px);font-weight:400;line-height:1.3;letter-spacing:.04em}
+.atlas-copy h2 span{color:var(--accent)}
+.atlas-copy>p:last-of-type{max-width:480px;margin:18px 0 0;color:var(--muted);font-size:14px;line-height:2}
+.atlas-legend{display:flex;gap:18px;margin-top:22px;font-size:12px}
+.atlas-legend span{display:inline-flex;align-items:center;gap:7px}
+.atlas-legend span:before{content:"";width:7px;height:7px;border-radius:50%;background:#a56243}
+.atlas-legend [data-region="central"]:before{background:#80604f}.atlas-legend [data-region="south"]:before{background:#687b90}
+.atlas-map-wrap{position:relative;display:flex;justify-content:center;padding:20px 24px;background:linear-gradient(145deg,#fbfaf6,#f3f0e9)}
+.atlas-map{display:block;width:min(390px,100%);height:auto;overflow:visible}
+.map-outline{fill:#fffdf8;stroke:#525a55;stroke-width:2;stroke-linejoin:round}
+.map-river{fill:none;stroke:#8fa3ae;stroke-width:1.4;stroke-dasharray:4 5;opacity:.65}
+.map-water{fill:#8fa3ae;font-family:"STKaiti","KaiTi",serif;font-size:11px;letter-spacing:.1em}
+.map-city{cursor:pointer;outline:none}
+.map-dot{stroke:#fff;stroke-width:2.5;transition:filter .2s ease}
+.map-dot.north{fill:#a56243}.map-dot.central{fill:#80604f}.map-dot.south{fill:#687b90}
+.map-city:hover .map-dot,.map-city:focus-visible .map-dot{filter:drop-shadow(0 3px 8px #1f242244)}
+.map-count{fill:#fff;font-family:"Times New Roman",Times,serif;font-size:9px;text-anchor:middle;pointer-events:none}
+.map-label{fill:#35403a;font-family:"STKaiti","KaiTi",serif;font-size:13px;dominant-baseline:middle}
+.map-city:hover .map-label,.map-city:focus-visible .map-label{fill:#a56243}
+.city-region{display:inline-block;margin-right:8px;padding:1px 5px;color:#fff;font-size:9px;line-height:1.6;letter-spacing:.06em;vertical-align:1px}
+.city-region[data-region="陕北"]{background:#a56243}.city-region[data-region="关中"]{background:#80604f}.city-region[data-region="陕南"]{background:#687b90}
+.city-preview{position:fixed;z-index:65;width:232px;background:#fffdf8;box-shadow:0 16px 50px #1f24222b;opacity:0;visibility:hidden;pointer-events:none;transform:translateY(6px);transition:opacity .18s ease,transform .18s ease}
+.city-preview.visible{opacity:1;visibility:visible;transform:none}
+.city-preview img{display:block;width:100%;height:126px;object-fit:cover;background:#eee}
+.city-preview-copy{padding:10px 12px}
+.city-preview-copy strong{display:block;font-family:"STKaiti","KaiTi",serif;font-size:19px;font-weight:400}
+.city-preview-copy span{display:block;margin-top:3px;color:var(--muted);font-size:11px}
+@media(max-width:1000px){.province-atlas{grid-template-columns:1fr;gap:24px}.atlas-map-wrap{order:-1}.city-preview{display:none}}
+@media(max-width:520px){.province-atlas{padding-bottom:44px}.atlas-map-wrap{padding:12px}.map-label{font-size:12px}.atlas-copy h2{font-size:35px}}
+/* Map at 90 percent */
+.atlas-map{width:min(351px,90%)}
+/* Compact global navigation height */
+.site-header{height:68px}
+.main-nav{height:42px;padding:4px}
+.main-nav a{height:34px;padding:0 16px}
+.header-action{padding:7px 15px}
+.village-nav-wrap{top:68px}
+.village-nav{gap:4px;padding:5px 0}
+.village-nav button{padding:8px 14px 7px;border-radius:999px}
+@media(max-width:1120px){.main-nav a{padding:0 12px}.header-action{padding:7px 12px}}
+@media(max-width:900px){.nav-shell{width:calc(100% - 32px)}}
+</style>
+<link rel="stylesheet" href="/static/marble-nav.css?v=7">
+</head>
+<body>
+<header class="site-header"><div class="nav-shell"><a class="brand" href="/"><strong>寻迹三秦</strong><small>TRADITIONAL VILLAGES OF SHAANXI</small></a><nav class="main-nav" aria-label="主导航"><a href="/"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4.5 10.5 12 4.2l7.5 6.3v9.1h-5v-5.8h-5v5.8h-5v-9.1Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>首页</span></a><a class="active" href="/villages"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s6.3-5.2 6.3-11.4a6.3 6.3 0 1 0-12.6 0C5.7 15.8 12 21 12 21Z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="9.5" r="2.2" stroke="currentColor" stroke-width="1.6"/></svg><span>村落分布</span></a><a href="/ai"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 3 1.6 5.4L19 10l-5.4 1.6L12 17l-1.6-5.4L5 10l5.4-1.6L12 3Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="m18.5 16 .8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z" fill="currentColor"/></svg><span>AI问答</span></a></nav><a class="header-action" href="/feedback">意见反馈</a></div></header>
+<section class="page-head"><div class="page-head-media" id="pageHeadMedia"><img class="active" src="/static/home-demo/distribution-green-field.jpg" alt="" loading="eager" fetchpriority="high"><img src="/static/home-demo/distribution-green-valley.jpg" alt="" loading="lazy"></div><img class="page-decor page-cloud" src="/static/home-demo/line-cloud.svg" alt="" aria-hidden="true"><img class="page-decor page-pine" src="/static/home-demo/line-pine.svg" alt="" aria-hidden="true"><div class="page-head-inner"><div class="eyebrow">VILLAGE DISTRIBUTION · 陕西</div><h1>村落分布<span class="hero-seal">秦</span></h1><p>陕西传统村落沿关中、陕北与陕南三大地理板块展开。不同山水环境、交通条件和生活方式，塑造了各具特点的村落格局。</p><p class="page-head-fact">6 个城市 · 37 个村落 · 持续整理中</p><a class="page-head-action" href="#cityList">按城市浏览</a></div><div class="page-head-rail">三秦古村 · 影像档案</div><div class="page-head-dots" id="pageHeadDots"><button class="active"></button><button></button></div></section>
+<main class="content"><section class="province-atlas" aria-labelledby="atlasTitle"><div class="atlas-copy"><p class="section-label">SHAANXI VILLAGE ATLAS · 三秦村落图</p><h2 id="atlasTitle">从山水之间，<br><span>找到一座村。</span></h2><p>点击地图上的城市节点，进入对应的村落分布。圆点中的数字表示当前已收录的村落数量。</p><div class="atlas-legend"><span data-region="north">陕北</span><span data-region="central">关中</span><span data-region="south">陕南</span></div></div><div class="atlas-map-wrap"><svg class="atlas-map" viewBox="0 0 460 690" role="img" aria-labelledby="mapTitle mapDesc"><title id="mapTitle">陕西传统村落分布示意图</title><desc id="mapDesc">按城市节点查看陕西传统村落分布</desc><path class="map-outline" d="M214 20L285 25L337 45L373 80L351 119L387 161L372 213L407 259L389 310L414 352L393 410L366 454L380 512L349 557L321 613L289 654L252 676L220 644L188 596L151 548L119 491L134 430L108 373L130 315L116 258L152 205L170 147L202 100L196 52Z"/><path class="map-river" d="M142 487C178 470 212 469 246 480C280 491 309 493 348 480"/><path class="map-river" d="M174 329C211 343 247 349 282 345C316 341 344 337 374 343"/><text class="map-water" x="300" y="475">汉江</text><text class="map-water" x="304" y="331">渭河</text><a class="map-city" href="/villages/yulin" data-map-city="yulin" aria-label="榆林市"><circle class="map-dot north" cx="270" cy="86" r="11"/><text class="map-count" x="270" y="90" data-map-count="yulin">13</text><text class="map-label" x="288" y="90">榆林</text></a><a class="map-city" href="/villages/yanan" data-map-city="yanan" aria-label="延安市"><circle class="map-dot north" cx="246" cy="177" r="11"/><text class="map-count" x="246" y="181" data-map-count="yanan">7</text><text class="map-label" x="264" y="181">延安</text></a><a class="map-city" href="/villages/tongchuan" data-map-city="tongchuan" aria-label="铜川市"><circle class="map-dot central" cx="235" cy="267" r="10"/><text class="map-count" x="235" y="271" data-map-count="tongchuan">0</text><text class="map-label" x="252" y="271">铜川</text></a><a class="map-city" href="/villages/baoji" data-map-city="baoji" aria-label="宝鸡市"><circle class="map-dot central" cx="161" cy="345" r="10"/><text class="map-count" x="161" y="349" data-map-count="baoji">0</text><text class="map-label" x="178" y="349">宝鸡</text></a><a class="map-city" href="/villages/xianyang" data-map-city="xianyang" aria-label="咸阳市"><circle class="map-dot central" cx="228" cy="323" r="10"/><text class="map-count" x="228" y="327" data-map-count="xianyang">2</text><text class="map-label" x="245" y="327">咸阳</text></a><a class="map-city" href="/villages/xian" data-map-city="xian" aria-label="西安市"><circle class="map-dot central" cx="267" cy="370" r="11"/><text class="map-count" x="267" y="374" data-map-count="xian">1</text><text class="map-label" x="285" y="374">西安</text></a><a class="map-city" href="/villages/weinan" data-map-city="weinan" aria-label="渭南市"><circle class="map-dot central" cx="326" cy="342" r="10"/><text class="map-count" x="326" y="346" data-map-count="weinan">1</text><text class="map-label" x="344" y="346">渭南</text></a><a class="map-city" href="/villages/hanzhong" data-map-city="hanzhong" aria-label="汉中市"><circle class="map-dot south" cx="154" cy="500" r="10"/><text class="map-count" x="154" y="504" data-map-count="hanzhong">0</text><text class="map-label" x="171" y="504">汉中</text></a><a class="map-city" href="/villages/ankang" data-map-city="ankang" aria-label="安康市"><circle class="map-dot south" cx="230" cy="566" r="11"/><text class="map-count" x="230" y="570" data-map-count="ankang">13</text><text class="map-label" x="248" y="570">安康</text></a><a class="map-city" href="/villages/shangluo" data-map-city="shangluo" aria-label="商洛市"><circle class="map-dot south" cx="330" cy="492" r="10"/><text class="map-count" x="330" y="496" data-map-count="shangluo">0</text><text class="map-label" x="348" y="496">商洛</text></a></svg></div></section><div class="distribution"><img class="page-decor distribution-mountains" src="/static/home-demo/line-mountains.svg" alt="" aria-hidden="true"><div class="intro-column"><div class="intro-tab" aria-hidden="true"><span class="tab-seal">卷</span><b>秦地村落志</b><small>DISTRIBUTION NOTES</small><i></i></div><aside class="distribution-copy"><div class="eyebrow">DISTRIBUTION · 地域特征</div><div class="scroll-hint">上下滚动阅读</div><h2>陕西传统村落的<br>分布与特点</h2><p>陕西南北狭长，传统村落并不是均匀分布的。关中地区开发较早，村落多围绕平原、塬地和古驿道形成；陕北黄土高原沟壑纵横，村落常依山就势，以窑洞、堡寨和梯田适应自然环境；陕南地处秦巴山地，村落多沿河谷展开，与山水、稻田和渡口联系紧密。</p><p>从建筑上看，关中多见四合院和窄长街巷，陕北以窑洞院落最具代表性，陕南则常见穿斗木构、石板房和临水聚落。村落的形态不是孤立形成的，而是自然环境、宗族组织、农耕生产与地方历史共同作用的结果。</p><div class="region"><strong>关中地区</strong><span>平原与塬地为主，聚落较规整，祠堂、院落和古街巷保存较多。</span></div><div class="region"><strong>陕北地区</strong><span>黄土沟壑与山地环境突出，窑洞、堡寨和依山而建的村落形态鲜明。</span></div><div class="region"><strong>陕南地区</strong><span>秦巴山地与汉江水系交汇，村落多临水而居，建筑与自然环境关系紧密。</span></div><div class="region-seals" aria-hidden="true"><span>关</span><span>北</span><span>南</span></div></aside></div><section class="city-list-wrap"><img class="page-decor city-cloud" src="/static/home-demo/line-cloud.svg" alt="" aria-hidden="true"><div class="city-list-head"><strong>按城市浏览</strong><span>目前收录 6 市 37 个村落</span></div><div class="city-list" id="cityList" aria-label="陕西各市传统村落"></div></section></div></main>
+<aside class="city-preview" id="cityPreview" aria-hidden="true"><img id="cityPreviewImage" alt=""><div class="city-preview-copy"><strong id="cityPreviewName"></strong><span id="cityPreviewMeta"></span></div></aside>
+<footer class="footer"><div><strong>寻迹三秦 · 陕西传统村落数字档案</strong><br>按城市浏览村落</div><div>暂无公开资料的城市数量显示为 0</div></footer>
+<script>
+const headSlides=[...document.querySelectorAll('#pageHeadMedia img')],headDots=[...document.querySelectorAll('#pageHeadDots button')];let headIndex=0;function headShow(i){headIndex=i;headSlides.forEach((x,n)=>x.classList.toggle('active',n===i));headDots.forEach((x,n)=>x.classList.toggle('active',n===i))}headDots.forEach((d,i)=>d.onclick=()=>headShow(i));setInterval(()=>headShow((headIndex+1)%headSlides.length),6500);
+const list=document.getElementById('cityList');
+const fallback=[
+ ['西安市','xian',1],['铜川市','tongchuan',0],['宝鸡市','baoji',0],['咸阳市','xianyang',2],['渭南市','weinan',1],['延安市','yanan',7],['汉中市','hanzhong',0],['榆林市','yulin',13],['安康市','ankang',13],['商洛市','shangluo',0]
+];
+const CITY_REGION={xian:'\u5173\u4e2d',tongchuan:'\u5173\u4e2d',baoji:'\u5173\u4e2d',xianyang:'\u5173\u4e2d',weinan:'\u5173\u4e2d',yanan:'\u9655\u5317',yulin:'\u9655\u5317',hanzhong:'\u9655\u5357',ankang:'\u9655\u5357',shangluo:'\u9655\u5357'};
+const previewEl=document.getElementById('cityPreview'),previewImage=document.getElementById('cityPreviewImage'),previewName=document.getElementById('cityPreviewName'),previewMeta=document.getElementById('cityPreviewMeta');
+const previewCache=new Map();let previewToken=0;
+function updateMapCounts(cities){cities.forEach(c=>{const node=document.querySelector(`[data-map-count="${c.slug}"]`);if(node)node.textContent=c.village_count})}
+function positionCityPreview(row){const r=row.getBoundingClientRect(),box=previewEl.getBoundingClientRect();let left=r.left-box.width-14;if(left<10)left=Math.min(innerWidth-box.width-10,r.right+14);let top=r.top+r.height/2-box.height/2;top=Math.max(10,Math.min(innerHeight-box.height-10,top));previewEl.style.left=left+'px';previewEl.style.top=top+'px'}
+function hideCityPreview(){previewToken++;previewEl.classList.remove('visible');previewEl.setAttribute('aria-hidden','true')}
+function getCityPreview(slug){if(!previewCache.has(slug)){previewCache.set(slug,fetch('/api/cities/'+encodeURIComponent(slug)+'/villages').then(r=>r.json()).then(data=>{const v=data.villages[0];return{image:v?.gallery_images?.[0]?.url||v?.cover_image||'/static/home-demo/line-cloud.svg',location:v?.location||''}}).catch(()=>({image:'/static/home-demo/line-cloud.svg',location:''})))}return previewCache.get(slug)}
+async function showCityPreview(row,c){if(innerWidth<=1000)return;const token=++previewToken;previewName.textContent=c.name;previewMeta.textContent=(CITY_REGION[c.slug]||'\u9655\u897f')+' \u00b7 '+c.village_count+' \u4e2a\u6751\u843d';previewImage.src='/static/home-demo/line-cloud.svg';previewEl.classList.add('visible');previewEl.setAttribute('aria-hidden','false');positionCityPreview(row);if(!c.village_count)return;const data=await getCityPreview(c.slug);if(token!==previewToken)return;previewImage.src=data.image;previewImage.alt=c.name+'\u6751\u843d\u5f71\u50cf';previewMeta.textContent=(CITY_REGION[c.slug]||'\u9655\u897f')+' \u00b7 '+(data.location||c.village_count+' \u4e2a\u6751\u843d')}
+function renderCities(cities){updateMapCounts(cities);list.innerHTML=cities.map(c=>{const region=CITY_REGION[c.slug]||'\u9655\u897f';const meta=c.village_count?'\u5df2\u6536\u5f55\u4f20\u7edf\u6751\u843d':'\u6751\u843d\u8d44\u6599\u5f85\u8865\u5145';const arrow=c.village_count?'\u2192':'';const attr=c.village_count?`data-slug="${c.slug}"`:'disabled';return `<button class="city-row ${c.village_count?'':'empty'}" ${attr}><span><span class="city-name">${c.name}</span><span class="city-meta"><span class="city-region" data-region="${region}">${region}</span>${meta}</span></span><b class="city-count">${c.village_count}</b><span class="city-arrow">${arrow}</span></button>`}).join('');list.querySelectorAll('.city-row[data-slug]').forEach(row=>{const city=cities.find(x=>x.slug===row.dataset.slug);row.onclick=()=>location.href='/villages/'+row.dataset.slug;row.addEventListener('mouseenter',()=>showCityPreview(row,city));row.addEventListener('mouseleave',hideCityPreview);row.addEventListener('focus',()=>showCityPreview(row,city));row.addEventListener('blur',hideCityPreview)})}
+window.addEventListener('scroll',hideCityPreview,{passive:true});
+renderCities(fallback.map(([name,slug,village_count])=>({name,slug,village_count})));
+fetch('/api/cities').then(r=>r.json()).then(renderCities).catch(()=>{});
+</script>
+<script>window.addEventListener("pageshow",event=>{if(event.persisted)window.location.reload()});</script>
+</body>
+</html>
+
+

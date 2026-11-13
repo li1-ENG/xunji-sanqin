@@ -1,0 +1,756 @@
+{
+  "id": "561062210501",
+  "name": "磨义沟村马家湾村",
+  "province": "陕西省",
+  "city": "延安市",
+  "city_code": "6106",
+  "city_slug": "yanan",
+  "location": "延安市延川县贾家坪镇",
+  "cover_image": "https://www.dmctv.cn/media/wj//clpic/561062210501.png",
+  "summary": "延川县隶属于陕西省延安市，位于延安市东北部，东临黄河与山西省永和县隔河相望，北与榆林市清涧县接壤，西北与子长县毗邻，西接宝塔区，南靠延长县。距延安市区80千米，县境东西长74.25千米，南北宽51.5千米。总面积1985平方千米。 贾家坪镇位于县城西北20公里处，地处永延线中段。全镇辖25个行政村，44个自然村，87个村民小组，3200户13715人，总土地面积166.7平方公里，总耕地9.2万亩。 马家湾自然村位于延川县贾家坪镇西北方向四公里，东南临舍古自然村，西北接樊家川自然村，南接曲溪交村。 2019年，马家湾村被列入第五批中国传统村落名录。",
+  "description_html": "坐落山脚下三山夹两川。",
+  "description_text": "坐落山脚下三山夹两川。",
+  "attributes": {
+    "village_attribute": "自然村",
+    "village_area_sqkm": "9",
+    "registered_population": "386",
+    "main_ethnicity": "汉族",
+    "formation_era": "元代以前",
+    "village_land_mu": "205",
+    "resident_population": "202",
+    "main_industry": "谷物种植,林木育种和育苗,牲畜饲养",
+    "elevation_m": "925",
+    "terrain": "山地,丘陵",
+    "collective_income_wan": "8",
+    "per_capita_income_yuan": "3000",
+    "coordinates_raw": "109.989177,36.995552"
+  },
+  "sections": [
+    {
+      "type": "customs",
+      "title": "村规民约",
+      "content_html": "<p>    国有法，村有规，守法度，不可违，勤学法，不犯罪，尽义务，有作为，依法律，缴税费，公共财，不可毁，禁赌博，祛邪恶，守纪律，不胡来，遇扫法，不阻碍；<br/>    讲道德，行为美，有礼貌，敬长辈，要修养，尊师长，对老小，莫虐待，脏乱差，要整改，多弘扬，真善美，学科学，不迷信，树新风，除六害，多奉献，人光彩；<br/>    俭持家，莫浪费，少铺张，防灾年，夫妇情，恩爱深，男和女，讲平等，护弱者，帮友邻，忍为高，和为贵，小摩擦，不吵嘴，肚量大，不吃亏，勤致富，人敬佩；<br/>    人间情，如鱼水，善交友，勿虚伪，君子交，淡如水，人际间，少疑猜，忌诽谤，互谅解，大是非，分错对，救人危，排人难，不加害，莫侵权，靠法制，依仲裁。</p>",
+      "content_text": "国有法，村有规，守法度，不可违，勤学法，不犯罪，尽义务，有作为，依法律，缴税费，公共财，不可毁，禁赌博，祛邪恶，守纪律，不胡来，遇扫法，不阻碍； 讲道德，行为美，有礼貌，敬长辈，要修养，尊师长，对老小，莫虐待，脏乱差，要整改，多弘扬，真善美，学科学，不迷信，树新风，除六害，多奉献，人光彩； 俭持家，莫浪费，少铺张，防灾年，夫妇情，恩爱深，男和女，讲平等，护弱者，帮友邻，忍为高，和为贵，小摩擦，不吵嘴，肚量大，不吃亏，勤致富，人敬佩； 人间情，如鱼水，善交友，勿虚伪，君子交，淡如水，人际间，少疑猜，忌诽谤，互谅解，大是非，分错对，救人危，排人难，不加害，莫侵权，靠法制，依仲裁。",
+      "images": [],
+      "source_file": "cgmy",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/cgmy.json"
+    },
+    {
+      "type": "architecture",
+      "title": "村落风貌",
+      "content_html": "<p>    三山两河一道川。<br/>    马家湾村落内的古建筑和传统建筑多为传统民居，整体建筑群坐落在坐北向南的台地脊梁处，建筑材料为砖石材料，棚房顶一梁两坡檐，窑洞多为拱形窑，门窗多为木材建筑，分为天窗、左右斜窗，主支框架有闹樯、圆樯、平樯、门板及窗骨子，天窗门攥多饰吉祥图案。</p>",
+      "content_text": "三山两河一道川。 马家湾村落内的古建筑和传统建筑多为传统民居，整体建筑群坐落在坐北向南的台地脊梁处，建筑材料为砖石材料，棚房顶一梁两坡檐，窑洞多为拱形窑，门窗多为木材建筑，分为天窗、左右斜窗，主支框架有闹樯、圆樯、平樯、门板及窗骨子，天窗门攥多饰吉祥图案。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P013.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "clfm",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/clfm.json"
+    },
+    {
+      "type": "architecture",
+      "title": "村落格局",
+      "content_html": "<p>    马家村巷道多，高墙深巷享誉四邻，有四条横向主干道，六条纵向主干道。<br/>    旧窑洞群分布在小河川北，磨义沟河东；新村落在河东旧村落南北延伸，在小河川北旧村落东西延伸，祖师庙分布在河东南滩，穆柯寨在磨义沟交界处；马家湾水库在小河川村西。</p>",
+      "content_text": "马家村巷道多，高墙深巷享誉四邻，有四条横向主干道，六条纵向主干道。 旧窑洞群分布在小河川北，磨义沟河东；新村落在河东旧村落南北延伸，在小河川北旧村落东西延伸，祖师庙分布在河东南滩，穆柯寨在磨义沟交界处；马家湾水库在小河川村西。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.JT000-P001.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GJ002-P002.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GJ002-P004.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "clgj",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/clgj.json"
+    },
+    {
+      "type": "history",
+      "title": "建村历史",
+      "content_html": "<p>    村落建村历史过程：元代以前有村落遗存，但村名无可考证。明朝初年，山西洪洞县移民马氏迁居延川县定居，得名马家湾村。迁徙始祖挖土窑洞、搭建草棚、栽植槐树、立木定居。明中期，村中出了马千户，名叫马仰轩，家财万贯，富甲一方，扩建石窑洞群和石板瓦房。世代繁衍，分门立户。同治以后，十室九空，后有其他姓氏迁来定居。</p><p>    村落建制变迁史：民国前，隶属于陕西省延安府，延川县永安里。建国后先后隶属于延川县贾家坪公社、贾家坪乡、贾家坪镇。现今，马家湾村隶属延安市延川县贾家坪镇。建国以前保存清代窑洞，上世纪七十年代随着人口增加新挖土窑洞，八十年代新建石窑洞群。</p>",
+      "content_text": "村落建村历史过程：元代以前有村落遗存，但村名无可考证。明朝初年，山西洪洞县移民马氏迁居延川县定居，得名马家湾村。迁徙始祖挖土窑洞、搭建草棚、栽植槐树、立木定居。明中期，村中出了马千户，名叫马仰轩，家财万贯，富甲一方，扩建石窑洞群和石板瓦房。世代繁衍，分门立户。同治以后，十室九空，后有其他姓氏迁来定居。 村落建制变迁史：民国前，隶属于陕西省延安府，延川县永安里。建国后先后隶属于延川县贾家坪公社、贾家坪乡、贾家坪镇。现今，马家湾村隶属延安市延川县贾家坪镇。建国以前保存清代窑洞，上世纪七十年代随着人口增加新挖土窑洞，八十年代新建石窑洞群。",
+      "images": [],
+      "source_file": "clls",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/clls.json"
+    },
+    {
+      "type": "architecture",
+      "title": "村落选址",
+      "content_html": "<p>    马家湾自然村位于延川县贾家坪镇西北方向四公里，东南临舍古自然村，西北接樊家川自然村，南接曲溪交村。前后川道土地肥沃，适宜农作物生长。<br/>    文王八卦太极图数理：戴一履九、左三右七、二四为肩、六八为脚、五居中央纵横十五。古村落占据了两川一山三大吉门：开门、休门、生门。东山高大西山小，背靠大金山，面朝小金山。村落道路分块成台地、川地及河条地，构成井字大道。新村选择居住开门、休门、生门三大吉门。一桥连接东西两岸，祖师庙位于东川桥南。     <br/>    旧村落位于座北向南台地脊梁处，划分为九组井字状窑洞群。村东南建有老爷庙，整个村落巷道三纵六横，分为十八组窑洞群，另有河东零星窑洞。新村落在河东旧村落南北延伸，更有三山夹两川、村落中山脚、两川淤大坝、三山皆绿化。整个村子掩映在绿树丛中。村落周围蜿蜒的河流、茂密的植被以及秀美的农田共同组成了马家湾赖以生存的自然环境，为马家湾村落选址营造了良好的自然环境。</p>",
+      "content_text": "马家湾自然村位于延川县贾家坪镇西北方向四公里，东南临舍古自然村，西北接樊家川自然村，南接曲溪交村。前后川道土地肥沃，适宜农作物生长。 文王八卦太极图数理：戴一履九、左三右七、二四为肩、六八为脚、五居中央纵横十五。古村落占据了两川一山三大吉门：开门、休门、生门。东山高大西山小，背靠大金山，面朝小金山。村落道路分块成台地、川地及河条地，构成井字大道。新村选择居住开门、休门、生门三大吉门。一桥连接东西两岸，祖师庙位于东川桥南。 旧村落位于座北向南台地脊梁处，划分为九组井字状窑洞群。村东南建有老爷庙，整个村落巷道三纵六横，分为十八组窑洞群，另有河东零星窑洞。新村落在河东旧村落南北延伸，更有三山夹两川、村落中山脚、两川淤大坝、三山皆绿化。整个村子掩映在绿树丛中。村落周围蜿蜒的河流、茂密的植被以及秀美的农田共同组成了马家湾赖以生存的自然环境，为马家湾村落选址营造了良好的自然环境。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P016.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "clxz",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/clxz.json"
+    },
+    {
+      "type": "travel",
+      "title": "村内导览",
+      "content_html": "<p>    马家湾村村内道路曲折，它们构成了村内独具特色的路网系统，成为构成村落整体格局风貌的重要元素之一。<br/>    马家村共四条横向主干道，纵向主干道有六条。马家湾村主要交通道路为沥青路，村内的通户道路大部分已用水泥硬化。<br/>    马家湾水库及大坝位于村落西北方向，马万里故居位于村落北侧。</p>",
+      "content_text": "马家湾村村内道路曲折，它们构成了村内独具特色的路网系统，成为构成村落整体格局风貌的重要元素之一。 马家村共四条横向主干道，纵向主干道有六条。马家湾村主要交通道路为沥青路，村内的通户道路大部分已用水泥硬化。 马家湾水库及大坝位于村落西北方向，马万里故居位于村落北侧。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.JT001-P004.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "cndl",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/cndl.json"
+    },
+    {
+      "type": "customs",
+      "title": "地方方言",
+      "content_html": "<p>    延川方言属北方语系晋语区陕北方言片。就南北而论，县南土岗、稍道河、杨家圪台乡话与黑龙关乡话基本无异，县北与清涧县相邻的贺家湾乡和贾家坪乡口语与清涧话相似，西北部高家屯乡话与子长语音接近；东西相比，东部和西部的语音系统与黑龙关乡话基本一致，东南黄河沿岸村庄保留的旧读音较多，而西部文安驿川、青平川人的口语中，一部分字读成黑龙关乡话具有文白两读的文读音。<br/></p>",
+      "content_text": "延川方言属北方语系晋语区陕北方言片。就南北而论，县南土岗、稍道河、杨家圪台乡话与黑龙关乡话基本无异，县北与清涧县相邻的贺家湾乡和贾家坪乡口语与清涧话相似，西北部高家屯乡话与子长语音接近；东西相比，东部和西部的语音系统与黑龙关乡话基本一致，东南黄河沿岸村庄保留的旧读音较多，而西部文安驿川、青平川人的口语中，一部分字读成黑龙关乡话具有文白两读的文读音。",
+      "images": [],
+      "source_file": "dffy",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/dffy.json"
+    },
+    {
+      "type": "scenic",
+      "title": "风景名胜",
+      "content_html": "    1、穆柯古寨：穆柯寨主要用于军事防御设施。<br/>    2、村东祖师庙遗址：祖师庙主要用于宗教祭祀活动。<br/>    3、马千户古墓、马千户古碑：明中期，村中出了马千户，名叫马仰轩，家财万贯，富甲一方。<br/>    4、马家湾水库、马家湾水库值班楼：马家湾水库的兴建对局部控制水土流失和贾家坪公社农业基本条件的改变。<br/>    5、马万里故居：2022年，马万里故居入选陕西省不可移动革命文物名录。<br/><br/>",
+      "content_text": "1、穆柯古寨：穆柯寨主要用于军事防御设施。 2、村东祖师庙遗址：祖师庙主要用于宗教祭祀活动。 3、马千户古墓、马千户古碑：明中期，村中出了马千户，名叫马仰轩，家财万贯，富甲一方。 4、马家湾水库、马家湾水库值班楼：马家湾水库的兴建对局部控制水土流失和贾家坪公社农业基本条件的改变。 5、马万里故居：2022年，马万里故居入选陕西省不可移动革命文物名录。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL002-P001.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL002-P002.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "fjms",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/fjms.json"
+    },
+    {
+      "type": "intangible_heritage",
+      "title": "剪纸",
+      "content_html": "    延川剪纸是陕西省延川县境内富有特色的民间艺术之一，有着悠久的历史，其起源与当地祈福驱祸的民间风俗有关，亦多用于民间的信仰祭祀活动。延川剪纸被广泛地用于当地的社会生活之中，逢年过节、婚丧嫁娶都离不开剪纸。<br/>    在当地民间，剪纸和料理家务是广大劳动妇女展示才干的重要方式，当地民间谚语云：“生女子要巧的，石榴牡丹冒铰的。”延川剪纸是以妇女为创作主体的民间艺术，多反映着纷繁多趣的社会风情和家庭生活，表现手法有写意、写实两种，多与作者的性格有关。",
+      "content_text": "延川剪纸是陕西省延川县境内富有特色的民间艺术之一，有着悠久的历史，其起源与当地祈福驱祸的民间风俗有关，亦多用于民间的信仰祭祀活动。延川剪纸被广泛地用于当地的社会生活之中，逢年过节、婚丧嫁娶都离不开剪纸。 在当地民间，剪纸和料理家务是广大劳动妇女展示才干的重要方式，当地民间谚语云：“生女子要巧的，石榴牡丹冒铰的。”延川剪纸是以妇女为创作主体的民间艺术，多反映着纷繁多趣的社会风情和家庭生活，表现手法有写意、写实两种，多与作者的性格有关。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.MS001-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "fwzwhyc",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/fwzwhyc.json"
+    },
+    {
+      "type": "customs",
+      "title": "服装服饰",
+      "content_html": "<p>    传统服饰随时代而变化，村民多为小家小户，少与外人交往，服饰不太讲究，力求遮体保暖为主。</p>",
+      "content_text": "传统服饰随时代而变化，村民多为小家小户，少与外人交往，服饰不太讲究，力求遮体保暖为主。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS005-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "fzfs",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/fzfs.json"
+    },
+    {
+      "type": "customs",
+      "title": "婚丧嫁娶",
+      "content_html": "<p>    婚礼：传统讲究六仪，父母之命，媒妁之言，其程序一般为问名、测吉、纳彩、迎娶、见大小、回门等礼仪。交通工具骑驴、骑马、坐轿，后来用车辆。婚礼来客是双方重要亲朋好友，主要活动由总管组织实施。一般事情过三昼两夜，第一天聚客，第二天正式举行迎亲礼仪，第三天送走亲朋。<br/>    丧礼：丧礼一般由送终开始然后进行报丧请人，看坟地、测吉日、聚客、接献、祭礼、安葬、安土神等活动，因时代与贫富不等，丧礼规格有所增减。</p>",
+      "content_text": "婚礼：传统讲究六仪，父母之命，媒妁之言，其程序一般为问名、测吉、纳彩、迎娶、见大小、回门等礼仪。交通工具骑驴、骑马、坐轿，后来用车辆。婚礼来客是双方重要亲朋好友，主要活动由总管组织实施。一般事情过三昼两夜，第一天聚客，第二天正式举行迎亲礼仪，第三天送走亲朋。 丧礼：丧礼一般由送终开始然后进行报丧请人，看坟地、测吉日、聚客、接献、祭礼、安葬、安土神等活动，因时代与贫富不等，丧礼规格有所增减。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.MS004-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "hsjq",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/hsjq.json"
+    },
+    {
+      "type": "architecture",
+      "title": "建村智慧",
+      "content_html": "<p>    建村智慧：背靠金山、左右带水、山河关拦、曲径通幽。<br/>    马家湾村村落选址背靠着一座山，两边湍流的水流经之处。这座山像是一道自然屏障，守护着那里的山河，蜿蜒的小径穿过这山间幽深之地。</p>",
+      "content_text": "建村智慧：背靠金山、左右带水、山河关拦、曲径通幽。 马家湾村村落选址背靠着一座山，两边湍流的水流经之处。这座山像是一道自然屏障，守护着那里的山河，蜿蜒的小径穿过这山间幽深之地。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GJ004-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "jczh",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/jczh.json"
+    },
+    {
+      "type": "customs",
+      "title": "节庆活动",
+      "content_html": "<p>    过年、元宵闹秧歌、二月二龙抬头、清明上坟、四月八吃凉粉、端午吃粽子、七月十五上坟、八月十五过中秋、九月九登山、十月一送寒衣、腊月二十三送灶神，这些传统节日全民参与。</p>",
+      "content_text": "过年、元宵闹秧歌、二月二龙抬头、清明上坟、四月八吃凉粉、端午吃粽子、七月十五上坟、八月十五过中秋、九月九登山、十月一送寒衣、腊月二十三送灶神，这些传统节日全民参与。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.MS002-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "jqhd",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/jqhd.json"
+    },
+    {
+      "type": "customs",
+      "title": "祭祀崇礼",
+      "content_html": "<p>    宗教祭祀以道家和儒家为祭祀对象，祭品种类有佳肴甘醇、时鲜水果、香表蜡烛等，祭祀场所多在大殿，祭祀活动善男信女齐参加。</p>",
+      "content_text": "宗教祭祀以道家和儒家为祭祀对象，祭品种类有佳肴甘醇、时鲜水果、香表蜡烛等，祭祀场所多在大殿，祭祀活动善男信女齐参加。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.MS003-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "jscl",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/jscl.json"
+    },
+    {
+      "type": "oral_history",
+      "title": "口述史",
+      "content_html": "<p>    1.村民讲述并村历史。<br/>    2.村里的古村落保护良好，电影取景多。<br/>    3.村民讲述村内悠闲生活。</p>",
+      "content_text": "1.村民讲述并村历史。 2.村里的古村落保护良好，电影取景多。 3.村民讲述村内悠闲生活。",
+      "images": [],
+      "source_file": "kss",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/kss.json"
+    },
+    {
+      "type": "history",
+      "title": "历史事件",
+      "content_html": "<p>    修建马家湾水库。马家湾水库位于延川县西北部25公里的永坪河支流小河子川口马家湾村，因此得名。马家湾水库是一个几经周折的水库。<br/>    早在1956年，绥德专署水土保持站就领导修建此库，1959年被洪水冲毁。<br/>    1964年以来，经多次呈报，经批准后，又于1970年11月开工，到1971年8月建成，坝高28米。<br/>    1979年水库淤满后，又将土坝加高到30.5米，并重新修了输水洞，溢洪道设了橡胶坝，到1980年全部竣工。<br/>    该水库所在沟道长23公里，流域面积132.5平方公里，属年调节水库。</p>",
+      "content_text": "修建马家湾水库。马家湾水库位于延川县西北部25公里的永坪河支流小河子川口马家湾村，因此得名。马家湾水库是一个几经周折的水库。 早在1956年，绥德专署水土保持站就领导修建此库，1959年被洪水冲毁。 1964年以来，经多次呈报，经批准后，又于1970年11月开工，到1971年8月建成，坝高28米。 1979年水库淤满后，又将土坝加高到30.5米，并重新修了输水洞，溢洪道设了橡胶坝，到1980年全部竣工。 该水库所在沟道长23公里，流域面积132.5平方公里，属年调节水库。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GK003-P001.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GK003-P002.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GK003-P003.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "lssj",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/lssj.json"
+    },
+    {
+      "type": "food",
+      "title": "美味美食",
+      "content_html": "<p>    村民以传统吃食多为杂粮、少食精面。但是该村人善于杂粮细做，做出好多花样，尤其是以粉条煮菜，享誉陕北。<br/>    饸饹面：饸饹面（市面上又称合罗面），中国北方部分地区的传统特色面食之一，制作者先将饸饹床子架在锅的正上方。将和好的荞麦面、高粱面（现多用小麦面）放在饸饹床子（包含放面的漏孔）里，并坐在杠杆上直接把面挤轧成长条（面条状）煮入锅中。这种传统独特的饮食制作方式，不知从何时一直延续，成为中国西、北方地区独特的风味名吃。</p>",
+      "content_text": "村民以传统吃食多为杂粮、少食精面。但是该村人善于杂粮细做，做出好多花样，尤其是以粉条煮菜，享誉陕北。 饸饹面：饸饹面（市面上又称合罗面），中国北方部分地区的传统特色面食之一，制作者先将饸饹床子架在锅的正上方。将和好的荞麦面、高粱面（现多用小麦面）放在饸饹床子（包含放面的漏孔）里，并坐在杠杆上直接把面挤轧成长条（面条状）煮入锅中。这种传统独特的饮食制作方式，不知从何时一直延续，成为中国西、北方地区独特的风味名吃。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS006-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "mwms",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/mwms.json"
+    },
+    {
+      "type": "travel",
+      "title": "入村路线",
+      "content_html": "<p>    省外游客可乘坐高铁动车前往延安，可选择客车由延安汽车南站上车至延川，也可自驾前往马家湾村。<br/>    自驾路线：<br/>    1.自延川县人民政府出发—秀延南路—秀延北路—延永路—热上路—马家湾村。<br/>    2.自延川县人民政府出发—秀延南路—242国道—延永路—热上路—马家湾村。</p>",
+      "content_text": "省外游客可乘坐高铁动车前往延安，可选择客车由延安汽车南站上车至延川，也可自驾前往马家湾村。 自驾路线： 1.自延川县人民政府出发—秀延南路—秀延北路—延永路—热上路—马家湾村。 2.自延川县人民政府出发—秀延南路—242国道—延永路—热上路—马家湾村。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GK005-P002.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.JT001-P002.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.JT001-P005.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "rclx",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/rclx.json"
+    },
+    {
+      "type": "production",
+      "title": "生产工具",
+      "content_html": "<p>    石碾，是一种用石头和木材等制作的使谷物等破碎或去皮用的工具，石碾分上下两部分，上面的叫碾砣，下面的叫碾盘。碾盘和碾砣的接触面上，錾（zàn）有排列整齐的中间深两边浅的碾齿，而碾砣上錾（zàn）有排列整齐的一边深一边浅的碾齿，用以磨碎粮食。碾砣两头的中央有两个向里凹的小圆坑，里面固定着一个小铁碗儿，叫碾脐；在碾框的对应位置固定着两个圆形铁棒，与碾脐相对，凹凸相合，能自由转动。碾框的一端，中间有一孔，套在碾管芯上，而碾管芯是固定在碾盘正中央的一根金属圆柱。碾框上一般还凿有两个碾棍孔。碾棍是两根一米左右的木棍，分别插在两个碾棍孔里，呈对角线分布。当逆时针推动碾棍，碾砣转动起来，石碾就开始工作了。</p>",
+      "content_text": "石碾，是一种用石头和木材等制作的使谷物等破碎或去皮用的工具，石碾分上下两部分，上面的叫碾砣，下面的叫碾盘。碾盘和碾砣的接触面上，錾（zàn）有排列整齐的中间深两边浅的碾齿，而碾砣上錾（zàn）有排列整齐的一边深一边浅的碾齿，用以磨碎粮食。碾砣两头的中央有两个向里凹的小圆坑，里面固定着一个小铁碗儿，叫碾脐；在碾框的对应位置固定着两个圆形铁棒，与碾脐相对，凹凸相合，能自由转动。碾框的一端，中间有一孔，套在碾管芯上，而碾管芯是固定在碾盘正中央的一根金属圆柱。碾框上一般还凿有两个碾棍孔。碾棍是两根一米左右的木棍，分别插在两个碾棍孔里，呈对角线分布。当逆时针推动碾棍，碾砣转动起来，石碾就开始工作了。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS004-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "scgj",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/scgj.json"
+    },
+    {
+      "type": "production",
+      "title": "商业集市",
+      "content_html": "<p>    本村里城镇集市较远，赶集上会为数不多，其主要形式以庙会聚众形成人流聚散。<br/>    庙会，又称“庙市”或“节场”。是中国民间宗教及岁时风俗，一般在农历新年、元宵节、二月二龙抬头等节日举行。也是中国集市贸易形式之一，其形成与发展和地庙的宗教活动有关，在寺庙的节日或规定的日期举行，多设在庙内及其附近。</p>",
+      "content_text": "本村里城镇集市较远，赶集上会为数不多，其主要形式以庙会聚众形成人流聚散。 庙会，又称“庙市”或“节场”。是中国民间宗教及岁时风俗，一般在农历新年、元宵节、二月二龙抬头等节日举行。也是中国集市贸易形式之一，其形成与发展和地庙的宗教活动有关，在寺庙的节日或规定的日期举行，多设在庙内及其附近。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS002-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "syjs",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/syjs.json"
+    },
+    {
+      "type": "production",
+      "title": "特色物产",
+      "content_html": "<p>    本村的农作物少夏田、多秋田，主要是米、谷、高粱、玉米、豆类及薯类农作物，本村以加工粉条为村民传统的主要经济收入。</p>",
+      "content_text": "本村的农作物少夏田、多秋田，主要是米、谷、高粱、玉米、豆类及薯类农作物，本村以加工粉条为村民传统的主要经济收入。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS001-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "tswc",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/tswc.json"
+    },
+    {
+      "type": "environment",
+      "title": "自然环境",
+      "content_html": "    延川县属温带大陆性季风气候。冬季受来自西伯利亚的大陆气团影响，常为势力强大的蒙古高压所控制，寒冷干燥；夏季受东南季风影响，气候炎热、降雨集中、多雷雨；春季极地大陆气团削弱，热带暖气团增强，气温回升快、降水少；秋季气温迅速降低，冷暖气团交锋，多阴雨天气。<br/>    马家湾三山夹两川、村落中山脚、两川淤大坝、三山皆绿化。地质地貌：黄土丘陵坡洼地貌。 ",
+      "content_text": "延川县属温带大陆性季风气候。冬季受来自西伯利亚的大陆气团影响，常为势力强大的蒙古高压所控制，寒冷干燥；夏季受东南季风影响，气候炎热、降雨集中、多雷雨；春季极地大陆气团削弱，热带暖气团增强，气温回升快、降水少；秋季气温迅速降低，冷暖气团交锋，多阴雨天气。 马家湾三山夹两川、村落中山脚、两川淤大坝、三山皆绿化。地质地貌：黄土丘陵坡洼地貌。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P001.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P009.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P012.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "zrhj",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/zrhj.json"
+    }
+  ],
+  "figures": [
+    {
+      "name": "马万里",
+      "content_html": "    马万里（1919——2017）磨义沟村人，1919年11月4日生，1935年1月参加革命工作，10月加入中国共产党。历任延川县永远区五乡团支部书记、团县委巡视员、县互济会主任、东工特委巡视员、红泉县团县委书记、延川县青救会文教科长。1937年1月始，先后任甘肃环县抗日青年救国会主席、陇东分区抗日青年救国会组织部副部长等。1947年3月始，先后任甘肃省镇原县委书记、平凉地委常委、宣传部部长等。1954年1月始，先后任果洛军分区党委书记、政委、果洛藏族自治州委第一书记、州政协主席、青海省畜牧厅党组书记、厅长、青海省人民委员会办公厅党组书记等。1971年11月始，先后任青海民族学院院党委书记、革委会主任、青海省革委会副主任兼秘书长。1979年8月任青海省副省长兼秘书长，1981年8月任省委副书记，1982年3月兼省纪律检查临时委员会第一书记，4月兼省委党校校长，1983年2月任省委书记，1988年5月任青海省顾问委员会主任，1992年7月离休。马万里是中共十三大代表。1989年，国务院环境保护委员会授予他“热心环境保护事业的社会活动家”称号，同年荣获“全国关心下一代先进个人”称号，1992年获“全国重视老年工作领导者奖”。1992年7月离休，2017年去世，享年98岁。",
+      "content_text": "马万里（1919——2017）磨义沟村人，1919年11月4日生，1935年1月参加革命工作，10月加入中国共产党。历任延川县永远区五乡团支部书记、团县委巡视员、县互济会主任、东工特委巡视员、红泉县团县委书记、延川县青救会文教科长。1937年1月始，先后任甘肃环县抗日青年救国会主席、陇东分区抗日青年救国会组织部副部长等。1947年3月始，先后任甘肃省镇原县委书记、平凉地委常委、宣传部部长等。1954年1月始，先后任果洛军分区党委书记、政委、果洛藏族自治州委第一书记、州政协主席、青海省畜牧厅党组书记、厅长、青海省人民委员会办公厅党组书记等。1971年11月始，先后任青海民族学院院党委书记、革委会主任、青海省革委会副主任兼秘书长。1979年8月任青海省副省长兼秘书长，1981年8月任省委副书记，1982年3月兼省纪律检查临时委员会第一书记，4月兼省委党校校长，1983年2月任省委书记，1988年5月任青海省顾问委员会主任，1992年7月离休。马万里是中共十三大代表。1989年，国务院环境保护委员会授予他“热心环境保护事业的社会活动家”称号，同年荣获“全国关心下一代先进个人”称号，1992年获“全国重视老年工作领导者奖”。1992年7月离休，2017年去世，享年98岁。",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/lsrw.json"
+    },
+    {
+      "name": "马泰彦",
+      "content_html": "    马泰彦（1914—2016）原名马太彦，磨义沟村人，1914年6月7日生，1935年1月参加革命，同年10月加入中国共产党。1935年4月参加由高朗廷、杨风其（赤卫队九支队队长）指挥的延川、子长、清涧三县赤卫队联合军事行动，在子长县单头川将一个团（号称从未打过败仗的常胜团）击溃，迫使其全部投诚红军。后改编为红二团。1937年始，历任乡指导员，甘肃省镇原县银行主任，庆阳专区银行办事处主任、中心支行行长，定西专区银行督导处主任、定西地区统战部长、地区革委会办公室副主任、定西地委纪委副书记、地区行署顾问等。1983年离休于西安市第三干休所，2016年5月10日病逝，享年102岁。",
+      "content_text": "马泰彦（1914—2016）原名马太彦，磨义沟村人，1914年6月7日生，1935年1月参加革命，同年10月加入中国共产党。1935年4月参加由高朗廷、杨风其（赤卫队九支队队长）指挥的延川、子长、清涧三县赤卫队联合军事行动，在子长县单头川将一个团（号称从未打过败仗的常胜团）击溃，迫使其全部投诚红军。后改编为红二团。1937年始，历任乡指导员，甘肃省镇原县银行主任，庆阳专区银行办事处主任、中心支行行长，定西专区银行督导处主任、定西地区统战部长、地区革委会办公室副主任、定西地委纪委副书记、地区行署顾问等。1983年离休于西安市第三干休所，2016年5月10日病逝，享年102岁。",
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/lsrw.json"
+    }
+  ],
+  "historic_elements": [
+    {
+      "name": "古寨",
+      "code": "HJ001",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P008.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/lshjys.json"
+    },
+    {
+      "name": "马家湾大坝",
+      "code": "HJ002",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P005.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/lshjys.json"
+    },
+    {
+      "name": "古树",
+      "code": "HJ003",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P004.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P002.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_url": "https://www.dmctv.cn/main/villages/561062210501/data/lshjys.json"
+    }
+  ],
+  "building_refs": [
+    {
+      "id": "46150",
+      "uid": "56106221050101"
+    },
+    {
+      "id": "46155",
+      "uid": "56106221050101"
+    },
+    {
+      "id": "49789",
+      "uid": "56106221050101"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.dmctv.cn/media/wj//clpic/561062210501.png",
+      "title": "磨义沟村马家湾村",
+      "source_file": "catalog"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P013.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clfm"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.JT000-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clgj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GJ002-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clgj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GJ002-P004.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clgj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/b_561062210501.GK005-P013.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clgkbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/b_561062210501.GK005-P019.jpg?repair=20260915",
+      "title": "",
+      "source_file": "cllsbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P016.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clxz"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.JT001-P004.jpg?repair=20260915",
+      "title": "",
+      "source_file": "cndl"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL002-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "fjms"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL002-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "fjms"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS005-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "fzfs"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.MS004-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "hsjq"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GJ004-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "jczh"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.MS002-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "jqhd"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.MS003-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "jscl"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P008.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P005.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P004.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.HJ002-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GK003-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lssj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GK003-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lssj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GK003-P003.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lssj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/b_561062210501.GK005-P014.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lydlbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/b_561062210501.GK005-P022.jpg?repair=20260915",
+      "title": "",
+      "source_file": "mswhbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS006-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "mwms"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.GK005-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "rclx"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.JT001-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "rclx"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.JT001-P005.jpg?repair=20260915",
+      "title": "",
+      "source_file": "rclx"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS004-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "scgj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/b_561062210501.GK005-P008.jpg?repair=20260915",
+      "title": "",
+      "source_file": "scshbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS002-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "syjs"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.SS001-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "tswc"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "zrhj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P009.jpg?repair=20260915",
+      "title": "",
+      "source_file": "zrhj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/x_561062210501.DL001-P012.jpg?repair=20260915",
+      "title": "",
+      "source_file": "zrhj"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.gj001-v001.mp4",
+      "title": "马家湾村宣传视频",
+      "source_file": "clgksp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.gk000-v001.mp4",
+      "title": "村落介绍",
+      "source_file": "clgksp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.dl001-v001.mp4",
+      "title": "马家湾村村落航拍",
+      "source_file": "cljzsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.cz003-v001.mp4",
+      "title": "并村",
+      "source_file": "kss",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.cz003-v002.mp4",
+      "title": "电影取景",
+      "source_file": "kss",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.cz003-v003.mp4",
+      "title": "村民悠闲生活",
+      "source_file": "kss",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.ms004-v001.mp4",
+      "title": "婚丧嫁娶",
+      "source_file": "mswhsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.ms004-v002.mp4",
+      "title": "结婚习俗",
+      "source_file": "mswhsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.ms002-v001.mp4",
+      "title": "传统节日",
+      "source_file": "mswhsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.ms002-v002.mp4",
+      "title": "秧歌",
+      "source_file": "mswhsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/360/561062210501/360VR/index.html",
+      "title": "",
+      "source_file": "qjzs",
+      "kind": "panorama"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.ss001-v001.mp4",
+      "title": "村里产业",
+      "source_file": "scshsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.ss003-v001.mp4",
+      "title": "手工艺制作",
+      "source_file": "scshsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/561062210501/561062210501.ss006-v001.mp4",
+      "title": "美食",
+      "source_file": "scshsp",
+      "kind": "video"
+    }
+  ],
+  "source_url": "https://www.dmctv.cn/main/villages/561062210501/Index.html",
+  "source_site": "https://www.dmctv.cn",
+  "source_files": [
+    "cgmy",
+    "clfm",
+    "clgj",
+    "clgkbanner",
+    "clgksp",
+    "clgs",
+    "cljzsp",
+    "clls",
+    "cllsbanner",
+    "cllszp",
+    "clxz",
+    "cndl",
+    "czzpbanner",
+    "dffy",
+    "fjms",
+    "fwzwhyc",
+    "fzfs",
+    "hsjq",
+    "jczh",
+    "jqhd",
+    "jscl",
+    "jtjz",
+    "kss",
+    "lshjys",
+    "lsrw",
+    "lssj",
+    "lydlbanner",
+    "mswhbanner",
+    "mswhsp",
+    "mwms",
+    "qjzs",
+    "rclx",
+    "scgj",
+    "scgy",
+    "scshbanner",
+    "scshsp",
+    "syjs",
+    "tswc",
+    "tswh",
+    "wwgj",
+    "ysgj",
+    "zrhj"
+  ],
+  "available_section_types": [
+    "architecture",
+    "customs",
+    "environment",
+    "food",
+    "history",
+    "intangible_heritage",
+    "oral_history",
+    "production",
+    "scenic",
+    "travel"
+  ]
+}

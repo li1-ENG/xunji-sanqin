@@ -1,0 +1,790 @@
+{
+  "id": "61090213301",
+  "name": "高山村",
+  "province": "陕西省",
+  "city": "安康市",
+  "city_code": "6109",
+  "city_slug": "ankang",
+  "location": "安康市汉滨区共进镇",
+  "cover_image": "https://www.dmctv.cn/media/wj//clpic/61090213301.png",
+  "summary": "高山村位于共进镇北边，村域面积5平方公里，户籍人口770人，常住人口560人。地处巴山腹地，地形以山岭丘壑为主，东与左湾村毗邻，西以谭坝鸭蛋河村为界，南与田庄村相连，北与茨沟镇白岩村为界，气候温和、雨量充沛、四季分明、无霜期长。村民经济来源于种植和养殖，山中盛产核桃、魔芋、土豆等，一般农户家里都会养牲口，以猪、羊居多，家禽类养的都是鸡。此村依山而建，环境优美，山中草木茂盛，是天然的氧吧，非常适合居住，一圈一圈的梯田方便农耕，传统建筑古色古香，具有陕南民居特色。 2016年12月，住房城乡建设部等部门联合发文，将陕西省安康市高山村列入中国传统村落。",
+  "description_html": "物产丰富环境优美。",
+  "description_text": "物产丰富环境优美。",
+  "attributes": {
+    "village_attribute": "行政村",
+    "village_area_sqkm": "5",
+    "registered_population": "770",
+    "main_ethnicity": "汉族",
+    "formation_era": "清代",
+    "village_land_mu": "150",
+    "resident_population": "560",
+    "main_industry": "谷物种植,蔬菜食用菌园艺作物种植,家禽饲养",
+    "elevation_m": "700—1200",
+    "terrain": "山地",
+    "collective_income_wan": "8",
+    "per_capita_income_yuan": "6200",
+    "coordinates_raw": "109.0385,32.876466"
+  },
+  "sections": [
+    {
+      "type": "customs",
+      "title": "村规民约",
+      "content_html": "<p>    高山村村规民约内容涵盖了日常行为规范、移风易俗、社会治理、矛盾调解和人居环境等多个方面，其中把丧事简办、婚事新办、反对铺张浪费、反对天价彩礼、爱护村容村貌等写进内容，引导村民从思想上移风易俗，呼吁人人从自身做起，积极践行文明新风。</p>",
+      "content_text": "高山村村规民约内容涵盖了日常行为规范、移风易俗、社会治理、矛盾调解和人居环境等多个方面，其中把丧事简办、婚事新办、反对铺张浪费、反对天价彩礼、爱护村容村貌等写进内容，引导村民从思想上移风易俗，呼吁人人从自身做起，积极践行文明新风。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.CZ004-P003.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "cgmy",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/cgmy.json"
+    },
+    {
+      "type": "architecture",
+      "title": "村落风貌",
+      "content_html": "<p>    高山村没有河流穿过，所以村民建房大多依山而建，选在地势较高，较为平坦的地方，耕地大多在半山之中，山中特色就是一层一层的梯田和茂密的树林风光。房屋为木框架结构，房屋以陕南地域特色为主，具有地方古建筑特色。</p>",
+      "content_text": "高山村没有河流穿过，所以村民建房大多依山而建，选在地势较高，较为平坦的地方，耕地大多在半山之中，山中特色就是一层一层的梯田和茂密的树林风光。房屋为木框架结构，房屋以陕南地域特色为主，具有地方古建筑特色。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ003-P007.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ003-P009.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ003-P011.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "clfm",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/clfm.json"
+    },
+    {
+      "type": "architecture",
+      "title": "村落格局",
+      "content_html": "<p>   高山村传统建筑以土木结构为主，具有陕南民居特点。高山院子位于高山村五组，距镇政府10公里，共进镇位于汉滨区东北部，距安康城区20公里。高山院子坐落于山顶，与茨沟接壤，200年前高家建于此，后来转让给当时的大地主家，最早以农耕为主在此建房，房屋为木框架结构。</p>",
+      "content_text": "高山村传统建筑以土木结构为主，具有陕南民居特点。高山院子位于高山村五组，距镇政府10公里，共进镇位于汉滨区东北部，距安康城区20公里。高山院子坐落于山顶，与茨沟接壤，200年前高家建于此，后来转让给当时的大地主家，最早以农耕为主在此建房，房屋为木框架结构。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ002-P006.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ002-P010.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ002-P011.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "clgj",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/clgj.json"
+    },
+    {
+      "type": "history",
+      "title": "建村历史",
+      "content_html": "<p>    高山村大约始建于唐代中期，兴盛于清代，现存有古宅孙家大院和肖家大院。清朝末期以后由于国家内忧外患，战乱纷纷，社会秩序混乱，出现土匪抢民成风，百姓生命及财产安全受挫，故各大财主出资，百姓参与建寨防范安保，留下了三大寨：肖家寨、罗家寨、薛家寨。</p>",
+      "content_text": "高山村大约始建于唐代中期，兴盛于清代，现存有古宅孙家大院和肖家大院。清朝末期以后由于国家内忧外患，战乱纷纷，社会秩序混乱，出现土匪抢民成风，百姓生命及财产安全受挫，故各大财主出资，百姓参与建寨防范安保，留下了三大寨：肖家寨、罗家寨、薛家寨。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK001-P006.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK001-P007.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK001-P008.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "clls",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/clls.json"
+    },
+    {
+      "type": "architecture",
+      "title": "村落选址",
+      "content_html": "<p>    清朝末期，由于内忧外患，战乱不断，社会秩序混乱，土匪抢劫成风，百姓生命及财产安全受到严重威胁，高山村各大财主出资，百姓参与建寨，防范保安，留下了肖家寨、罗家寨、薛家寨三大古寨，这些寨子居于山巅要塞，地势险要，风景优美，成为当地一大景观。</p>",
+      "content_text": "清朝末期，由于内忧外患，战乱不断，社会秩序混乱，土匪抢劫成风，百姓生命及财产安全受到严重威胁，高山村各大财主出资，百姓参与建寨，防范保安，留下了肖家寨、罗家寨、薛家寨三大古寨，这些寨子居于山巅要塞，地势险要，风景优美，成为当地一大景观。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ001-P032.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ001-P033.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ001-P034.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "clxz",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/clxz.json"
+    },
+    {
+      "type": "travel",
+      "title": "村内导览",
+      "content_html": "<p>    高山院子位于高山村五组，距镇政府10公里，共进镇位于汉滨区东北部，距安康城区20公里。高山院子坐落于山顶，与茨沟接壤，孙家院子位于高山村二组，距镇政府2公里，交通便利。</p>",
+      "content_text": "高山院子位于高山村五组，距镇政府10公里，共进镇位于汉滨区东北部，距安康城区20公里。高山院子坐落于山顶，与茨沟接壤，孙家院子位于高山村二组，距镇政府2公里，交通便利。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT000-P002.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT000-P003.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT000-P004.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "cndl",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/cndl.json"
+    },
+    {
+      "type": "customs",
+      "title": "地方方言",
+      "content_html": "<p>    安康的地理位置和文化背景，使当地方言具有明显的特点：<br/>    1、地处西北、西南方言的结合部，有奇特的方言岛现象。安康地区的十个县中，仅安康和旬阳县可归入西北方言区，其它几县均属“西南方言”。安康保留着西北方言的典型特征，并且有与关中方言相同的四个调类的调值以及两阴平字连续变调规律。在远离西安百多公里的地方，在一片西南方言的海洋中，露出一块西北方言的礁石岛。中国方言学会会员、西南师范大学中文系副教授瞿时雨先生认为，这种现象是安康长期处于地区政治、经济、文化的中心地位，而在政治上从先秦时起就从属于长安的结果。由于安康地处秦头楚尾，离鄂、蜀很近，加之明、清时代“湖广填川”，安康也有不少南方移民，在语音上留下了痕迹。如西南方言特有的“倒字”用法，西南方言语音的典型特征一一古泥、来母混读（牛、刘不分），古母的蟹摄开口二等字“街鞋”等韵母e读ai，以及陈、程不分等，亦成为以安康城区为代表的安康话的典型特征。<br/>    2、复杂的语言共时现象，体现在安康话差异不大，但内部不同地点、不同人群使用的语言，均有细微的差异。例如离县城咫尺的张滩、关庙两个区，在陈、程（en、eng）牛、刘（n、l）的发音上，就能分清，不同于安康城区不会发鼻声母n。五里恒口两区，由于用e替代卷舌声母r，将“二”读为“厄”（e）而区别其它区。</p>",
+      "content_text": "安康的地理位置和文化背景，使当地方言具有明显的特点： 1、地处西北、西南方言的结合部，有奇特的方言岛现象。安康地区的十个县中，仅安康和旬阳县可归入西北方言区，其它几县均属“西南方言”。安康保留着西北方言的典型特征，并且有与关中方言相同的四个调类的调值以及两阴平字连续变调规律。在远离西安百多公里的地方，在一片西南方言的海洋中，露出一块西北方言的礁石岛。中国方言学会会员、西南师范大学中文系副教授瞿时雨先生认为，这种现象是安康长期处于地区政治、经济、文化的中心地位，而在政治上从先秦时起就从属于长安的结果。由于安康地处秦头楚尾，离鄂、蜀很近，加之明、清时代“湖广填川”，安康也有不少南方移民，在语音上留下了痕迹。如西南方言特有的“倒字”用法，西南方言语音的典型特征一一古泥、来母混读（牛、刘不分），古母的蟹摄开口二等字“街鞋”等韵母e读ai，以及陈、程不分等，亦成为以安康城区为代表的安康话的典型特征。 2、复杂的语言共时现象，体现在安康话差异不大，但内部不同地点、不同人群使用的语言，均有细微的差异。例如离县城咫尺的张滩、关庙两个区，在陈、程（en、eng）牛、刘（n、l）的发音上，就能分清，不同于安康城区不会发鼻声母n。五里恒口两区，由于用e替代卷舌声母r，将“二”读为“厄”（e）而区别其它区。",
+      "images": [],
+      "source_file": "dffy",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/dffy.json"
+    },
+    {
+      "type": "scenic",
+      "title": "风景名胜",
+      "content_html": "   神滩河景区：神滩河发源于早阳镇（原共进镇）高山村，全长约20多公里，流域面积123平方公里，是汉江的一级支流。夏家岭现属安康市关庙区共进乡，神滩河由此发源，初称大沟，由北向南流至瓦房梁，汇大、小黑沟及油篓沟之后，方称神滩河，沿线风光优美，景点众多。有罗家寨、肖家寨、薛家寨“三大寨”遗迹，龙头山、娘娘庙、卖肉石、神仙洞等景点和龙潭借碗的故事传说。",
+      "content_text": "神滩河景区：神滩河发源于早阳镇（原共进镇）高山村，全长约20多公里，流域面积123平方公里，是汉江的一级支流。夏家岭现属安康市关庙区共进乡，神滩河由此发源，初称大沟，由北向南流至瓦房梁，汇大、小黑沟及油篓沟之后，方称神滩河，沿线风光优美，景点众多。有罗家寨、肖家寨、薛家寨“三大寨”遗迹，龙头山、娘娘庙、卖肉石、神仙洞等景点和龙潭借碗的故事传说。",
+      "images": [],
+      "source_file": "fjms",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/fjms.json"
+    },
+    {
+      "type": "intangible_heritage",
+      "title": "花鼓戏",
+      "content_html": "    安康花鼓戏起源于唐朝，至今已有千年历史。传说唐玄宗曾经下诏，要求每户人家在正月十五日表演舞蹈，以庆祝元宵佳节。于是，安康地区的民众便开始创造各种舞蹈形式，其中就包括了花鼓戏。它不仅仅是一种娱乐形式，更是一种文化传承。在这种表演形式中，蕴含着丰富的文化内涵，反映着安康地区的历史、文化和生活方式。<br/>    它表现出了安康地区人民的勤劳、朴素和豁达。表演者们在舞蹈中展现出了劳动的姿态，唱出了人民的心声，表达了对生活的热爱和追求，还反映了安康地区丰富多彩的民族文化。在表演中，可以看到各种各样的传统民族服装和道具，展现出了安康地区多民族、多文化的特点。",
+      "content_text": "安康花鼓戏起源于唐朝，至今已有千年历史。传说唐玄宗曾经下诏，要求每户人家在正月十五日表演舞蹈，以庆祝元宵佳节。于是，安康地区的民众便开始创造各种舞蹈形式，其中就包括了花鼓戏。它不仅仅是一种娱乐形式，更是一种文化传承。在这种表演形式中，蕴含着丰富的文化内涵，反映着安康地区的历史、文化和生活方式。 它表现出了安康地区人民的勤劳、朴素和豁达。表演者们在舞蹈中展现出了劳动的姿态，唱出了人民的心声，表达了对生活的热爱和追求，还反映了安康地区丰富多彩的民族文化。在表演中，可以看到各种各样的传统民族服装和道具，展现出了安康地区多民族、多文化的特点。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.MS001-P003.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "fwzwhyc",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/fwzwhyc.json"
+    },
+    {
+      "type": "customs",
+      "title": "婚丧嫁娶",
+      "content_html": "<p>    建国后，1952年新《婚姻法》颁布，实行婚姻自由，结婚仪式简化。领取结婚证后，择日请客，入洞房即成夫妻。婚礼一般安排在节假日进行。农村多择双日、吉日，兴“看家”，姑娘由多人陪同到男家做客，男家设宴给“起发”，陪人也有一份，花费甚多。婚礼讲排场，招摇过市。<br/>    随着时代的发展、社会的进步，旧时的很多婚嫁习俗已不复存在。媒妁之言，逐渐暗谈，自由恋爱、结婚，婚礼多样，如：旅游结婚、集体婚礼等。在农村，旧时的婚嫁方式，很多习俗仍在延续，如“看家”“订亲”“迎娶”等。</p>",
+      "content_text": "建国后，1952年新《婚姻法》颁布，实行婚姻自由，结婚仪式简化。领取结婚证后，择日请客，入洞房即成夫妻。婚礼一般安排在节假日进行。农村多择双日、吉日，兴“看家”，姑娘由多人陪同到男家做客，男家设宴给“起发”，陪人也有一份，花费甚多。婚礼讲排场，招摇过市。 随着时代的发展、社会的进步，旧时的很多婚嫁习俗已不复存在。媒妁之言，逐渐暗谈，自由恋爱、结婚，婚礼多样，如：旅游结婚、集体婚礼等。在农村，旧时的婚嫁方式，很多习俗仍在延续，如“看家”“订亲”“迎娶”等。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.MS004-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "hsjq",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/hsjq.json"
+    },
+    {
+      "type": "customs",
+      "title": "节庆活动",
+      "content_html": "<p>    安康的皮影戏起源于明代，经过多年的发展和演变，成为当地的一项非常重要的民间艺术。皮影戏是一种通过在透明皮影上刻削形象，利用灯光照射，形成动态影像的表演形式，演员们使用各种手法和技巧，将故事情节和人物形象通过影子投射到白色布幕上，以此来讲述故事。<br/>    它主要有两个流派：南皮和扇架。南皮流派的皮影戏表演形式较为传统，以唐宋风格为主，更加注重人物形象的细节描绘和舞台布景；扇架流派则较为新颖和独特，演员们使用具有创意的扇子构造来表达各种动作和场景。它作为一门综合性的艺术形式，既有精彩的表演，又包含了音乐、舞蹈和戏剧等元素，演出中常常会配以传统乐器如二胡、笛子、锣鼓等来伴奏，增添戏剧的气氛和效果。<br/>    皮影戏剧目丰富多样，内容涵盖了历史传说、神话故事、神仙戏、爱情故事等各个方面。通过对人物形象和道具的巧妙运用，皮影戏能够生动地讲述故事，展现角色之间的心理活动和情感交流。如今，安康的皮影戏不仅在当地保持着传统演出形式，还积极进行创新和推广，它不仅在本地社区和村庄中常见，也在各种文化活动和节庆中频繁亮相，为观众带来欢乐和艺术享受。<br/>    皮影戏是该地区独有的文化瑰宝，它不仅传承了悠久的历史，而且体现了该地区人民的智慧和创造力。通过皮影戏的演出，人们可以更好地了解和体验安康的民间文化。</p>",
+      "content_text": "安康的皮影戏起源于明代，经过多年的发展和演变，成为当地的一项非常重要的民间艺术。皮影戏是一种通过在透明皮影上刻削形象，利用灯光照射，形成动态影像的表演形式，演员们使用各种手法和技巧，将故事情节和人物形象通过影子投射到白色布幕上，以此来讲述故事。 它主要有两个流派：南皮和扇架。南皮流派的皮影戏表演形式较为传统，以唐宋风格为主，更加注重人物形象的细节描绘和舞台布景；扇架流派则较为新颖和独特，演员们使用具有创意的扇子构造来表达各种动作和场景。它作为一门综合性的艺术形式，既有精彩的表演，又包含了音乐、舞蹈和戏剧等元素，演出中常常会配以传统乐器如二胡、笛子、锣鼓等来伴奏，增添戏剧的气氛和效果。 皮影戏剧目丰富多样，内容涵盖了历史传说、神话故事、神仙戏、爱情故事等各个方面。通过对人物形象和道具的巧妙运用，皮影戏能够生动地讲述故事，展现角色之间的心理活动和情感交流。如今，安康的皮影戏不仅在当地保持着传统演出形式，还积极进行创新和推广，它不仅在本地社区和村庄中常见，也在各种文化活动和节庆中频繁亮相，为观众带来欢乐和艺术享受。 皮影戏是该地区独有的文化瑰宝，它不仅传承了悠久的历史，而且体现了该地区人民的智慧和创造力。通过皮影戏的演出，人们可以更好地了解和体验安康的民间文化。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.MS002-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "jqhd",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/jqhd.json"
+    },
+    {
+      "type": "oral_history",
+      "title": "口述史",
+      "content_html": "<p>    1.口述史专访1：村民介绍传统建筑高家院子、村内经济发展及风俗习惯。<br/>    2.口述史专访2：村民丁志远介绍村内情况、主要产业、婚丧嫁娶、祭祀崇礼、节庆活动、生活生产工具。<br/>    3.口述史专访2：党支部书记介绍村内基本情况、传统建筑、特色物产及特色美食。<br/></p>",
+      "content_text": "1.口述史专访1：村民介绍传统建筑高家院子、村内经济发展及风俗习惯。 2.口述史专访2：村民丁志远介绍村内情况、主要产业、婚丧嫁娶、祭祀崇礼、节庆活动、生活生产工具。 3.口述史专访2：党支部书记介绍村内基本情况、传统建筑、特色物产及特色美食。",
+      "images": [],
+      "source_file": "kss",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/kss.json"
+    },
+    {
+      "type": "history",
+      "title": "历史事件",
+      "content_html": "<p>    旧社会，罗家寨北边有个山洞，曾长期居住“土匪”，专抢路人财物，当地人们称为“黑人店”，这样一来对罗家构成威胁，罗家就在山顶平地垒石建房，移居此寨，以保家人、财物及牲口安全，四面留门，自制土枪，存石防匪，因而得名“罗家寨”。<br/>    罗家寨北上对面有个“鸡上架”，长年野鸡成群，野鸡蛋成为罗家美味佳肴，每天黄昏时分，野鸡都会从四面八方寻食归来，发出声响，栖息于古藤之上，这时罗姓人家就关门闭户，但要将桐油灯点亮，谨防土匪来袭。日久天长，一日三餐，存粮不多，牲口减少，如何度日？于是罗姓人家白天偷偷从南门洞，翻岩石而下，发现有数十亩平地，树木稀少，便开始开辟荒地为良田，又种玉米、小麦、大豆等农作物，由于阳光西晒，产粮可观，丰收在望，日子越来越红火。<br/>    后来“黑人店”的土匪为抢走罗家财物大动干戈，决一死战，两败俱伤。土匪从此收手，罗家主力倒下，新中国成立以后罗家只剩下老小二人，重返罗家沟继续生活，后来生老病死，自生自灭。</p>",
+      "content_text": "旧社会，罗家寨北边有个山洞，曾长期居住“土匪”，专抢路人财物，当地人们称为“黑人店”，这样一来对罗家构成威胁，罗家就在山顶平地垒石建房，移居此寨，以保家人、财物及牲口安全，四面留门，自制土枪，存石防匪，因而得名“罗家寨”。 罗家寨北上对面有个“鸡上架”，长年野鸡成群，野鸡蛋成为罗家美味佳肴，每天黄昏时分，野鸡都会从四面八方寻食归来，发出声响，栖息于古藤之上，这时罗姓人家就关门闭户，但要将桐油灯点亮，谨防土匪来袭。日久天长，一日三餐，存粮不多，牲口减少，如何度日？于是罗姓人家白天偷偷从南门洞，翻岩石而下，发现有数十亩平地，树木稀少，便开始开辟荒地为良田，又种玉米、小麦、大豆等农作物，由于阳光西晒，产粮可观，丰收在望，日子越来越红火。 后来“黑人店”的土匪为抢走罗家财物大动干戈，决一死战，两败俱伤。土匪从此收手，罗家主力倒下，新中国成立以后罗家只剩下老小二人，重返罗家沟继续生活，后来生老病死，自生自灭。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK003-P001.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK003-P002.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK003-P003.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "lssj",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/lssj.json"
+    },
+    {
+      "type": "food",
+      "title": "美味美食",
+      "content_html": "<p>    安康浆粑馍：首先使用“T”字形的磨拐子，“T”字一端就是推磨人使力的地方，用力往前一推，随着惯性一圈又一圈儿，从磨眼灌下去的苞谷籽儿就变成稠稠的糊状从磨缝里源源不断地溢了出来，浆粑就这样生成了。浆粑磨好后，装在坛子里搁置一段时间，就会慢慢发酵，变得有点酸甜，再到坡上摘些桐子树叶回来，包成三角形，在锅里烙熟了，再炕一炕，便可出锅。这时将桐子树叶剥开，馍的表面已起了一层薄薄的、黄亮亮的壳儿，树叶的径脉清晰可见，闻一闻，芬芳四溢。</p>",
+      "content_text": "安康浆粑馍：首先使用“T”字形的磨拐子，“T”字一端就是推磨人使力的地方，用力往前一推，随着惯性一圈又一圈儿，从磨眼灌下去的苞谷籽儿就变成稠稠的糊状从磨缝里源源不断地溢了出来，浆粑就这样生成了。浆粑磨好后，装在坛子里搁置一段时间，就会慢慢发酵，变得有点酸甜，再到坡上摘些桐子树叶回来，包成三角形，在锅里烙熟了，再炕一炕，便可出锅。这时将桐子树叶剥开，馍的表面已起了一层薄薄的、黄亮亮的壳儿，树叶的径脉清晰可见，闻一闻，芬芳四溢。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS006-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "mwms",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/mwms.json"
+    },
+    {
+      "type": "travel",
+      "title": "入村路线",
+      "content_html": "<p>    省外游客可乘坐高铁动车到达安康站，通过高速公路到达高山村。<br/>    自驾路线：<br/>    1、从安康市人民政府自驾出发至高山村。育才中路－香溪路－巴山中路－巴山东路－东坝汉江大桥-安旬公路-316国道-211国道一早包路-龙共路，即到达高山村。全程34公里，共8个红绿灯路口，预计行驶时间63分钟。<br/>    2、从安康市人民政府自驾出发至高山村。育才中路-大桥路－香溪大道－南环干道-环城南路-207省道-环城北路-黄洋河大桥-207省道-关庙汉江大桥-207省道-316国道-211国道一早包路-龙共路，即到达高山村。全程35公里，共10个红绿灯路口，预计行驶时间64分钟。</p>",
+      "content_text": "省外游客可乘坐高铁动车到达安康站，通过高速公路到达高山村。 自驾路线： 1、从安康市人民政府自驾出发至高山村。育才中路－香溪路－巴山中路－巴山东路－东坝汉江大桥-安旬公路-316国道-211国道一早包路-龙共路，即到达高山村。全程34公里，共8个红绿灯路口，预计行驶时间63分钟。 2、从安康市人民政府自驾出发至高山村。育才中路-大桥路－香溪大道－南环干道-环城南路-207省道-环城北路-黄洋河大桥-207省道-关庙汉江大桥-207省道-316国道-211国道一早包路-龙共路，即到达高山村。全程35公里，共10个红绿灯路口，预计行驶时间64分钟。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ001-P028.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT001-P001.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT001-P002.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT001-P003.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "rclx",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/rclx.json"
+    },
+    {
+      "type": "production",
+      "title": "生产工艺",
+      "content_html": "<p>    石碾是汉滨广大农村家家户户都有的一种工具。石碾是我国历史悠久的传统农业生产工具，其工作原理是通过碾轧谷物，使谷物从壳中分离。<br/>    石碾由碾台（碾盘）、碾砣（碾磙子）、碾框、碾管前、碾棍（碾棍孔）等组成。石碾由一圆形平面的碾盘和一圆柱滚形的碾磙构成，碾盘中间有一个洞，里面插着一根木柱，作为整个石碾的中心轴。碾磙用木框框着，一头固定在中心轴上，碾磙前面的木框上插一根长长的木棍，用来推碾。<br/>    推碾的时候至少需要两人，一个人或多人专门推碾（也可用牲畜），一个人需要在碾磙后面，一手推着碾棍，另一手拿着笤帚，扫那些扎蹦到碾盘边上的粮食，一圈又一圈地推，碾磙一圈一圈地扎，碎了的粮食又一遍一遍地被过箩，直到不剩下渣子为止。<br/>    石碾从石器时代一直使用到近代，直到被动力机械替代。目前，汉滨石碾制作技艺已被列入安康市第二批非物质文化遗产名录。</p>",
+      "content_text": "石碾是汉滨广大农村家家户户都有的一种工具。石碾是我国历史悠久的传统农业生产工具，其工作原理是通过碾轧谷物，使谷物从壳中分离。 石碾由碾台（碾盘）、碾砣（碾磙子）、碾框、碾管前、碾棍（碾棍孔）等组成。石碾由一圆形平面的碾盘和一圆柱滚形的碾磙构成，碾盘中间有一个洞，里面插着一根木柱，作为整个石碾的中心轴。碾磙用木框框着，一头固定在中心轴上，碾磙前面的木框上插一根长长的木棍，用来推碾。 推碾的时候至少需要两人，一个人或多人专门推碾（也可用牲畜），一个人需要在碾磙后面，一手推着碾棍，另一手拿着笤帚，扫那些扎蹦到碾盘边上的粮食，一圈又一圈地推，碾磙一圈一圈地扎，碎了的粮食又一遍一遍地被过箩，直到不剩下渣子为止。 石碾从石器时代一直使用到近代，直到被动力机械替代。目前，汉滨石碾制作技艺已被列入安康市第二批非物质文化遗产名录。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS003-P004.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS003-P005.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS003-P006.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS003-P007.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "scgy",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/scgy.json"
+    },
+    {
+      "type": "production",
+      "title": "商业集市",
+      "content_html": "<p>    先前以外来商人为主，流动集市，现于县城或乡镇采购。</p>",
+      "content_text": "先前以外来商人为主，流动集市，现于县城或乡镇采购。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS002-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "syjs",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/syjs.json"
+    },
+    {
+      "type": "production",
+      "title": "特色物产",
+      "content_html": "<p>    瀛湖枇杷，陕西省安康市汉滨区特产，全国农产品地理标志。汉滨区瀛湖库区气候明显，生态环境优越，栽培枇杷已有30多年。<br/>    瀛湖枇杷具有皮薄肉厚、细腻多汁、酸甜爽口、清香怡人等特点。栽植面积8000亩，年产鲜果4000吨，综合年产值8000万元，产品远销北京、广东、新疆等地。<br/>    2019年9月，原中华人民共和国农业部正式批准对“瀛湖批把”实施农产品地理标志登记保护。</p>",
+      "content_text": "瀛湖枇杷，陕西省安康市汉滨区特产，全国农产品地理标志。汉滨区瀛湖库区气候明显，生态环境优越，栽培枇杷已有30多年。 瀛湖枇杷具有皮薄肉厚、细腻多汁、酸甜爽口、清香怡人等特点。栽植面积8000亩，年产鲜果4000吨，综合年产值8000万元，产品远销北京、广东、新疆等地。 2019年9月，原中华人民共和国农业部正式批准对“瀛湖批把”实施农产品地理标志登记保护。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS001-P002.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "tswc",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/tswc.json"
+    },
+    {
+      "type": "cultural_relic",
+      "title": "文物古迹",
+      "content_html": "    高山村遗址：位于汉滨区高山村内，是距今约5000年前的新石器时代晚期的文化遗址。这个遗址是中国史前文化的重要发现之一，出土了大量的陶器、石器和骨器等文物，对了解当时人类的生活和社会发展具有重要意义。<br/>    安康古长城：位于高山村以东，是中国古代边防工程的重要遗址之一。古长城的建造始于东汉时期，经过历代修葺至今。这里保存有古代城墙、箭楼、烽火台等建筑遗迹，展示了古代边防防卫体系的雄伟和精湛工艺。<br/>    报国寺塔：位于高山村以南，是一座具有悠久历史的佛教建筑遗迹。报国寺塔建于北魏时期，是安康地区保存较完整的古塔之一。这座塔高约30多米，建筑风格独特，富有观赏价值。<br/>    太平桥：位于高山村以西，是一座跨越丹江的古代石拱桥。这座桥建于明代，是当地重要的交通枢纽，也是古代军事要道之一。太平桥保存完好，具有历史和艺术价值。",
+      "content_text": "高山村遗址：位于汉滨区高山村内，是距今约5000年前的新石器时代晚期的文化遗址。这个遗址是中国史前文化的重要发现之一，出土了大量的陶器、石器和骨器等文物，对了解当时人类的生活和社会发展具有重要意义。 安康古长城：位于高山村以东，是中国古代边防工程的重要遗址之一。古长城的建造始于东汉时期，经过历代修葺至今。这里保存有古代城墙、箭楼、烽火台等建筑遗迹，展示了古代边防防卫体系的雄伟和精湛工艺。 报国寺塔：位于高山村以南，是一座具有悠久历史的佛教建筑遗迹。报国寺塔建于北魏时期，是安康地区保存较完整的古塔之一。这座塔高约30多米，建筑风格独特，富有观赏价值。 太平桥：位于高山村以西，是一座跨越丹江的古代石拱桥。这座桥建于明代，是当地重要的交通枢纽，也是古代军事要道之一。太平桥保存完好，具有历史和艺术价值。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.DL003-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "wwgj",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/wwgj.json"
+    },
+    {
+      "type": "production",
+      "title": "运输工具",
+      "content_html": "<p>    先前以牲畜为动力，随着科技发展，现以机械工具为主。</p>",
+      "content_text": "先前以牲畜为动力，随着科技发展，现以机械工具为主。",
+      "images": [],
+      "source_file": "ysgj",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/ysgj.json"
+    },
+    {
+      "type": "environment",
+      "title": "自然环境",
+      "content_html": "    共进镇高山村依山而建，环境优美，山中草木茂盛，山路蜿蜒曲折，是天然的氧吧，非常适合居住，一圈一圈的梯田方便农耕。",
+      "content_text": "共进镇高山村依山而建，环境优美，山中草木茂盛，山路蜿蜒曲折，是天然的氧吧，非常适合居住，一圈一圈的梯田方便农耕。",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.DL001-P009.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.DL001-P010.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.DL001-P011.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_file": "zrhj",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/zrhj.json"
+    }
+  ],
+  "figures": [
+    {
+      "name": "张金安",
+      "content_html": "    明末清初人士，在旧社会的神滩河大名鼎鼎，恶名在外，称霸一方，也富甲一方，手下养有所谓的部队、杀手，长工短工几十人。",
+      "content_text": "明末清初人士，在旧社会的神滩河大名鼎鼎，恶名在外，称霸一方，也富甲一方，手下养有所谓的部队、杀手，长工短工几十人。",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/lsrw.json"
+    },
+    {
+      "name": "张银汉",
+      "content_html": "    张金安之子，在财大气粗、有头有脸土财主张金安的培养下，请先生（私人老师）专门培养，后来成为一方父母官，一手遮天，更为红火，后来为官不廉，被贬官，回家开始更血性剥削百姓，再到土改时定为当地首个大地主被打倒，分田地、分房屋。",
+      "content_text": "张金安之子，在财大气粗、有头有脸土财主张金安的培养下，请先生（私人老师）专门培养，后来成为一方父母官，一手遮天，更为红火，后来为官不廉，被贬官，回家开始更血性剥削百姓，再到土改时定为当地首个大地主被打倒，分田地、分房屋。",
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/lsrw.json"
+    }
+  ],
+  "historic_elements": [
+    {
+      "name": "曲辕犁",
+      "code": "HJ001",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.HJ002-P001.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/lshjys.json"
+    },
+    {
+      "name": "石阶铺地",
+      "code": "HJ002",
+      "images": [
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.HJ002-P005.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.HJ002-P004.jpg?repair=20260915",
+          "title": ""
+        },
+        {
+          "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.HJ002-P003.jpg?repair=20260915",
+          "title": ""
+        }
+      ],
+      "source_url": "https://www.dmctv.cn/main/villages/61090213301/data/lshjys.json"
+    }
+  ],
+  "building_refs": [
+    {
+      "id": "48599",
+      "uid": "6109021330101"
+    },
+    {
+      "id": "48600",
+      "uid": "6109021330101"
+    },
+    {
+      "id": "48601",
+      "uid": "6109021330101"
+    },
+    {
+      "id": "65720",
+      "uid": "6109021330101"
+    },
+    {
+      "id": "65722",
+      "uid": "6109021330101"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.dmctv.cn/media/wj//clpic/61090213301.png",
+      "title": "高山村",
+      "source_file": "catalog"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.CZ004-P003.jpg?repair=20260915",
+      "title": "",
+      "source_file": "cgmy"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ003-P007.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clfm"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ003-P009.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clfm"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ003-P011.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clfm"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ002-P006.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clgj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ002-P010.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clgj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ002-P011.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clgj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/b_61090213301.GK005-P010.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clgkbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK001-P006.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clls"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK001-P007.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clls"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK001-P008.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clls"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/b_61090213301.GK001-P005.jpg?repair=20260915",
+      "title": "",
+      "source_file": "cllsbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ001-P032.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clxz"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ001-P033.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clxz"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ001-P034.jpg?repair=20260915",
+      "title": "",
+      "source_file": "clxz"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT000-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "cndl"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT000-P003.jpg?repair=20260915",
+      "title": "",
+      "source_file": "cndl"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT000-P004.jpg?repair=20260915",
+      "title": "",
+      "source_file": "cndl"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.MS004-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "hsjq"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.MS002-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "jqhd"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.HJ002-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.HJ002-P005.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.HJ002-P004.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.HJ002-P003.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lshjys"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK003-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lssj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK003-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lssj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GK003-P003.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lssj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/b_61090213301.GK005-P023.jpg?repair=20260915",
+      "title": "",
+      "source_file": "lydlbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/b_61090213301.GK005-P007.jpg?repair=20260915",
+      "title": "",
+      "source_file": "mswhbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS006-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "mwms"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.GJ001-P028.jpg?repair=20260915",
+      "title": "",
+      "source_file": "rclx"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT001-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "rclx"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT001-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "rclx"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.JT001-P003.jpg?repair=20260915",
+      "title": "",
+      "source_file": "rclx"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS003-P004.jpg?repair=20260915",
+      "title": "",
+      "source_file": "scgy"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS003-P005.jpg?repair=20260915",
+      "title": "",
+      "source_file": "scgy"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS003-P006.jpg?repair=20260915",
+      "title": "",
+      "source_file": "scgy"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS003-P007.jpg?repair=20260915",
+      "title": "",
+      "source_file": "scgy"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/b_61090213301.GK005-P016.jpg?repair=20260915",
+      "title": "",
+      "source_file": "scshbanner"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS002-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "syjs"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.SS001-P002.jpg?repair=20260915",
+      "title": "",
+      "source_file": "tswc"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.DL003-P001.jpg?repair=20260915",
+      "title": "",
+      "source_file": "wwgj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.DL001-P009.jpg?repair=20260915",
+      "title": "",
+      "source_file": "zrhj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.DL001-P010.jpg?repair=20260915",
+      "title": "",
+      "source_file": "zrhj"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/x_61090213301.DL001-P011.jpg?repair=20260915",
+      "title": "",
+      "source_file": "zrhj"
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/61090213301.gj001-v001.mp4",
+      "title": "高山村宣传片",
+      "source_file": "clgksp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/61090213301.dl001-v001.mp4",
+      "title": "高山村航拍视频",
+      "source_file": "cljzsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/61090213301.gk005-v001.mp4",
+      "title": "村落风景",
+      "source_file": "cljzsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/61090213301.gk005-v002.mp4",
+      "title": "村落概述",
+      "source_file": "cljzsp",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/61090213301.cz003-v001.mp4",
+      "title": "口述史专访1",
+      "source_file": "kss",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/61090213301.cz003-v002.mp4",
+      "title": "口述史专访2",
+      "source_file": "kss",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/files/files/61090213301/61090213301.cz003-v003.mp4",
+      "title": "口述史专访3",
+      "source_file": "kss",
+      "kind": "video"
+    },
+    {
+      "url": "https://www.dmctv.cn/media/360/61090213301/360VR/index.html",
+      "title": "",
+      "source_file": "qjzs",
+      "kind": "panorama"
+    }
+  ],
+  "source_url": "https://www.dmctv.cn/main/villages/61090213301/Index.html",
+  "source_site": "https://www.dmctv.cn",
+  "source_files": [
+    "cgmy",
+    "clfm",
+    "clgj",
+    "clgkbanner",
+    "clgksp",
+    "clgs",
+    "cljzsp",
+    "clls",
+    "cllsbanner",
+    "cllscz",
+    "clxz",
+    "cndl",
+    "dffy",
+    "fjms",
+    "fwzwhyc",
+    "fzfs",
+    "hsjq",
+    "jczh",
+    "jqhd",
+    "jscl",
+    "jtjz",
+    "kss",
+    "lshjys",
+    "lsrw",
+    "lssj",
+    "lydlbanner",
+    "lydlsp",
+    "mswhbanner",
+    "mwms",
+    "qjzs",
+    "rclx",
+    "scgy",
+    "scshbanner",
+    "syjs",
+    "tswc",
+    "tswh",
+    "wwgj",
+    "ysgj",
+    "zrhj"
+  ],
+  "available_section_types": [
+    "architecture",
+    "cultural_relic",
+    "customs",
+    "environment",
+    "food",
+    "history",
+    "intangible_heritage",
+    "oral_history",
+    "production",
+    "scenic",
+    "travel"
+  ]
+}

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 270" fill="none">
+  <defs>
+    <g id="plum-flower">
+      <ellipse cx="0" cy="-12" rx="6.5" ry="10"/>
+      <ellipse cx="0" cy="-12" rx="6.5" ry="10" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-12" rx="6.5" ry="10" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-12" rx="6.5" ry="10" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-12" rx="6.5" ry="10" transform="rotate(288)"/>
+      <circle r="2.2"/>
+    </g>
+  </defs>
+  <g stroke="#18211d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 245C64 241 99 222 126 192C159 156 178 112 220 87C257 65 300 55 344 55"/>
+    <path d="M125 193C96 172 70 145 50 112"/>
+    <path d="M169 146C163 112 168 79 184 50"/>
+    <path d="M222 87C225 58 240 35 263 18"/>
+    <path d="M277 66C300 87 325 100 353 106"/>
+    <path d="M344 55C367 35 389 26 414 26"/>
+    <path d="M95 205C101 188 114 176 131 170"/>
+    <path d="M205 110C212 132 226 148 245 158"/>
+    <path d="M305 60C293 77 289 95 292 115"/>
+    <path d="M71 129C92 124 108 111 118 93"/>
+    <path d="M176 83C192 74 207 72 222 78"/>
+  </g>
+  <g stroke="#18211d" stroke-width="1.7">
+    <use href="#plum-flower" transform="translate(45 108) scale(.9)"/>
+    <use href="#plum-flower" transform="translate(121 170) scale(1.05)"/>
+    <use href="#plum-flower" transform="translate(166 76) scale(.9)"/>
+    <use href="#plum-flower" transform="translate(224 88) scale(.82)"/>
+    <use href="#plum-flower" transform="translate(262 18) scale(.86)"/>
+    <use href="#plum-flower" transform="translate(352 106) scale(1.02)"/>
+    <use href="#plum-flower" transform="translate(414 26) scale(.82)"/>
+    <use href="#plum-flower" transform="translate(295 118) scale(.78)"/>
+    <use href="#plum-flower" transform="translate(242 155) scale(.72)"/>
+    <use href="#plum-flower" transform="translate(119 94) scale(.68)"/>
+  </g>
+  <g fill="#18211d">
+    <circle cx="82" cy="142" r="2.2"/><circle cx="99" cy="153" r="1.7"/>
+    <circle cx="205" cy="67" r="1.8"/><circle cx="312" cy="78" r="2"/>
+    <circle cx="376" cy="45" r="1.8"/><circle cx="149" cy="128" r="1.7"/>
+  </g>
+</svg>

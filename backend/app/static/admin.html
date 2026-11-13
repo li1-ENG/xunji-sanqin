@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>陕西传统村落 · 后台管理</title>
+<style>
+:root{--ink:#24302c;--muted:#68746d;--paper:#f6f2e8;--card:#fffdf7;--line:#d9d1c1;--accent:#8b5e34;--green:#496b52;--red:#9b3d3d}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.6 system-ui,"Microsoft YaHei",sans-serif}
+button,input,select,textarea{font:inherit}button{cursor:pointer}.hidden{display:none!important}
+.login{min-height:100vh;display:grid;place-items:center;background:linear-gradient(135deg,#e8e0cf,#d7e0d3)}
+.login-card{width:min(420px,92vw);background:var(--card);border:1px solid var(--line);border-radius:16px;padding:32px;box-shadow:0 18px 50px #31413620}
+h1,h2,h3{margin:0 0 12px;font-weight:600}.muted{color:var(--muted)}.small{font-size:12px}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}.field label{font-size:12px;color:var(--muted)}
+input,select,textarea{width:100%;border:1px solid var(--line);border-radius:8px;padding:9px 11px;background:#fff;color:var(--ink)}
+textarea{min-height:90px;resize:vertical}.btn{border:1px solid var(--line);background:#fff;padding:8px 14px;border-radius:8px;color:var(--ink)}
+.btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}.btn.accent{background:var(--accent);color:#fff;border-color:var(--accent)}.btn.danger{color:var(--red);border-color:#d8b7b7}.btn.small{padding:4px 9px;font-size:12px}
+.shell{display:grid;grid-template-columns:220px 1fr;min-height:100vh}.sidebar{background:#26332d;color:#e8eee9;padding:24px 16px;position:sticky;top:0;height:100vh}
+.brand{font-size:18px;line-height:1.4;margin-bottom:28px}.brand span{display:block;font-size:12px;color:#aebbb3;margin-top:6px}
+.nav-item{display:block;width:100%;text-align:left;border:0;background:transparent;color:#c9d4ce;padding:10px 12px;border-radius:8px;margin:3px 0}.nav-item.active,.nav-item:hover{background:#3a4a42;color:#fff}
+.main{padding:26px 32px 60px;max-width:1500px}.topbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:22px}.toolbar{display:flex;gap:8px;flex-wrap:wrap}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}.stat b{font-size:26px;display:block}.stat span{color:var(--muted);font-size:12px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:18px}.list-toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.list-toolbar input{max-width:260px}.list-toolbar select{max-width:180px}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px 8px;border-bottom:1px solid #e7e0d4;vertical-align:top}th{font-size:12px;color:var(--muted);font-weight:500}
+.pill{display:inline-block;padding:2px 8px;border-radius:999px;background:#ece6d8;font-size:12px}.pill.published{background:#dce9dd;color:var(--green)}.pill.draft{background:#f0e5ce;color:#8a682c}
+.actions{display:flex;gap:6px;flex-wrap:wrap}.modal{position:fixed;inset:0;background:#1e2924aa;display:flex;justify-content:flex-end;z-index:10}.drawer{width:min(860px,96vw);height:100%;overflow:auto;background:var(--paper);padding:24px;border-left:1px solid var(--line)}.drawer-head{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:18px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}.section-list{display:flex;flex-direction:column;gap:8px;max-height:340px;overflow:auto}.section-item{border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 11px;text-align:left}.section-item:hover{border-color:var(--accent)}
+.feedback-item{border:1px solid var(--line);background:#fff;border-radius:10px;padding:12px;margin-bottom:10px}.feedback-head{display:flex;justify-content:space-between;gap:12px}.feedback-message{white-space:pre-wrap;margin:8px 0}
+.toast{position:fixed;right:24px;bottom:24px;background:var(--ink);color:#fff;padding:10px 16px;border-radius:8px;z-index:30;box-shadow:0 8px 25px #0003}.error{color:var(--red);white-space:pre-wrap}
+@media(max-width:900px){.shell{grid-template-columns:1fr}.sidebar{height:auto;position:static;display:flex;gap:8px;align-items:center;overflow:auto}.brand{margin:0 auto 0 0;white-space:nowrap}.brand span{display:none}.nav-item{width:auto;white-space:nowrap}.main{padding:18px}.stats{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}table{font-size:12px}}
+
+.media-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-top:14px}.media-card{overflow:hidden;background:#fff;border:1px solid #e8e2d9}.media-card img{width:100%;height:105px;object-fit:cover;background:#f4f2ed}.media-card .media-meta{padding:8px;font-size:11px;color:#68726c;line-height:1.45}.media-card .media-meta b{display:block;color:#29312d;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.media-card .btn{margin:0 8px 8px}.upload-row{display:grid;grid-template-columns:1.2fr 1fr;gap:14px}.upload-row .field{margin-bottom:12px}
+@media(max-width:700px){.upload-row{grid-template-columns:1fr}.media-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<div id="login" class="login">
+  <form id="loginForm" class="login-card">
+    <h1>村落后台管理</h1>
+    <p class="muted">登录后可维护城市、村落、内容模块和意见反馈。</p>
+    <div class="field"><label>管理员账号</label><input id="account" type="text" value="传统村落后台管理" autocomplete="username" required></div>
+    <div class="field"><label>密码</label><input id="password" type="password" required></div>
+    <button class="btn primary" style="width:100%">登录</button>
+    <p id="loginError" class="error small"></p>
+  </form>
+</div>
+
+<div id="app" class="shell hidden">
+  <aside class="sidebar">
+    <div class="brand">陕西传统村落<span>内容管理后台</span></div>
+    <button class="nav-item active" data-view="villages">村落管理</button>
+    <button class="nav-item" data-view="feedback">意见反馈</button>
+    <button class="nav-item" data-view="import">数据导入</button>
+    <button class="nav-item" id="logout">退出登录</button>
+  </aside>
+  <main class="main">
+    <div class="topbar"><div><h1 id="pageTitle">村落管理</h1><div id="adminName" class="muted small"></div></div><div class="toolbar"><button class="btn" id="refresh">刷新</button><button class="btn accent" id="newVillage">新增村落</button></div></div>
+    <section id="villagesView">
+      <div class="stats" id="stats"></div>
+      <div class="panel">
+        <div class="list-toolbar"><input id="villageSearch" placeholder="搜索村落名称、编号、地址"><select id="cityFilter"><option value="">全部城市</option></select><select id="statusFilter"><option value="">全部状态</option><option value="published">已发布</option><option value="draft">草稿</option></select><button class="btn" id="applyFilter">查询</button></div>
+        <div style="overflow:auto"><table><thead><tr><th>村落</th><th>城市</th><th>状态</th><th>内容模块</th><th>操作</th></tr></thead><tbody id="villageRows"></tbody></table></div>
+      </div>
+    </section>
+    <section id="feedbackView" class="hidden"><div class="panel"><div class="list-toolbar"><input id="feedbackSearch" placeholder="搜索反馈"><select id="feedbackStatus"><option value="">全部状态</option><option value="new">新反馈</option><option value="processing">处理中</option><option value="resolved">已解决</option><option value="rejected">已拒绝</option></select><button class="btn" id="applyFeedbackFilter">查询</button></div><div id="feedbackList"></div></div></section>
+    <section id="importView" class="hidden"><div class="panel"><h2>导入整理后的陕西村落数据</h2><p class="muted">从 data/processed/shanxi_villages.json 导入或更新全部村落。重复导入会覆盖对应村落的详情内容。</p><button class="btn accent" id="importButton">开始导入</button><pre id="importResult" class="small"></pre></div></section>
+  </main>
+</div>
+
+<div id="villageModal" class="modal hidden">
+  <div class="drawer">
+    <div class="drawer-head"><div><h2 id="villageModalTitle">编辑村落</h2><span class="muted small">内容模块可以单独新增、编辑和删除</span></div><button class="btn" id="closeVillageModal">关闭</button></div>
+    <div class="panel"><form id="villageForm">
+      <input type="hidden" id="villageId">
+      <div class="grid2">
+        <div class="field"><label>source_id</label><input id="vSourceId" required></div>
+        <div class="field"><label>slug</label><input id="vSlug" required></div>
+        <div class="field"><label>村落名称</label><input id="vName" required></div>
+        <div class="field"><label>所属城市</label><select id="vCity" required></select></div>
+        <div class="field"><label>详细地址</label><input id="vLocation"></div>
+        <div class="field"><label>状态</label><select id="vStatus"><option value="draft">草稿</option><option value="published">已发布</option></select></div>
+        <div class="field"><label>封面图 URL</label><input id="vCover"></div>
+        <div class="field"><label>排序</label><input id="vSort" type="number" value="0"></div>
+      </div>
+      <div class="field"><label>简介</label><textarea id="vSummary"></textarea></div>
+      <div class="field"><label>详细文字</label><textarea id="vDescription" style="min-height:120px"></textarea></div>
+      <div class="field"><label>来源 URL</label><input id="vSourceUrl"></div>
+      <button class="btn primary">保存村落</button><span id="villageFormMsg" class="small muted"></span>
+    </form></div>
+    <div class="panel"><div class="drawer-head"><div><h2>内容模块</h2><span class="muted small">非遗、历史、习俗等按模块管理</span></div><button class="btn" id="newSection">新增模块</button></div><div id="sectionList" class="section-list"></div></div>
+    <div class="panel"><form id="sectionForm">
+      <input type="hidden" id="sectionId">
+      <div class="grid2"><div class="field"><label>类型</label><input id="sType" placeholder="history / customs / intangible_heritage"></div><div class="field"><label>标题</label><input id="sTitle"></div></div>
+      <div class="field"><label>正文 HTML</label><textarea id="sHtml" style="min-height:150px"></textarea></div>
+      <div class="field"><label>正文纯文本</label><textarea id="sText"></textarea></div>
+      <div class="grid2"><div class="field"><label>排序</label><input id="sSort" type="number" value="0"></div><div class="field"><label>来源 URL</label><input id="sSourceUrl"></div></div>
+      <button class="btn primary">保存模块</button> <button type="button" class="btn danger" id="deleteSection">删除模块</button><span id="sectionFormMsg" class="small muted"></span>
+    </form></div>
+    <div class="panel"><div class="drawer-head"><div><h2>村落图片</h2><span class="muted small">上传后会自动压缩为 WebP，并保存在本地 uploads 目录</span></div></div><form id="mediaForm" class="hidden"><div class="upload-row"><div class="field"><label>图片标题</label><input id="mediaTitle" placeholder="例如：村口古树"></div><div class="field"><label>选择图片</label><input id="mediaFile" type="file" accept="image/jpeg,image/png,image/webp" required></div></div><button class="btn primary" type="submit">上传图片</button><span id="mediaFormMsg" class="small muted"></span></form><div id="mediaList" class="media-grid"><span class="muted small">保存村落后再上传图片</span></div></div>
+  </div>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+let token = localStorage.getItem('admin_token') || '';
+let currentVillage = null;
+let currentSections = [];
+let cities = [];
+const esc = (s='') => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const statusName = s => ({published:'已发布',draft:'草稿',new:'新反馈',processing:'处理中',resolved:'已解决',rejected:'已拒绝'}[s] || s);
+function toast(text){let el=document.createElement('div');el.className='toast';el.textContent=text;document.body.appendChild(el);setTimeout(()=>el.remove(),2200)}
+async function api(path, options={}){
+  const isForm = options.body instanceof FormData; const headers = {...(options.headers||{})}; if(!isForm) headers['Content-Type']='application/json';
+  if(token) headers.Authorization = `Bearer ${token}`;
+  const res = await fetch(path, {...options, headers});
+  const text = await res.text();
+  let data = {}; try{data = text ? JSON.parse(text) : {}}catch{data={detail:text}}
+  if(!res.ok){ if(res.status===401){logoutLocal()} throw new Error(data.detail || `请求失败 ${res.status}`) }
+  return data;
+}
+function logoutLocal(){token='';localStorage.removeItem('admin_token');$('app').classList.add('hidden');$('login').classList.remove('hidden')}
+$('loginForm').onsubmit = async e => {e.preventDefault();$('loginError').textContent='';try{const data=await api('/api/admin/auth/login',{method:'POST',body:JSON.stringify({account:$('account').value,password:$('password').value})});token=data.access_token;localStorage.setItem('admin_token',token);$('login').classList.add('hidden');$('app').classList.remove('hidden');$('adminName').textContent=data.admin.display_name;await loadAll()}catch(err){$('loginError').textContent=err.message}};
+$('logout').onclick = async()=>{try{await api('/api/admin/auth/logout',{method:'POST'})}catch{}logoutLocal()};
+document.querySelectorAll('.nav-item[data-view]').forEach(btn=>btn.onclick=()=>switchView(btn.dataset.view));
+function switchView(view){document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('active'));document.querySelector(`.nav-item[data-view="${view}"]`)?.classList.add('active');['villages','feedback','import'].forEach(v=>$(v+'View').classList.toggle('hidden',v!==view));$('pageTitle').textContent={villages:'村落管理',feedback:'意见反馈',import:'数据导入'}[view];if(view==='feedback')loadFeedback();}
+async function loadAll(){try{const [stats,cs]=await Promise.all([api('/api/admin/stats'),api('/api/admin/cities')]);cities=cs;renderStats(stats);renderCityOptions();await loadVillages()}catch(e){toast(e.message)}}
+function renderStats(s){$('stats').innerHTML=[['村落总数',s.villages],['已发布',s.published],['草稿',s.draft],['新反馈',s.new_feedback]].map(([label,value])=>`<div class="stat"><b>${value}</b><span>${label}</span></div>`).join('')}
+function renderCityOptions(){const opts=cities.map(c=>`<option value="${c.id}">${esc(c.name)}</option>`).join('');$('cityFilter').innerHTML='<option value="">全部城市</option>'+opts;$('vCity').innerHTML=opts}
+async function loadVillages(){const params=new URLSearchParams();if($('villageSearch').value)params.set('q',$('villageSearch').value);if($('cityFilter').value)params.set('city_id',$('cityFilter').value);if($('statusFilter').value)params.set('status',$('statusFilter').value);const data=await api('/api/admin/villages?'+params);$('villageRows').innerHTML=data.items.map(v=>`<tr><td><b>${esc(v.name)}</b><div class="muted small">${esc(v.source_id)} · ${esc(v.slug)}</div></td><td>${esc(v.city.name)}</td><td><span class="pill ${v.status}">${statusName(v.status)}</span></td><td>${v.images?.length || 0} 张图片</td><td><div class="actions"><button class="btn small" onclick="openVillage(${v.id})">编辑</button><button class="btn small" onclick="toggleStatus(${v.id},'${v.status==='published'?'draft':'published'}')">${v.status==='published'?'下架':'发布'}</button><button class="btn small danger" onclick="removeVillage(${v.id})">删除</button></div></td></tr>`).join('')||'<tr><td colspan="5" class="muted">暂无数据</td></tr>'}
+async function toggleStatus(id,status){try{await api(`/api/admin/villages/${id}/status`,{method:'PATCH',body:JSON.stringify({status})});await loadAll();toast('状态已更新')}catch(e){toast(e.message)}}
+async function removeVillage(id){if(!confirm('确定删除这个村落及其全部内容吗？'))return;try{await api(`/api/admin/villages/${id}`,{method:'DELETE'});await loadAll();toast('村落已删除')}catch(e){toast(e.message)}}
+function openNewVillage(){currentVillage=null;currentSections=[];$('villageModalTitle').textContent='新增村落';$('villageForm').reset();$('villageId').value='';$('vStatus').value='draft';$('vSort').value=0;renderCityOptions();$('sectionList').innerHTML='<span class="muted small">保存村落后再添加内容模块</span>';$('sectionForm').classList.add('hidden');$('mediaForm').classList.add('hidden');$('mediaList').innerHTML='<span class="muted small">保存村落后再上传图片</span>';$('villageModal').classList.remove('hidden')}
+async function openVillage(id){try{currentVillage=await api(`/api/admin/villages/${id}`);currentSections=currentVillage.sections||[];$('villageModalTitle').textContent='编辑村落 · '+currentVillage.name;$('villageId').value=currentVillage.id;$('vSourceId').value=currentVillage.source_id;$('vSlug').value=currentVillage.slug;$('vName').value=currentVillage.name;$('vCity').value=currentVillage.city.id;$('vLocation').value=currentVillage.location||'';$('vStatus').value=currentVillage.status||'draft';$('vCover').value=currentVillage.cover_image||'';$('vSort').value=currentVillage.sort_order||0;$('vSummary').value=currentVillage.summary||'';$('vDescription').value=currentVillage.description_text||'';$('vSourceUrl').value=currentVillage.source_url||'';$('sectionForm').classList.remove('hidden');$('mediaForm').classList.remove('hidden');renderSections();renderMedia(currentVillage.media||[]);$('villageModal').classList.remove('hidden')}catch(e){toast(e.message)}}
+function renderSections(){ $('sectionList').innerHTML=currentSections.map(s=>`<button type="button" class="section-item" onclick="selectSection(${s.id})"><b>${esc(s.title||s.type)}</b> <span class="muted small">${esc(s.type)}</span></button>`).join('')||'<span class="muted small">暂无内容模块</span>'}
+function selectSection(id){const s=currentSections.find(x=>x.id===id);if(!s)return;$('sectionId').value=s.id;$('sType').value=s.type||'';$('sTitle').value=s.title||'';$('sHtml').value=s.content_html||'';$('sText').value=s.content_text||'';$('sSort').value=s.sort_order||0;$('sSourceUrl').value=s.source_url||'';$('deleteSection').classList.remove('hidden')}
+function newSection(){ $('sectionId').value='';$('sType').value='';$('sTitle').value='';$('sHtml').value='';$('sText').value='';$('sSort').value=currentSections.length;$('sSourceUrl').value='';$('deleteSection').classList.add('hidden') }
+$('newSection').onclick=newSection;
+$('deleteSection').onclick=async()=>{const id=$('sectionId').value;if(!id||!confirm('确定删除这个内容模块吗？'))return;try{await api(`/api/admin/sections/${id}`,{method:'DELETE'});await openVillage(currentVillage.id);toast('模块已删除')}catch(e){toast(e.message)}};
+function renderMedia(items){const list=$('mediaList');if(!items.length){list.innerHTML='<span class="muted small">暂无图片</span>';return}list.innerHTML=items.map(m=>`<article class="media-card"><img src="${esc(m.url)}" alt="${esc(m.title||'村落图片')}" loading="lazy"><div class="media-meta"><b>${esc(m.title||'未命名图片')}</b><span>${esc(m.media_type||'image')}</span></div><button type="button" class="btn small danger" onclick="removeMedia(${m.id})">删除</button></article>`).join('')}
+async function removeMedia(id){if(!currentVillage?.id||!confirm('确定删除这张图片吗？'))return;try{await api(`/api/admin/media/${id}`,{method:'DELETE'});await openVillage(currentVillage.id);toast('图片已删除')}catch(e){toast(e.message)}}
+$('mediaForm').onsubmit=async e=>{e.preventDefault();if(!currentVillage?.id){toast('请先保存村落');return}const file=$('mediaFile').files[0];if(!file){toast('请选择图片');return}const formData=new FormData();formData.append('file',file);formData.append('title',$('mediaTitle').value.trim());$('mediaFormMsg').textContent='正在上传…';try{await api(`/api/admin/villages/${currentVillage.id}/media/upload`,{method:'POST',body:formData});$('mediaForm').reset();$('mediaFormMsg').textContent='';await openVillage(currentVillage.id);toast('图片已上传')}catch(err){$('mediaFormMsg').textContent=err.message}};
+$('sectionForm').onsubmit=async e=>{e.preventDefault();if(!currentVillage?.id){toast('请先保存村落');return}const payload={type:$('sType').value.trim(),title:$('sTitle').value,content_html:$('sHtml').value,content_text:$('sText').value,images_json:[],sort_order:Number($('sSort').value||0),source_file:'admin',source_url:$('sSourceUrl').value};try{const id=$('sectionId').value;if(id)await api(`/api/admin/sections/${id}`,{method:'PUT',body:JSON.stringify(payload)});else await api(`/api/admin/villages/${currentVillage.id}/sections`,{method:'POST',body:JSON.stringify(payload)});await openVillage(currentVillage.id);toast('模块已保存')}catch(err){$('sectionFormMsg').textContent=err.message}};
+$('villageForm').onsubmit=async e=>{e.preventDefault();const payload={source_id:$('vSourceId').value.trim(),name:$('vName').value.trim(),slug:$('vSlug').value.trim(),city_id:Number($('vCity').value),location:$('vLocation').value,summary:$('vSummary').value,cover_image:$('vCover').value,description_html:currentVillage?.description_html||'',description_text:$('vDescription').value,attributes_json:currentVillage?.attributes||{},status:$('vStatus').value,sort_order:Number($('vSort').value||0),source_url:$('vSourceUrl').value,source_site:'https://www.dmctv.cn'};try{const id=$('villageId').value;if(id)await api(`/api/admin/villages/${id}`,{method:'PUT',body:JSON.stringify(payload)});else await api('/api/admin/villages',{method:'POST',body:JSON.stringify(payload)});await loadAll();if(id)await openVillage(Number(id));else{$('villageModal').classList.add('hidden');toast('村落已创建')}}catch(err){$('villageFormMsg').textContent=err.message}};
+$('newVillage').onclick=openNewVillage;$('closeVillageModal').onclick=()=>$('villageModal').classList.add('hidden');
+$('applyFilter').onclick=loadVillages;$('villageSearch').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();loadVillages()}};
+async function loadFeedback(){try{const params=new URLSearchParams();if($('feedbackSearch').value)params.set('q',$('feedbackSearch').value);if($('feedbackStatus').value)params.set('status',$('feedbackStatus').value);const data=await api('/api/admin/feedback?'+params);$('feedbackList').innerHTML=data.items.map(f=>`<div class="feedback-item"><div class="feedback-head"><b>${esc(f.village_name||'未填写村落')}</b><span class="pill ${f.status==='new'?'draft':''}">${statusName(f.status)}</span></div><div class="muted small">${esc(f.city||'')} · ${esc(f.name||'匿名')} · ${esc(f.email||'无邮箱')} · ${esc(f.created_at)}</div><div class="feedback-message">${esc(f.message)}</div><div class="actions"><select onchange="setFeedbackStatus(${f.id},this.value)"><option value="new" ${f.status==='new'?'selected':''}>新反馈</option><option value="processing" ${f.status==='processing'?'selected':''}>处理中</option><option value="resolved" ${f.status==='resolved'?'selected':''}>已解决</option><option value="rejected" ${f.status==='rejected'?'selected':''}>已拒绝</option></select><button class="btn small danger" onclick="removeFeedback(${f.id})">删除</button></div></div>`).join('')||'<p class="muted">暂无反馈</p>'}catch(e){toast(e.message)}}
+async function setFeedbackStatus(id,status){try{await api(`/api/admin/feedback/${id}`,{method:'PATCH',body:JSON.stringify({status})});toast('反馈状态已更新');loadFeedback()}catch(e){toast(e.message)}}
+async function removeFeedback(id){if(!confirm('确定删除这条反馈吗？'))return;try{await api(`/api/admin/feedback/${id}`,{method:'DELETE'});loadFeedback();toast('反馈已删除')}catch(e){toast(e.message)}}
+$('applyFeedbackFilter').onclick=loadFeedback;
+$('importButton').onclick=async()=>{try{$('importResult').textContent='正在导入...';const data=await api('/api/admin/import/processed',{method:'POST'});$('importResult').textContent=JSON.stringify(data,null,2);await loadAll();toast('导入完成')}catch(e){$('importResult').textContent=e.message}};
+$('refresh').onclick=loadAll;
+if(token){api('/api/admin/auth/me').then(user=>{$('login').classList.add('hidden');$('app').classList.remove('hidden');$('adminName').textContent=user.display_name;loadAll()}).catch(()=>logoutLocal())}
+</script>
+</body>
+</html>

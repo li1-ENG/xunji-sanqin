@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 520" fill="none">
+  <defs>
+    <path id="petal-outer" d="M0 -20C-20 -49 -22 -91 0 -124C22 -91 20 -49 0 -20Z"/>
+    <path id="petal-inner" d="M0 -16C-13 -37 -14 -68 0 -88C14 -68 13 -37 0 -16Z"/>
+  </defs>
+  <g stroke="#18211d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M151 500C144 431 143 365 147 300C150 256 153 216 154 184"/>
+    <path d="M148 350C118 339 94 318 79 288C109 296 135 313 154 338"/>
+    <path d="M151 401C181 387 207 366 224 337C193 345 168 362 148 389"/>
+    <path d="M147 305C118 295 99 276 88 251C113 258 134 272 149 294"/>
+    <path d="M152 258C178 248 198 230 211 206C186 212 167 225 154 247"/>
+    <g transform="translate(150 160)">
+      <g stroke-width="1.8">
+        <use href="#petal-outer"/><use href="#petal-outer" transform="rotate(30)"/><use href="#petal-outer" transform="rotate(60)"/><use href="#petal-outer" transform="rotate(90)"/><use href="#petal-outer" transform="rotate(120)"/><use href="#petal-outer" transform="rotate(150)"/><use href="#petal-outer" transform="rotate(180)"/><use href="#petal-outer" transform="rotate(210)"/><use href="#petal-outer" transform="rotate(240)"/><use href="#petal-outer" transform="rotate(270)"/><use href="#petal-outer" transform="rotate(300)"/><use href="#petal-outer" transform="rotate(330)"/>
+      </g>
+      <g stroke-width="1.7" transform="rotate(15)">
+        <use href="#petal-inner"/><use href="#petal-inner" transform="rotate(45)"/><use href="#petal-inner" transform="rotate(90)"/><use href="#petal-inner" transform="rotate(135)"/><use href="#petal-inner" transform="rotate(180)"/><use href="#petal-inner" transform="rotate(225)"/><use href="#petal-inner" transform="rotate(270)"/><use href="#petal-inner" transform="rotate(315)"/>
+      </g>
+      <circle r="15"/>
+      <circle r="5"/>
+    </g>
+    <path d="M147 302C133 282 121 257 113 228C132 247 145 269 153 293"/>
+    <path d="M152 402C164 378 171 352 173 323C163 347 155 371 150 392"/>
+  </g>
+</svg>

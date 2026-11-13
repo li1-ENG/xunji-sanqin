@@ -1,0 +1,32 @@
+{
+  "source": "https://www.dmctv.cn/villages.aspx?lx=cl",
+  "province": "陕西省",
+  "total_villages": 37,
+  "by_city": {
+    "西安市": 1,
+    "咸阳市": 2,
+    "渭南市": 1,
+    "延安市": 7,
+    "榆林市": 13,
+    "安康市": 13
+  },
+  "section_counts": {
+    "architecture": 140,
+    "cultural_relic": 33,
+    "customs": 224,
+    "environment": 37,
+    "food": 37,
+    "history": 106,
+    "intangible_heritage": 63,
+    "legends": 14,
+    "oral_history": 29,
+    "production": 149,
+    "scenic": 33,
+    "travel": 74
+  },
+  "knowledge_chunks": 1078,
+  "total_images": 2277,
+  "total_videos": 349,
+  "crawled_at": "2026-11-11T18:46:03+08:00",
+  "note": "本数据仅为该网站公开展示的陕西村落，不代表陕西省全部传统村落名录。"
+}
